@@ -29,5 +29,5 @@
 
 <dl>
   <dt>What is Linux?</dt>
-  <dd>Linux is a family of open-source Unix-like operating systems based on the Linux kernel,</dd>
+  <dd>Linux is a family of open-source Unix-like operating systems based on the Linux kernel.</dd>
 </dl>
