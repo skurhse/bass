@@ -4,9 +4,9 @@ Enriched [DevOps](https://en.wikipedia.org/wiki/DevOps) flashcards aimed at rein
 
 Categories are listed in Alphabetical order. Navigate using the GitHub [Table of Contents button](https://github.blog/changelog/2021-04-13-table-of-contents-support-in-markdown-files/) on the upper right (☰).
 
-## [Agile Software Development](https://en.wikipedia.org/wiki/Agile_software_development)
+## Agile Software Development
 
-### #1: Recite the Agile Manifesto.
+### #1: Recite the [Agile Manifesto](https://en.wikipedia.org/wiki/Agile_software_development).
 
 We are uncovering better ways of developing software by doing it and helping others do it.
 
@@ -19,7 +19,7 @@ Through this work we have come to value:
 
 That is, while there is value in the items on the right, we value the items on the left more.
 
-### #2: List the twelve principles of Agile Software.
+### #2: List the [twelve principles of Agile Software](https://agilemanifesto.org/principles.html).
 
 - Our highest priority is to satisfy the customer through early and continuous delivery of valuable software.
 - Welcome changing requirements, even late in development. Agile processes harness change for the customer's competitive advantage.
