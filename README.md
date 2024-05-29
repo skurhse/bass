@@ -1,6 +1,6 @@
 # 🐟 bass
 
-[DevOps](https://en.wikipedia.org/wiki/DevOps) flashcards addressing fundamental competencies.
+[DevOps](https://en.wikipedia.org/wiki/DevOps) flashcards for learners.
 
 ## Agile
 
