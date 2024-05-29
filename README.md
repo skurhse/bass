@@ -71,4 +71,4 @@ Linux is a family of open-source Unix-like operating systems based on the Linux 
 - [Alpine Linux](https://www.alpinelinux.org)
 - [Debian](https://www.debian.org)
 - [Rocky Linux](https://rockylinux.org/)
-- [Alpine](https://www.alpinelinux.org)
+- [Ubuntu](https://ubuntu.com/)
