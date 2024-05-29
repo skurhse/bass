@@ -1,5 +1,20 @@
 # 🐟 bass
-[DevOps](https://en.wikipedia.org/wiki/DevOps) flashcards in various categories.
+
+<dl>
+  <dt>Recite the Manifesto for Agile Software Development.</dt>
+  <dd>
+    <p>We are uncovering better ways of developing software by doing it and helping others do it.</p>
+    <p>Through this work we have come to value:</p>
+    <ul>
+      <li>Individuals and interactions over processes and tools</li>
+      <li>Working software over comprehensive documentation</li>
+      <li>Customer collaboration over contract negotiation</li>
+      <li>Responding to change over following a plan</li>
+    </ul>
+    <p>That is, while there is value in the items on the right, we value the items on the left more</p>
+  </dd>
+</dl>
+
 
 ## Kubernetes
 
