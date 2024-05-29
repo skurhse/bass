@@ -1,5 +1,9 @@
 # 🐟 bass
 
+[DevOps](https://en.wikipedia.org/wiki/DevOps) flashcards addressing fundamental competencies.
+
+## Agile
+
 <dl>
   <dt>Recite the Manifesto for Agile Software Development.</dt>
   <dd>
