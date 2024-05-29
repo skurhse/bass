@@ -41,7 +41,7 @@ That is, while there is value in the items on the right, we value the items on t
 ### 1. What is [gRPC](https://grpc.io/about/)?
 gRPC is an open source Remote Procedure Call (RPC) framework originally created by Google.
 
-### 2. List the gRPC [core features](https://grpc.io/about/#core-features-that-make-it-awesome).
+### 2. List the [gRPC feature set](https://grpc.io/about/#core-features-that-make-it-awesome).
 
 - Idiomatic client libraries
 - simple service definition framework
