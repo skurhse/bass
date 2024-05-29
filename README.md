@@ -5,5 +5,5 @@
 
 <dl>
  <dt>In one sentence, what is k8s?</dt>
- <dd>Kubernetes is an open-source container orchestration platform designed for automating workload deployment, management and scaling.</dd>
+ <dd>Kubernetes is an open-source orchestration platform designed for automating the deployment, management and scaling of containerized workloads and services.</dd>
 </dl>
