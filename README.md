@@ -2,6 +2,8 @@
 
 Enriched [DevOps](https://en.wikipedia.org/wiki/DevOps) flashcards aimed at reinforcing foundational concepts.
 
+Navigate using the GitHub Table of Contents (☰).
+
 ## [Agile Software Development](https://en.wikipedia.org/wiki/Agile_software_development)
 
 ### #1: Recite the Agile Manifesto.
