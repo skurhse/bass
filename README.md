@@ -1,5 +1,5 @@
 # 🐟 bass
-[DevOps](https://en.wikipedia.org/wiki/DevOps) flashcards in various categories.
+[DevOps](https://en.wikipedia.org/wiki/DevOps) flashcards in various categories (WIP).
 
 ## Kubernetes
 
