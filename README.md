@@ -65,9 +65,9 @@ Linux is a family of open-source Unix-like operating systems based on the Linux 
 
 - [Amazon Linux 2](https://aws.amazon.com/amazon-linux-2)
 - [Red Hat Enterprise Linux](https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux)
-- [SUSE Linux Enterprise](https://www.suse.com/products/server/)
+- [SUSE Linux Enterprise](https://www.suse.com/products/server)
 
 ### 3. List non-commercial distributions of Linux.
-- Debian
-- Ubuntu
-- Alpine
+- [Debian](https://www.debian.org)
+- [Ubuntu](https://ubuntu.com)
+- [Alpine](https://www.alpinelinux.org)
