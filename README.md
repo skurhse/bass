@@ -1,6 +1,6 @@
 # 🐟 bass
 
-Enriched [DevOps](https://en.wikipedia.org/wiki/DevOps) flashcards aimed at reinforcing foundational concepts.
+Enriched [DevOps](https://en.wikipedia.org/wiki/DevOps) flashcards aimed at reinforcing core concepts.
 
 Categories are listed in Alphabetical order.
 
