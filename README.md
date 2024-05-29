@@ -1,9 +1,10 @@
 # 🐟 bass
 
-[DevOps](https://en.wikipedia.org/wiki/DevOps) flashcards for learners.
+enriched [DevOps](https://en.wikipedia.org/wiki/DevOps) flashcards for learners.
 
 ## Agile
 
+### #1
 <dl>
   <dt>Recite the Manifesto for Agile Software Development.</dt>
   <dd>
