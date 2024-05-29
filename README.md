@@ -68,6 +68,7 @@ Linux is a family of open-source Unix-like operating systems based on the Linux 
 - [SUSE Linux Enterprise](https://www.suse.com/products/server)
 
 ### 3. List non-commercial enterprise distributions of Linux.
+- [Alpine Linux](https://www.alpinelinux.org)
 - [Debian](https://www.debian.org)
-- [Ubuntu](https://ubuntu.com)
+- [Rocky Linux](https://rockylinux.org/)
 - [Alpine](https://www.alpinelinux.org)
