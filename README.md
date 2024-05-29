@@ -8,7 +8,7 @@ Navigate using the GitHub [Table of Contents button](https://github.blog/changel
 
 ## Agile Software Development
 
-### #1: Recite the [Agile Manifesto](https://en.wikipedia.org/wiki/Agile_software_development).
+### #1. Recite the [Agile Manifesto](https://en.wikipedia.org/wiki/Agile_software_development).
 
 We are uncovering better ways of developing software by doing it and helping others do it.
 
@@ -21,7 +21,7 @@ Through this work we have come to value:
 
 That is, while there is value in the items on the right, we value the items on the left more.
 
-### #2: List the [twelve principles of Agile Software](https://agilemanifesto.org/principles.html).
+### #2. List the [twelve principles of Agile Software](https://agilemanifesto.org/principles.html).
 
 - Our highest priority is to satisfy the customer through early and continuous delivery of valuable software.
 - Welcome changing requirements, even late in development. Agile processes harness change for the customer's competitive advantage.
@@ -36,31 +36,24 @@ That is, while there is value in the items on the right, we value the items on t
 - The best architectures, requirements, and designs emerge from self-organizing teams.
 - At regular intervals, the team reflects on how to become more effective, then tunes and adjusts its behavior accordingly.
 
-
-
 ## Kubernetes
 
-<dl>
- <dt>What is k8s?</dt>
- <dd>Kubernetes is an open-source container orchestration platform that automates the deployment and management of workloads and services.</dd>
+### #1. What is [Kubernetes](https://kubernetes.io/docs/concepts/overview/)?
 
-  <dt>List k8s features.</dt>
-  <dd>
-    <ul>
-      <li>Service discovery and load balancing</li>
-      <li>Storage orchestration</li>
-      <li>Automated rollouts and rollbacks</li>
-      <li>Automatic bin packing</li>
-      <li>Self-healing</li>
-      <li>Secret and configuration management</li>
-      <li>Batch execution</li>
-      <li>Horizontal scaling</li>
-      <li>IPv4/IPv6 dual-stack</li>
-      <li>Designed for extensibility</li>
-    </ul>
-  </dd>
- 
-</dl>
+Kubernetes is an open-source container orchestration platform that automates the deployment and management of workloads and services.
+
+### #2. List the [Kubernetes feature set](https://kubernetes.io/docs/concepts/overview/#why-you-need-kubernetes-and-what-can-it-do).
+
+- Service discovery and load balancing
+- Storage orchestration
+- Automated rollouts and rollbacks
+- Automatic bin packing
+- Self-healing
+- Secret and configuration management
+- Batch execution
+- Horizontal scaling
+- IPv4/IPv6 dual-stack
+- Designed for extensibility
 
 ## Linux
 
