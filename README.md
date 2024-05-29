@@ -72,3 +72,8 @@ Linux is a family of open-source Unix-like operating systems based on the Linux 
 - [Debian](https://www.debian.org)
 - [Rocky Linux](https://rockylinux.org/)
 - [Ubuntu](https://ubuntu.com/)
+
+#### 4. What is [POSIX.1-2017](https://pubs.opengroup.org/onlinepubs/9699919799/)?
+The *Portable Operating System Interface* specifications are a standard specified by the [IEEE Computer Society](https://www.computer.org/about) for maintaining compatibility between operating systems.
+
+POSIX.1-2017 defines a standard operating system interface and environment, including a command interpreter (or “shell”), and common utility programs to support applications portability at the source code level.
