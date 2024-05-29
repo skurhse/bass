@@ -8,7 +8,7 @@ Card categories are listed in alphabetical order.
 
 ## Agile Software Development
 
-### #1. Recite the [Agile Manifesto](https://en.wikipedia.org/wiki/Agile_software_development).
+### 1. Recite the [Agile Manifesto](https://en.wikipedia.org/wiki/Agile_software_development).
 
 We are uncovering better ways of developing software by doing it and helping others do it.
 
@@ -21,7 +21,7 @@ Through this work we have come to value:
 
 That is, while there is value in the items on the right, we value the items on the left more.
 
-### #2. List the [twelve principles of Agile Software](https://agilemanifesto.org/principles.html).
+### 2. List the [twelve principles of Agile Software](https://agilemanifesto.org/principles.html).
 
 - Our highest priority is to satisfy the customer through early and continuous delivery of valuable software.
 - Welcome changing requirements, even late in development. Agile processes harness change for the customer's competitive advantage.
@@ -36,13 +36,25 @@ That is, while there is value in the items on the right, we value the items on t
 - The best architectures, requirements, and designs emerge from self-organizing teams.
 - At regular intervals, the team reflects on how to become more effective, then tunes and adjusts its behavior accordingly.
 
+## Application Programming Interfaces
+
+### 1. What is [gRPC](https://grpc.io/about/)?
+gRPC is an open source Remote Procedure Call (RPC) framework originally created by Google.
+
+### 2. List the gRPC [core features](https://grpc.io/about/#core-features-that-make-it-awesome).
+
+- Idiomatic client libraries
+- simple service definition framework
+- Bi-directional streaming with http/2 based transport
+- Pluggable auth, tracing, load balancing and health checking
+
 ## Kubernetes
 
-### #1. What is [Kubernetes](https://kubernetes.io/docs/concepts/overview/)?
+### 1. What is [Kubernetes](https://kubernetes.io/docs/concepts/overview/)?
 
 Kubernetes is an open-source container orchestration platform that automates the deployment and management of workloads and services.
 
-### #2. List the [Kubernetes feature set](https://kubernetes.io/docs/concepts/overview/#why-you-need-kubernetes-and-what-can-it-do).
+### 2. List the [Kubernetes feature set](https://kubernetes.io/docs/concepts/overview/#why-you-need-kubernetes-and-what-can-it-do).
 
 - Service discovery and load balancing
 - Storage orchestration
