@@ -57,25 +57,17 @@ Kubernetes is an open-source container orchestration platform that automates the
 
 ## Linux
 
-<dl>
-  <dt>What is Linux?</dt>
-  <dd>Linux is a family of open-source Unix-like operating systems based on the Linux kernel.</dd>
+### 1. What is [Linux](https://en.wikipedia.org/wiki/Linux)?
 
-  <dt>List commercial distributions of Linux.</dt>
-  <dd>
-    <ul>
-      <li><a href="https://aws.amazon.com/amazon-linux-2">Amazon Linux 2</a></li>
-      <li><a href="https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux">Red Hat Enterprise Linux</a></li>
-      <li><a href="https://www.suse.com/products/server/">SUSE Linux Enterprise</a></li>
-    </ul>
-  </dd>
+Linux is a family of open-source Unix-like operating systems based on the Linux kernel.
 
-  <dt>List non-commercial distributions of Linux.</dt>
-  <dd>
-    <ul>
-      <li>Alpine</li>
-      <li>Debian</li>
-      <li>Ubuntu</li>
-    </ul>
-  </dd>
+### 2. List commercial distributions of Linux.
 
+- [Amazon Linux 2](https://aws.amazon.com/amazon-linux-2)
+- [Red Hat Enterprise Linux](https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux)
+- [SUSE Linux Enterprise](https://www.suse.com/products/server/)
+
+### 3. List non-commercial distributions of Linux.
+- Debian
+- Ubuntu
+- Alpine
