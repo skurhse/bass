@@ -1,5 +1,5 @@
 # 🐟 bass
-[DevOps](https://en.wikipedia.org/wiki/DevOps) flashcards in various categories (a WIP).
+[DevOps](https://en.wikipedia.org/wiki/DevOps) flashcards in various categories.
 
 ## Kubernetes
 
@@ -23,4 +23,11 @@
     </ul>
   </dd>
  
+</dl>
+
+## Linux
+
+<dl>
+  <dt>What is Linux?</dt>
+  <dd>Linux is a family of open-source Unix-like operating systems based on the Linux kernel,</dd>
 </dl>
