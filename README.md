@@ -1,6 +1,6 @@
 # 🐟 bass
 
-Hypertext [DevOps](https://en.wikipedia.org/wiki/DevOps) flashcards to reinforce comprehension.
+Hypertext [DevOps](https://en.wikipedia.org/wiki/DevOps) flashcards to help reinforce comprehension.
 
 Navigate using the GitHub [Table of Contents button](https://github.blog/changelog/2021-04-13-table-of-contents-support-in-markdown-files/) on the upper right (☰).
 
