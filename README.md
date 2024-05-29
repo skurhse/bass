@@ -34,8 +34,18 @@
   <dt>List commercial distributions of Linux.</dt>
   <dd>
     <ul>
-      <li>Red Hat Enterprise Linux</li>
-      <li>SUSE Linux Enterprise</li>
+      <li><a href="https://aws.amazon.com/amazon-linux-2">Amazon Linux 2</a></li>
+      <li><a href="https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux">Red Hat Enterprise Linux</a></li>
+      <li><a href="https://www.suse.com/products/server/">SUSE Linux Enterprise</a></li>
+    </ul>
+  </dd>
+
+  <dt>List non-commercial distributions of Linux.</dt>
+  <dd>
+    <ul>
+      <li>Alpine</li>
+      <li>Debian</li>
+      <li>Ubuntu</li>
     </ul>
   </dd>
 
