@@ -2,7 +2,9 @@
 
 Enriched [DevOps](https://en.wikipedia.org/wiki/DevOps) flashcards aimed at reinforcing foundational cultural and technical concepts.
 
-Categories are listed in Alphabetical order. Navigate using the GitHub [Table of Contents button](https://github.blog/changelog/2021-04-13-table-of-contents-support-in-markdown-files/) on the upper right (☰).
+Categories are listed in Alphabetical order.
+
+Navigate using the GitHub [Table of Contents button](https://github.blog/changelog/2021-04-13-table-of-contents-support-in-markdown-files/) on the upper right (☰).
 
 ## Agile Software Development
 
