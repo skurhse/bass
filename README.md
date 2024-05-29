@@ -1,24 +1,23 @@
 # 🐟 bass
 
-enriched [DevOps](https://en.wikipedia.org/wiki/DevOps) flashcards for learners.
+enriched [DevOps](https://en.wikipedia.org/wiki/DevOps) flashcards aimed at reinforcing concepts.
 
 ## [Agile Software Development](https://en.wikipedia.org/wiki/Agile_software_development)
 
-### #1
-<dl>
-  <dt>Recite the Manifesto for Agile Software Development.</dt>
-  <dd>
-    <p>We are uncovering better ways of developing software by doing it and helping others do it.</p>
-    <p>Through this work we have come to value:</p>
-    <ul>
-      <li>Individuals and interactions over processes and tools</li>
-      <li>Working software over comprehensive documentation</li>
-      <li>Customer collaboration over contract negotiation</li>
-      <li>Responding to change over following a plan</li>
-    </ul>
-    <p>That is, while there is value in the items on the right, we value the items on the left more</p>
-  </dd>
-</dl>
+### #1: Recite the Agile Manifesto.
+
+We are uncovering better ways of developing software by doing it and helping others do it.
+
+Through this work we have come to value:
+
+- Individuals and interactions over processes and tools
+- Working software over comprehensive documentation
+- Customer collaboration over contract negotiation
+- Responding to change over following a plan
+
+That is, while there is value in the items on the right, we value the items on the left more.
+
+### #2: List the twelve principles of Agile Software
 
 
 ## Kubernetes
