@@ -30,4 +30,12 @@
 <dl>
   <dt>What is Linux?</dt>
   <dd>Linux is a family of open-source Unix-like operating systems based on the Linux kernel.</dd>
-</dl>
+
+  <dt>List commercial distributions of Linux.</dt>
+  <dd>
+    <ul>
+      <li>Red Hat Enterprise Linux</li>
+      <li>SUSE Linux Enterprise</li>
+    </ul>
+  </dd>
+
