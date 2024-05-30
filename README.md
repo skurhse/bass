@@ -94,3 +94,11 @@ Linux is a family of open-source Unix-like operating systems based on the Linux 
 The *Portable Operating System Interface* specifications are a standard created by the [IEEE Computer Society](https://www.computer.org/about) for maintaining compatibility between operating systems.
 
 POSIX.1-2017 defines a standard operating system interface and environment, including a command interpreter (or “shell”), and common utility programs to support applications portability at the source code level.
+
+## Software as a Service
+
+### 1. What is [SaaS](https://en.wikipedia.org/wiki/Software_as_a_service)?
+
+Software-as-a-service (/sæs/) is a form of cloud computing in which the provider manages all the physical and software resources used by the application.
+
+SaaS differs from other software delivery models in that it separates the possession and ownership of software from its use.
