@@ -48,6 +48,11 @@ gRPC is an open source Remote Procedure Call (RPC) framework originally created 
 - Bi-directional streaming with http/2 based transport
 - Pluggable auth, tracing, load balancing and health checking
 
+### 3. What is [gRPC-Web](https://grpc.io/docs/platforms/web/)?
+A JavaScript implementation of gRPC for browser clients. 
+
+gRPC-Web clients connect to gRPC services via a special proxy; by default, gRPC-web uses Envoy.
+
 ## Kubernetes
 
 ### 1. What is [Kubernetes](https://kubernetes.io/docs/concepts/overview/)?
