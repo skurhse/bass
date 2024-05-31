@@ -103,6 +103,28 @@ Software-as-a-service (/sæs/) is a form of cloud computing in which the provide
 
 SaaS differs from other software delivery models in that it separates the possession and ownership of software from its use.
 
-### 2. What is the ['Twelve Factor App]](https://12factor.net/)?
+### 2. What is the ['Twelve Factor App'](https://12factor.net/)?
 
-Lorum ipsum.
+The twelve-factor app is a methodology for building software-as-a-service apps that:
+
+- Use declarative formats for setup automation, to minimize time and cost for new developers joining the project;
+- Have a clean contract with the underlying operating system, offering maximum portability between execution environments;
+- Are suitable for deployment on modern cloud platforms, obviating the need for servers and systems administration;
+- Minimize divergence between development and production, enabling continuous deployment for maximum agility;
+- Can scale up without significant changes to tooling, architecture, or development practices.
+
+### 3. List the twelve factors of a twelve factor application.
+
+1. [Codebase](https://12factor.net/codebase): One codebase tracked in revision control, many deploys.
+2. [Dependencies](https://12factor.net/dependencies): Explicitly declare and isolate dependencies.
+3. [Config](https://12factor.net/config): Store config in the environment.
+4. [Backing services](https://12factor.net/backing-services): Treat backing services as attached resources.
+5. [Build, release, run](https://12factor.net/build-release-run): Strictly separate build and run stages.
+6. [Processes](https://12factor.net/processes): Execute the app as one or more stateless processes.
+7. [Port binding](https://12factor.net/port-binding): Export services via port binding.
+8. [Concurrency](https://12factor.net/concurrency): Scale out via the process model.
+9. [Disposability](https://12factor.net/disposability): Maximize robustness with fast startup and graceful shutdown.
+10. [Dev/prod parity](https://12factor.net/dev-prod-parity): Keep development, staging, and production as similar as possible.
+11. [Logs](https://12factor.net/logs): Treat logs as event streams.
+12. [Admin processes](https://12factor.net/admin-processes): Run admin/management tasks as one-off processes.
+
