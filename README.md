@@ -107,11 +107,11 @@ SaaS differs from other software delivery models in that it separates the posses
 
 The twelve-factor app is a methodology for building software-as-a-service apps that:
 
-- Use declarative formats for setup automation, to minimize time and cost for new developers joining the project;
-- Have a clean contract with the underlying operating system, offering maximum portability between execution environments;
-- Are suitable for deployment on modern cloud platforms, obviating the need for servers and systems administration;
-- Minimize divergence between development and production, enabling continuous deployment for maximum agility;
-- Can scale up without significant changes to tooling, architecture, or development practices.
+- Use declarative formats for setup automation.
+- Have a clean contract with the underlying operating system.
+- Are suitable for deployment on modern cloud platforms.
+- Minimize divergence between development and production.
+- Can scale up without significant changes.
 
 ### 3. List the twelve factors of a twelve factor application.
 
