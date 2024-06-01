@@ -48,6 +48,9 @@ Scope is a mechanism in OAuth 2.0 to limit an application's access to a user's a
 
 ### [How should one implement OAuth 2.0 for Browser-Based Applications?](https://datatracker.ietf.org/doc/html/draft-ietf-oauth-browser-based-apps)
 
+- Browser-based applications MUST implement the Proof Key for Code Exchange extension when obtaining an access token.
+- Browser-based applications MUST prevent CSRF attacks against their redirect URI.
+- Clients MUST register redirect URIs with the authorization server.
 
 
 ## Application Programming Interfaces
