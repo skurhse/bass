@@ -4,7 +4,7 @@
 
 Navigate bass using the GitHub [Table of Contents button](https://github.blog/changelog/2021-04-13-table-of-contents-support-in-markdown-files/) on the upper right (☰).
 
-Card categories are listed in alphabetical order.
+Card categories are listed in alphabetical order. Sections contain one or more 'What is?'-style question to establish foundational terms.
 
 ## Agile Software Development
 
@@ -162,3 +162,12 @@ The twelve-factor app is a methodology for building software-as-a-service apps t
 11. [Logs](https://12factor.net/logs): Treat logs as event streams.
 12. [Admin processes](https://12factor.net/admin-processes): Run admin/management tasks as one-off processes.
 
+## Object-oriented Programming
+
+### 1. What is [Object-oriented programming](https://en.wikipedia.org/wiki/Object-oriented_programming)?
+
+Object-oriented programming or 'OOP' is a programming paradigm based on the concept of objects, which contain data in the form of fields and code in the form of methods.
+
+### 2. What is Inheritance?
+
+Inheritance is code reuse and extensibility pattern in the form of either super-classes or prototypes.
