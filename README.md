@@ -46,12 +46,17 @@ OAuth 2.0 is is an open standard for authorization and access delegation providi
 
 Scope is a mechanism in OAuth 2.0 to limit an application's access to a user's account. An application can request one or more scopes and the access token issued to the application will be limited to the scopes granted.
 
-### [How should one implement OAuth 2.0 for Browser-Based Applications?](https://datatracker.ietf.org/doc/html/draft-ietf-oauth-browser-based-apps)
+### 3. How should one implement [OAuth 2.0 for Browser-Based Applications?](https://datatracker.ietf.org/doc/html/draft-ietf-oauth-browser-based-apps)
 
 - Browser-based applications MUST implement the Proof Key for Code Exchange extension when obtaining an access token.
 - Browser-based applications MUST prevent CSRF attacks against their redirect URI.
 - Clients MUST register redirect URIs with the authorization server.
 
+### 4. What is [Proof Key for Code Exchange](https://datatracker.ietf.org/doc/html/rfc7636)?
+
+Proof Key for Code Exchange (abbreviated PKCE, pronounced “pixie”) is an extension to the authorization code flow to prevent CSRF and authorization code injection attacks.
+
+The technique involves the client first creating a secret on each authorization request, and then using that secret again when exchanging the authorization code for an access token. This way if the code is intercepted, it will not be useful since the token request relies on the initial secret.
 
 ## Application Programming Interfaces
 
