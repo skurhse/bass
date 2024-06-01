@@ -38,7 +38,7 @@ That is, while there is value in the items on the right, we value the items on t
 
 ## Application Security
 
-### 1. What is OAuth 2.0?
+### 1. What is the [OAuth 2.0 Authorization Framework](https://datatracker.ietf.org/doc/html/rfc6749)?
 
 OAuth 2.0 is is an open standard for authorization and access delegation providing flows for web apps, desktop apps, mobile phones, and IoT devices.
 
