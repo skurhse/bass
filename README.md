@@ -171,3 +171,9 @@ Object-oriented programming or 'OOP' is a programming paradigm based on the conc
 ### 2. What is Inheritance?
 
 Inheritance is an OOP code reuse and extensibility pattern, either class-based or protoype-based, implemented via dynamic dispatch.
+
+### 3. What is data abstraction vs. encapsulation?
+
+Data abstraction is a design pattern in which data are visible only to semantically related functions.
+
+Encapsulation prevents external code from being concerned with the internal workings of an object.
