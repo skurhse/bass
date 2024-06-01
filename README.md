@@ -46,6 +46,10 @@ OAuth 2.0 is is an open standard for authorization and access delegation providi
 
 Scope is a mechanism in OAuth 2.0 to limit an application's access to a user's account. An application can request one or more scopes and the access token issued to the application will be limited to the scopes granted.
 
+### [How should one implement OAuth 2.0 for Browser-Based Applications?](https://datatracker.ietf.org/doc/html/draft-ietf-oauth-browser-based-apps)
+
+
+
 ## Application Programming Interfaces
 
 ### 1. What is [gRPC](https://grpc.io/about/)?
