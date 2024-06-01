@@ -58,6 +58,12 @@ Proof Key for Code Exchange (abbreviated PKCE, pronounced “pixie”) is an ext
 
 The technique involves the client first creating a secret on each authorization request, and then using that secret again when exchanging the authorization code for an access token. This way if the code is intercepted, it will not be useful since the token request relies on the initial secret.
 
+### 5. What is [OpenID Connect](https://www.openid.net/developers/how-connect-works/)?
+
+OpenID Connect is an interoperable authentication protocol based on the OAuth 2.0 framework.
+
+The specification suite is extensible to support a range of optional features such as encryption of identity data, discovery of OpenID Providers, and session logout.
+
 ## Application Programming Interfaces
 
 ### 1. What is [gRPC](https://grpc.io/about/)?
