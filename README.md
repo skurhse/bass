@@ -170,4 +170,4 @@ Object-oriented programming or 'OOP' is a programming paradigm based on the conc
 
 ### 2. What is Inheritance?
 
-Inheritance is code reuse and extensibility pattern in the form of either super-classes or prototypes.
+Inheritance is an OOP code reuse and extensibility pattern, either class-based or protoype-based, implemented via dynamic dispatch.
