@@ -1,6 +1,6 @@
 # 🐟 bass
 
-Hypertext [DevOps](https://en.wikipedia.org/wiki/DevOps) flashcards to help reinforce comprehension.
+`Bass` is a collection of hypertext [DevOps](https://en.wikipedia.org/wiki/DevOps) flashcards to help reinforce comprehension.
 
 Navigate bass using the GitHub [Table of Contents button](https://github.blog/changelog/2021-04-13-table-of-contents-support-in-markdown-files/) on the upper right (☰).
 
