@@ -81,6 +81,12 @@ A JavaScript implementation of gRPC for browser clients.
 
 gRPC-Web clients connect to gRPC services via a special proxy; by default, gRPC-web uses Envoy.
 
+### 4. What is [GraphQL](https://graphql.org/learn/)?
+
+GraphQL is a query language for your API, and a server-side runtime for executing queries using a type system.
+
+GraphQL is typically served over HTTP via a single endpoint which expresses the full set of capabilities of the service.
+
 ## Kubernetes
 
 ### 1. What is [Kubernetes](https://kubernetes.io/docs/concepts/overview/)?
