@@ -36,6 +36,16 @@ That is, while there is value in the items on the right, we value the items on t
 - The best architectures, requirements, and designs emerge from self-organizing teams.
 - At regular intervals, the team reflects on how to become more effective, then tunes and adjusts its behavior accordingly.
 
+## Application Security
+
+### 1. What is OAuth 2.0?
+
+OAuth 2.0 is is an open standard for authorization and access delegation providing flows for web apps, desktop apps, mobile phones, and IoT devices.
+
+### 2. What is OAuth scope?
+
+Scope is a mechanism in OAuth 2.0 to limit an application's access to a user's account. An application can request one or more scopes and the access token issued to the application will be limited to the scopes granted.
+
 ## Application Programming Interfaces
 
 ### 1. What is [gRPC](https://grpc.io/about/)?
