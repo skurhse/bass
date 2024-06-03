@@ -155,6 +155,12 @@ The systat program `sar` is used to report on various system loads, including CP
 
 `sadc` is the system activity data collector and backend.
 
+### 9. What is [Bash](https://www.gnu.org/software/bash/)?
+
+Bash or 'Bourne Again SHell' is the is the GNU Project's shell: a computer program that exposes OS services to users and programs.
+
+Bash conforms to the IEEE POSIX P1003.2/ISO 9945.2 Shell and Tools standard and is `sh`-compatible.
+
 ## Microsoft .NET
 
 ### 1. What is [.NET](https://dotnet.microsoft.com/en-us/learn/dotnet/what-is-dotnet)?
