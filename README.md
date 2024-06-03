@@ -135,6 +135,12 @@ POSIX.1-2017 defines a standard operating system interface and environment, incl
 
 The Linux version of `top` is part of the `procps-ng` tools group.
 
+### 6. What is [lsof](https://en.wikipedia.org/wiki/Lsof)?
+
+lsof is a command meaning "list open files", which reports a list of all open files and the processes that opened them.
+
+Open files in the system include disk files, named pipes, network sockets and devices.
+
 ## Microsoft .NET
 
 ### 1. What is [.NET](https://dotnet.microsoft.com/en-us/learn/dotnet/what-is-dotnet)?
