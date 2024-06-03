@@ -129,6 +129,16 @@ The *Portable Operating System Interface* specifications are a standard created 
 
 POSIX.1-2017 defines a standard operating system interface and environment, including a command interpreter (or “shell”), and common utility programs to support applications portability at the source code level.
 
+## Microsoft .NET
+
+### 1. What is .NET?
+
+### 2. What is [System.IDisposable](https://learn.microsoft.com/en-us/dotnet/fundamentals/runtime-libraries/system-idisposable)?
+
+`System.IDisposable` is a system interface used to release unmanaged resources like window handles, or open files and streams.
+
+A IDisposable object is disposed of using either a `Dispose` method in a try/finally block, or `using` statement.
+
 ## Network Security
 
 ### 1. What is [TLS 1.3](https://datatracker.ietf.org/doc/rfc8446/)?
