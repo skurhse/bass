@@ -129,19 +129,25 @@ The *Portable Operating System Interface* specifications are a standard created 
 
 POSIX.1-2017 defines a standard operating system interface and environment, including a command interpreter (or “shell”), and common utility programs to support applications portability at the source code level.
 
-### 5. What is [top](https://en.wikipedia.org/wiki/Top_(software))?
+### 5. What is [gcc](https://gcc.gnu.org/)?
+
+ The GNU Compiler Collection or 'GCC' is a collection of compilers from the GNU Project.
+
+GCC includes front ends for C, C++, Objective-C, Fortran, Ada, Go, D and Modula-2 as well as libraries for these languages like `libstdc++`.
+
+### 6. What is [top](https://en.wikipedia.org/wiki/Top_(software))?
 
 `top` is process monitor program that displays sorted information about CPU and memory utilization.
 
 The Linux version of `top` is part of the `procps-ng` tools group.
 
-### 6. What is [lsof](https://en.wikipedia.org/wiki/Lsof)?
+### 7. What is [lsof](https://en.wikipedia.org/wiki/Lsof)?
 
 lsof is a command meaning "list open files", which reports a list of all open files and the processes that opened them.
 
 Open files in the system include disk files, named pipes, network sockets and devices.
 
-### 7. What is [sysstat](https://en.wikipedia.org/wiki/Sysstat)?
+### 8. What is [sysstat](https://en.wikipedia.org/wiki/Sysstat)?
 
 `sysstat` or "system statistics" is a collection of Linux tools used to monitor system performance and usage activity.
 
