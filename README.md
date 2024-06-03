@@ -147,6 +147,12 @@ A CA or 'Certificate authority' is a root certificate issuer, usually a company 
 
 A CA acts as a trusted third party—trusted both by the subject (owner) of the certificate and by the party relying upon the certificate.
 
+### 4. What is [X.509](https://www.itu.int/rec/T-REC-X.509)? 
+
+X.509 is an International Telecommunication Union (ITU) framework for public-key certificates.
+
+X.509 includes the specification of data objects, revocation notices and critical components of a public-key infrastructure. 
+
 ## Object-oriented Programming
 
 ### 1. What is [Object-oriented programming](https://en.wikipedia.org/wiki/Object-oriented_programming)?
