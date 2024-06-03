@@ -131,7 +131,17 @@ POSIX.1-2017 defines a standard operating system interface and environment, incl
 
 ## Microsoft .NET
 
-### 1. What is .NET?
+### 1. What is [.NET](https://dotnet.microsoft.com/en-us/learn/dotnet/what-is-dotnet)?
+
+.NET is a free and open-source application platform supported by Microsoft.
+
+.NET is supported on Android, Apple, Linux, and Windows operating systems.
+
+### 2. What is [NuGet])https://www.nuget.org/)?
+
+NuGet is the package manager for .NET. The NuGet client tools provide the ability to produce and consume packages.
+
+The NuGet Gallery is the central package repository used by all package authors and consumers.
 
 ### 2. What is [System.IDisposable](https://learn.microsoft.com/en-us/dotnet/fundamentals/runtime-libraries/system-idisposable)?
 
