@@ -141,6 +141,14 @@ lsof is a command meaning "list open files", which reports a list of all open fi
 
 Open files in the system include disk files, named pipes, network sockets and devices.
 
+### 7. What is [sysstat](https://en.wikipedia.org/wiki/Sysstat)?
+
+`sysstat` or "system statistics" is a collection of Linux tools used to monitor system performance and usage activity.
+
+The systat program `sar` is used to report on various system loads, including CPU activity, memory/paging, interrupts, device load, network and swap space utilization.
+
+`sadc` is the system activity data collector and backend.
+
 ## Microsoft .NET
 
 ### 1. What is [.NET](https://dotnet.microsoft.com/en-us/learn/dotnet/what-is-dotnet)?
