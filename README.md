@@ -137,6 +137,10 @@ Transport Layer Security (TLS) is a cryptographic protocol that allows client/se
 
 Once the client and server have agreed to use TLS, they negotiate a stateful connection by using a handshaking procedure. The protocols use a handshake with an asymmetric cipher to establish cipher settings and a session-specific shared key with which further communication is encrypted using a symmetric cipher.
 
+### 2. What is [Public-key infrastructure](https://en.wikipedia.org/wiki/Public_key_infrastructure)?
+
+PKI or 'Public-key infrastructure' is a set of roles, policies and procedures needed to manage public key certificates,  an electronic document used to prove the validity of a public key.
+
 ## Object-oriented Programming
 
 ### 1. What is [Object-oriented programming](https://en.wikipedia.org/wiki/Object-oriented_programming)?
