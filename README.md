@@ -137,7 +137,7 @@ POSIX.1-2017 defines a standard operating system interface and environment, incl
 
 .NET is supported on Android, Apple, Linux, and Windows operating systems.
 
-### 2. What is [NuGet])https://www.nuget.org/)?
+### 2. What is [NuGet](https://www.nuget.org/)?
 
 NuGet is the package manager for .NET. The NuGet client tools provide the ability to produce and consume packages.
 
