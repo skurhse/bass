@@ -129,6 +129,22 @@ The *Portable Operating System Interface* specifications are a standard created 
 
 POSIX.1-2017 defines a standard operating system interface and environment, including a command interpreter (or “shell”), and common utility programs to support applications portability at the source code level.
 
+## Object-oriented Programming
+
+### 1. What is [Object-oriented programming](https://en.wikipedia.org/wiki/Object-oriented_programming)?
+
+Object-oriented programming or 'OOP' is a programming paradigm based on the concept of objects, which contain data in the form of fields and code in the form of methods.
+
+### 2. What is Inheritance?
+
+Inheritance is an OOP code reuse and extensibility pattern, either class-based or protoype-based, implemented via dynamic dispatch.
+
+### 3. What is data abstraction vs. encapsulation?
+
+Data abstraction is a design pattern in which data are visible only to semantically related functions.
+
+Encapsulation prevents external code from being concerned with the internal workings of an object.
+
 ## Software as a Service
 
 ### 1. What is [SaaS](https://en.wikipedia.org/wiki/Software_as_a_service)?
@@ -161,19 +177,3 @@ The twelve-factor app is a methodology for building software-as-a-service apps t
 10. [Dev/prod parity](https://12factor.net/dev-prod-parity): Keep development, staging, and production as similar as possible.
 11. [Logs](https://12factor.net/logs): Treat logs as event streams.
 12. [Admin processes](https://12factor.net/admin-processes): Run admin/management tasks as one-off processes.
-
-## Object-oriented Programming
-
-### 1. What is [Object-oriented programming](https://en.wikipedia.org/wiki/Object-oriented_programming)?
-
-Object-oriented programming or 'OOP' is a programming paradigm based on the concept of objects, which contain data in the form of fields and code in the form of methods.
-
-### 2. What is Inheritance?
-
-Inheritance is an OOP code reuse and extensibility pattern, either class-based or protoype-based, implemented via dynamic dispatch.
-
-### 3. What is data abstraction vs. encapsulation?
-
-Data abstraction is a design pattern in which data are visible only to semantically related functions.
-
-Encapsulation prevents external code from being concerned with the internal workings of an object.
