@@ -139,7 +139,13 @@ Once the client and server have agreed to use TLS, they negotiate a stateful con
 
 ### 2. What is [Public-key infrastructure](https://en.wikipedia.org/wiki/Public_key_infrastructure)?
 
-PKI or 'Public-key infrastructure' is a set of roles, policies and procedures needed to manage public key certificates,  an electronic document used to prove the validity of a public key.
+PKI or 'Public-key infrastructure' is a set of roles, policies and procedures needed to manage public key certificates: electronic documents used to prove the validity of a public key.
+
+### 3. What is a Certificate Authority?
+
+A CA or 'Certificate authority' is a root certificate issuer, usually a company that charges customers a fee to issue certificates for them.
+
+A CA acts as a trusted third party—trusted both by the subject (owner) of the certificate and by the party relying upon the certificate.
 
 ## Object-oriented Programming
 
