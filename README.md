@@ -129,6 +129,12 @@ The *Portable Operating System Interface* specifications are a standard created 
 
 POSIX.1-2017 defines a standard operating system interface and environment, including a command interpreter (or “shell”), and common utility programs to support applications portability at the source code level.
 
+### 5. What is [top](https://en.wikipedia.org/wiki/Top_(software))?
+
+`top` is process monitor program that displays sorted information about CPU and memory utilization.
+
+The Linux version of `top` is part of the `procps-ng` tools group.
+
 ## Microsoft .NET
 
 ### 1. What is [.NET](https://dotnet.microsoft.com/en-us/learn/dotnet/what-is-dotnet)?
