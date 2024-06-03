@@ -129,6 +129,14 @@ The *Portable Operating System Interface* specifications are a standard created 
 
 POSIX.1-2017 defines a standard operating system interface and environment, including a command interpreter (or “shell”), and common utility programs to support applications portability at the source code level.
 
+## Network Security
+
+### 1. What is [TLS 1.3](https://datatracker.ietf.org/doc/rfc8446/)?
+
+Transport Layer Security (TLS) is a cryptographic protocol that allows client/server applications to communicate over the Internet in a way that is designed to prevent eavesdropping, tampering, and message forgery.
+
+Once the client and server have agreed to use TLS, they negotiate a stateful connection by using a handshaking procedure. The protocols use a handshake with an asymmetric cipher to establish cipher settings and a session-specific shared key with which further communication is encrypted using a symmetric cipher.
+
 ## Object-oriented Programming
 
 ### 1. What is [Object-oriented programming](https://en.wikipedia.org/wiki/Object-oriented_programming)?
