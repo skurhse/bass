@@ -129,25 +129,33 @@ The *Portable Operating System Interface* specifications are a standard created 
 
 POSIX.1-2017 defines a standard operating system interface and environment, including a command interpreter (or “shell”), and common utility programs to support applications portability at the source code level.
 
-### 5. What is [gcc](https://gcc.gnu.org/)?
+### 5. What is [LDAP](https://datatracker.ietf.org/doc/html/rfc4511)?
+
+The Lightweight Directory Access Protocol or 'LDAP' is an directory services protocol for use over an Internet Protocol network.
+
+Under LDAP, a directory user accesses the Directory through a Directory User Agent (DUA). The agent interacts with one or more Directory System Agents (DSA).
+
+When an LDAP session is created, the authentication state of the session is set to anonymous. The BIND operation establishes the authentication state for a session.
+
+### 6. What is [gcc](https://gcc.gnu.org/)?
 
  The GNU Compiler Collection or 'GCC' is a collection of compilers from the GNU Project.
 
 GCC includes front ends for C, C++, Objective-C, Fortran, Ada, Go, D and Modula-2 as well as libraries for these languages like `libstdc++`.
 
-### 6. What is [top](https://en.wikipedia.org/wiki/Top_(software))?
+### 7. What is [top](https://en.wikipedia.org/wiki/Top_(software))?
 
 `top` is process monitor program that displays sorted information about CPU and memory utilization.
 
 The Linux version of `top` is part of the `procps-ng` tools group.
 
-### 7. What is [lsof](https://en.wikipedia.org/wiki/Lsof)?
+### 8. What is [lsof](https://en.wikipedia.org/wiki/Lsof)?
 
 lsof is a command meaning "list open files", which reports a list of all open files and the processes that opened them.
 
 Open files in the system include disk files, named pipes, network sockets and devices.
 
-### 8. What is [sysstat](https://en.wikipedia.org/wiki/Sysstat)?
+### 9. What is [sysstat](https://en.wikipedia.org/wiki/Sysstat)?
 
 `sysstat` or "system statistics" is a collection of Linux tools used to monitor system performance and usage activity.
 
@@ -155,7 +163,7 @@ The systat program `sar` is used to report on various system loads, including CP
 
 `sadc` is the system activity data collector and backend.
 
-### 9. What is [Bash](https://www.gnu.org/software/bash/)?
+### 10. What is [Bash](https://www.gnu.org/software/bash/)?
 
 Bash or 'Bourne Again SHell' is the is the GNU Project's shell: a computer program that exposes OS services to users and programs.
 
