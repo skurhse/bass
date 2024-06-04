@@ -221,7 +221,11 @@ DNS delegates the responsibility of assigning domain names to Internet resources
 
 ### 6. What is [WHOIS](https://datatracker.ietf.org/doc/html/rfc3912)?
 
-WHOIS, pronounced "who is", is a query and response protocl for querying databases internet resource's registered users or assignees.
+WHOIS, pronounced "who is", is a TCP-based transaction-oriented query/response protocol used to provide information services to Internet users.
+
+WHOIS was originally used to provide information about registered domain names, current deployments cover a much broader range of information services.
+
+The WHOIS protocol has not been internationalised and has no provisions for strong security.
 
 ## Object-oriented Programming
 
