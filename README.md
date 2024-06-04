@@ -181,7 +181,7 @@ The NuGet Gallery is the central package repository used by all package authors 
 
 A IDisposable object is disposed of using either a `Dispose` method in a try/finally block, or `using` statement.
 
-## Network Security
+## Network Engineering
 
 ### 1. What is [TLS 1.3](https://datatracker.ietf.org/doc/rfc8446/)?
 
@@ -204,6 +204,10 @@ A CA acts as a trusted third party—trusted both by the subject (owner) of the 
 X.509 is an International Telecommunication Union (ITU) framework for public-key certificates.
 
 X.509 includes the specification of data objects, revocation notices and critical components of a public-key infrastructure. 
+
+### 5. What is [DNS](https://datatracker.ietf.org/doc/html/rfc1034)?
+
+Domain Name System or 'DNS' is a hierarchical and distributed name service that provides a naming system for resources on Internet Protocol networks.
 
 ## Object-oriented Programming
 
