@@ -219,6 +219,10 @@ The Domain Name System or 'DNS' is a hierarchical and distributed name service t
 
 DNS delegates the responsibility of assigning domain names to Internet resources by designating authoritative name servers.
 
+### 6. What is [WHOIS](https://datatracker.ietf.org/doc/html/rfc3912)?
+
+WHOIS, pronounced "who is", is a query and response protocl for querying databases internet resource's registered users or assignees.
+
 ## Object-oriented Programming
 
 ### 1. What is [Object-oriented programming](https://en.wikipedia.org/wiki/Object-oriented_programming)?
