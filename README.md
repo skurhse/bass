@@ -207,7 +207,9 @@ X.509 includes the specification of data objects, revocation notices and critica
 
 ### 5. What is [DNS](https://datatracker.ietf.org/doc/html/rfc1034)?
 
-Domain Name System or 'DNS' is a hierarchical and distributed name service that provides a naming system for resources on Internet Protocol networks.
+The Domain Name System or 'DNS' is a hierarchical and distributed name service that provides a naming system for resources on Internet Protocol networks.
+
+DNS delegates the responsibility of assigning domain names to Internet resources by designating authoritative name servers.
 
 ## Object-oriented Programming
 
