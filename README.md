@@ -205,6 +205,16 @@ A IDisposable object is disposed of using either a `Dispose` method in a try/fin
 
 ## Network Engineering
 
+### 1. What is IP?
+
+### 2. What is TCP?
+
+### 3. What is UDP?
+
+### 4. What is ICMP?
+
+### 5. What is traceroute?
+
 ### 1. What is [TLS 1.3](https://datatracker.ietf.org/doc/rfc8446/)?
 
 Transport Layer Security (TLS) is a cryptographic protocol that allows client/server applications to communicate over the Internet in a way that is designed to prevent eavesdropping, tampering, and message forgery.
