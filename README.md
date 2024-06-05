@@ -87,6 +87,16 @@ GraphQL is a query language for your API, and a server-side runtime for executin
 
 GraphQL is typically served over HTTP via a single endpoint which expresses the full set of capabilities of the service.
 
+### 5. What is [HTTP](https://datatracker.ietf.org/doc/html/rfc9112)?
+
+The Hypertext Transfer Protocol (HTTP) is a stateless application-level request/response protocol for hypertext information systems.
+
+HTTP is also designed for use as an intermediation protocol, wherein proxies and gateways can translate non-HTTP information systems into a generic interface.
+
+### 5. What is [REST](https://en.wikipedia.org/wiki/REST)?
+
+Representation State Transfer or 'REST' is 
+
 ## Kubernetes
 
 ### 1. What is [Kubernetes](https://kubernetes.io/docs/concepts/overview/)?
