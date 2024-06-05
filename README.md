@@ -93,9 +93,13 @@ The Hypertext Transfer Protocol (HTTP) is a stateless application-level request/
 
 HTTP is also designed for use as an intermediation protocol, wherein proxies and gateways can translate non-HTTP information systems into a generic interface.
 
-### 5. What is [REST](https://en.wikipedia.org/wiki/REST)?
+### 5. What is [REST]([https://en.wikipedia.org/wiki/REST](https://ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm))?
 
-Representation State Transfer or 'REST' is 
+Representation State Transfer or 'REST' is an architectural style for distributed hypermedia systems.
+
+Under REST, no session state on the server component is allowed. Each request from client to server must contain all of the information necessary to understand the request, and stored context must be kept entirely on the client.
+
+REST response data must be labeled as cacheable or non-cacheable. RESTful architecture may be layered such that each component cannot "see" beyond the immediate layer with which they are interacting.
 
 ## Kubernetes
 
