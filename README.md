@@ -217,6 +217,10 @@ IP is responsible for addressing host interfaces, encapsulating data into datagr
 
 ### 3. What is [IPv6](https://datatracker.ietf.org/doc/html/rfc8200)?
 
+IP version 6 is the successor to IP version 4.
+
+IPv6 implements the following change set 
+
 ### 4. What is TCP?
 
 Lorum ipsum.
