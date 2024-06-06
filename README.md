@@ -93,7 +93,7 @@ The Hypertext Transfer Protocol (HTTP) is a stateless application-level request/
 
 HTTP is also designed for use as an intermediation protocol, wherein proxies and gateways can translate non-HTTP information systems into a generic interface.
 
-### 5. What is [REST](https://en.wikipedia.org/wiki/REST](https://ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm)?
+### 5. What is [REST](https://ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm)?
 
 Representation State Transfer or 'REST' is an architectural style for distributed hypermedia systems.
 
