@@ -215,21 +215,25 @@ The Internet Protocol or 'IP' is a protocol designed for use in interconnected s
 
 IP is responsible for addressing host interfaces, encapsulating data into datagrams and routing datagrams from a source to a destination.
 
-### 3. What is TCP?
+### 3. What is [IPv6](https://datatracker.ietf.org/doc/html/rfc8200)?
+
+### 4. What is TCP?
 
 Lorum ipsum.
 
-### 4. What is UDP?
+### 5. What is UDP?
 
 Lorum ipsum.
 
-### 5. What is ICMP?
+### 6. What is ICMP?
 
 Lorum ipsum.
 
-### 6. What is traceroute?
+### 7. What is traceroute?
 
 Lorum ipsum.
+
+## Network Security
 
 ### 1. What is [TLS 1.3](https://datatracker.ietf.org/doc/rfc8446/)?
 
