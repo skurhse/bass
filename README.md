@@ -209,7 +209,7 @@ A IDisposable object is disposed of using either a `Dispose` method in a try/fin
 
 Lorum ipsum.
 
-### 2. [What is the Internet Protocol(https://datatracker.ietf.org/doc/html/rfc791)?
+### 2. What is the [Internet Protocol](https://datatracker.ietf.org/doc/html/rfc791)?
 
 The Internet Protocol or 'IP' is a protocol designed for use in interconnected systems of packet-switched computer communication networks.
 
@@ -237,6 +237,20 @@ Lorum ipsum.
 
 Lorum ipsum.
 
+### 8. What is [DNS](https://datatracker.ietf.org/doc/html/rfc1034)?
+
+The Domain Name System or 'DNS' is a hierarchical and distributed name service that provides a naming system for resources on Internet Protocol networks.
+
+DNS delegates the responsibility of assigning domain names to Internet resources by designating authoritative name servers.
+
+### 9. What is [WHOIS](https://datatracker.ietf.org/doc/html/rfc3912)?
+
+WHOIS, pronounced "who is", is a TCP-based transaction-oriented query/response protocol used to provide information services to Internet users.
+
+WHOIS was originally used to provide information about registered domain names, current deployments cover a much broader range of information services.
+
+The WHOIS protocol has not been internationalised and has no provisions for strong security.
+
 ## Network Security
 
 ### 1. What is [TLS 1.3](https://datatracker.ietf.org/doc/rfc8446/)?
@@ -259,21 +273,7 @@ A CA acts as a trusted third party—trusted both by the subject (owner) of the 
 
 X.509 is an International Telecommunication Union (ITU) framework for public-key certificates.
 
-X.509 includes the specification of data objects, revocation notices and critical components of a public-key infrastructure. 
-
-### 5. What is [DNS](https://datatracker.ietf.org/doc/html/rfc1034)?
-
-The Domain Name System or 'DNS' is a hierarchical and distributed name service that provides a naming system for resources on Internet Protocol networks.
-
-DNS delegates the responsibility of assigning domain names to Internet resources by designating authoritative name servers.
-
-### 6. What is [WHOIS](https://datatracker.ietf.org/doc/html/rfc3912)?
-
-WHOIS, pronounced "who is", is a TCP-based transaction-oriented query/response protocol used to provide information services to Internet users.
-
-WHOIS was originally used to provide information about registered domain names, current deployments cover a much broader range of information services.
-
-The WHOIS protocol has not been internationalised and has no provisions for strong security.
+X.509 includes the specification of data objects, revocation notices and critical components of a public-key infrastructure.
 
 ## Object-oriented Programming
 
