@@ -2,7 +2,7 @@
 
 `Bass` is a collection of hypertext [DevOps](https://en.wikipedia.org/wiki/DevOps) flashcards made to reinforce comprehension.
 
-- Navigate bass using the GitHub [Table of Contents button](https://github.blog/changelog/2021-04-13-table-of-contents-support-in-markdown-files/) on the upper right (☰).
+- Navigate bass using the GitHub [Outline button](https://github.blog/changelog/2021-04-13-table-of-contents-support-in-markdown-files/) on the upper right (☰).
 - Card categories are listed in alphabetical order.
 - Sections contain one or more 'What is?'-style questions to supplement as a glossary.
 
