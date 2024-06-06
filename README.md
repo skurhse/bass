@@ -2,9 +2,20 @@
 
 `Bass` is a collection of hypertext [DevOps](https://en.wikipedia.org/wiki/DevOps) flashcards made to reinforce comprehension.
 
-- Navigate bass using the GitHub [Outline button](https://github.blog/changelog/2021-04-13-table-of-contents-support-in-markdown-files/) on the upper right (☰).
+- Navigate bass using the GitHub [Outline button](https://github.blog/changelog/2021-04-13-table-of-contents-support-in-markdown-files/) on the upper right (☰) or the table of contents below.
 - Card categories are listed in alphabetical order.
 - Sections contain one or more 'What is?'-style questions to supplement as a glossary.
+
+## Table of Contents
+
+- [Agile Software Development](#agile-software-development)
+- [Application Programming Interfaces](#application-programming-interfaces)
+- [Application Security](#application-security)
+- [Kubernetes](#kubernetes)
+- [Network Engineering](#network-engineering)
+- [Network Security](#network-security)
+- [Object-oriented Programming](#object-oriented-programming)
+- [Software-as-a-service](#software-as-a-service)
 
 ## Agile Software Development
 
