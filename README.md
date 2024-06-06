@@ -211,7 +211,9 @@ Lorum ipsum.
 
 ### 2. [What is the Internet Protocol(https://datatracker.ietf.org/doc/html/rfc791)?
 
-Lorum ipsum.
+The Internet Protocol or 'IP' is a protocol designed for use in interconnected systems of packet-switched computer communication networks.
+
+IP is responsible for addressing host interfaces, encapsulating data into datagrams and routing datagrams from a source to a destination.
 
 ### 3. What is TCP?
 
