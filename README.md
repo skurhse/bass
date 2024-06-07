@@ -12,6 +12,7 @@
 - [Application Programming Interfaces](#application-programming-interfaces)
 - [Application Security](#application-security)
 - [Kubernetes](#kubernetes)
+- [Information Security](#information-security)
 - [Network Engineering](#network-engineering)
 - [Network Security](#network-security)
 - [Object-oriented Programming](#object-oriented-programming)
@@ -75,6 +76,14 @@ OpenID Connect is an interoperable authentication protocol based on the OAuth 2.
 
 The specification suite is extensible to support a range of optional features such as encryption of identity data, discovery of OpenID Providers, and session logout.
 
+### 6. What is [JSON Web Token](https://datatracker.ietf.org/doc/html/rfc7519)?
+
+JSON Web Token or 'JWT' is a compact and URL-safe standard for representing claims to be transferred between two parties.
+
+The claims in a JWT are encoded as a either:
+- as a JSON object that is used as the payload of a JSON Web Signature
+- as the plaintext of a JSON Web Encryption (JWE) structure
+
 ## Application Programming Interfaces
 
 ### 1. What is [gRPC](https://grpc.io/about/)?
@@ -111,6 +120,17 @@ Representation State Transfer or 'REST' is an architectural style for distribute
 Under REST, no session state on the server component is allowed. Each request from client to server must contain all of the information necessary to understand the request, and stored context must be kept entirely on the client.
 
 REST response data must be labeled as cacheable or non-cacheable. RESTful architecture may be layered such that each component cannot "see" beyond the immediate layer with which they are interacting.
+
+## Information Security
+
+### 1. What is the [CIA triad](https://www.nccoe.nist.gov/publication/1800-26/VolA/index.html)?
+
+The "CIA" triad epresents the three pillars of information security:
+- Confidentiality: preserving authorized restrictions on information access and disclosure.
+- Integrity: guarding against improper information modification or destruction.
+- Availability: ensuring timely and reliable access to and use of information.
+
+###
 
 ## Kubernetes
 
