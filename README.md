@@ -358,8 +358,20 @@ The twelve-factor app is a methodology for building software-as-a-service apps t
 
 ## Windows Server
 
-What is [Windows Server](https://learn.microsoft.com/en-us/windows-server/get-started/get-started-with-windows-server)?
+### 1. What is [Windows Server](https://learn.microsoft.com/en-us/windows-server/get-started/get-started-with-windows-server)?
 
 Windows Server is a group of server operating systems developed by Microsoft with the latest long-term service channel release being Windows Server 2022.
 
 Windows Server is used to build infrastructure for connected applications, networks, and web services. It bridges on-premises environments with Azure.
+
+### 2. What is the [Windows Registry](https://learn.microsoft.com/en-us/troubleshoot/windows-server/performance/windows-registry-advanced-users#description-of-the-registry)?
+
+The Windows Registry is a central hierarchical database used to store configurations for users, applications, and hardware devices.
+
+Windows Registry contains the following predefined keys:
+- HKEY_CURRENT_USER
+- HKEY_USERS
+- HKEY_LOCAL_MACHINE
+- HKEY_CLASSES_ROOT
+- HKEY_CURRENT_CONFIG	
+
