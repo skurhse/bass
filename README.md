@@ -17,6 +17,7 @@
 - [Network Security](#network-security)
 - [Object-oriented Programming](#object-oriented-programming)
 - [Software-as-a-service](#software-as-a-service)
+- [Windows Server](#windows-server)
 
 ## Agile Software Development
 
@@ -354,3 +355,11 @@ The twelve-factor app is a methodology for building software-as-a-service apps t
 10. [Dev/prod parity](https://12factor.net/dev-prod-parity): Keep development, staging, and production as similar as possible.
 11. [Logs](https://12factor.net/logs): Treat logs as event streams.
 12. [Admin processes](https://12factor.net/admin-processes): Run admin/management tasks as one-off processes.
+
+## Windows Server
+
+What is [Windows Server](https://learn.microsoft.com/en-us/windows-server/get-started/get-started-with-windows-server)?
+
+Windows Server is a group of server operating systems developed by Microsoft with the latest long-term service channel release being Windows Server 2022.
+
+Windows Server is used to build infrastructure for connected applications, networks, and web services. It bridges on-premises environments with Azure.
