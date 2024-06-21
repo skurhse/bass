@@ -162,8 +162,9 @@ Kubernetes is an open-source container orchestration platform that automates the
 
 ### 4. List k8s [node components](https://kubernetes.io/docs/concepts/overview/components/#node-components).
 
-- [kubelet](https://kubernetes.io/docs/concepts/overview/components/#kubelet) - runs containers for a pod.
+- [kubelet](https://kubernetes.io/docs/concepts/overview/components/#kubelet) - manages pod specifications and health.
 - [kube-proxy](https://kubernetes.io/docs/concepts/overview/components/#kube-proxy) - maintains network rules on nodes.
+- [container runtime](https://kubernetes.io/docs/concepts/overview/components/#container-runtime) - manages the execution and lifecycle of containers.
 
 ## Linux
 
