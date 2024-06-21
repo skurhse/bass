@@ -158,6 +158,12 @@ Kubernetes is an open-source container orchestration platform that automates the
 - [etcd](https://kubernetes.io/docs/concepts/overview/components/#etcd) - the backing store for all cluster data.
 - [kube-scheduler](https://kubernetes.io/docs/concepts/overview/components/#kube-scheduler) -  selects nodes for pods to run on.
 - [kube-controller-manager](https://kubernetes.io/docs/concepts/overview/components/#kube-controller-manager) - runs controller processes.
+- [cloud-controller-manager](https://kubernetes.io/docs/concepts/overview/components/#cloud-controller-manager) - runs controllers that are specific to cloud providers.
+
+### 4. List k8s [node components](https://kubernetes.io/docs/concepts/overview/components/#node-components).
+
+- [kubelet](https://kubernetes.io/docs/concepts/overview/components/#kubelet) - runs containers for a pod.
+- [kube-proxy](https://kubernetes.io/docs/concepts/overview/components/#kube-proxy) - maintains network rules on nodes.
 
 ## Linux
 
