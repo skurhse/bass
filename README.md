@@ -85,6 +85,10 @@ The claims in a JWT are encoded as a either:
 - as a JSON object that is used as the payload of a JSON Web Signature
 - as the plaintext of a JSON Web Encryption (JWE) structure
 
+### 7. What is an [injection exploit](https://en.wikipedia.org/wiki/Category:Injection_exploits)?
+
+Injection exploits use data to subvert the intended operation of the system. Injection exploits leverage vulnerabilities resulting from insufficient validation of inputs.
+
 ## Application Programming Interfaces
 
 ### 1. What is [gRPC](https://grpc.io/about/)?
