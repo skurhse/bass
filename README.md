@@ -166,6 +166,18 @@ Kubernetes is an open-source container orchestration platform that automates the
 - [kube-proxy](https://kubernetes.io/docs/concepts/overview/components/#kube-proxy) - maintains network rules on nodes.
 - [container runtime](https://kubernetes.io/docs/concepts/overview/components/#container-runtime) - manages the execution and lifecycle of containers.
 
+### 5. List k8s [security mechanisms](https://kubernetes.io/docs/concepts/security/#security-mechanisms)
+
+- [control plane protection](https://kubernetes.io/docs/concepts/security/#control-plane-protection) - control access to the Kubernetes API.
+  - [transport security](https://kubernetes.io/docs/concepts/security/controlling-access/#transport-security) - protected with TLS.
+  - [authentication](https://kubernetes.io/docs/concepts/security/controlling-access/#authentication) - run one or more authenticator modules.
+  - [authorization](https://kubernetes.io/docs/concepts/security/controlling-access/#authorization) - policy-based action control.
+- [secrets](https://kubernetes.io/docs/concepts/security/#secrets) - confidentiality protection for configuration values 
+- [workload protection](https://kubernetes.io/docs/concepts/security/#workload-protection) - enforce network policies and pod security standards.
+- [auditing](https://kubernetes.io/docs/concepts/security/#auditing) - security logging for users and applications.
+
+
+
 ## Linux
 
 ### 1. What is [Linux](https://en.wikipedia.org/wiki/Linux)?
