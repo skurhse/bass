@@ -152,6 +152,13 @@ Kubernetes is an open-source container orchestration platform that automates the
 - IPv4/IPv6 dual-stack
 - Designed for extensibility
 
+### 3. List k8s [control plane components](https://kubernetes.io/docs/concepts/overview/components/#control-plane-components)
+
+- [kube-apiserver](https://kubernetes.io/docs/concepts/overview/components/#kube-apiserver) - the front end that exposes the k8s api.
+- [etcd](https://kubernetes.io/docs/concepts/overview/components/#etcd) - the backing store for all cluster data.
+- [kube-scheduler](https://kubernetes.io/docs/concepts/overview/components/#kube-scheduler) -  selects nodes for pods to run on.
+- [kube-controller-manager](https://kubernetes.io/docs/concepts/overview/components/#kube-controller-manager) - runs controller processes.
+
 ## Linux
 
 ### 1. What is [Linux](https://en.wikipedia.org/wiki/Linux)?
