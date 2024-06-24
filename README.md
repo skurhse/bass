@@ -89,6 +89,12 @@ The claims in a JWT are encoded as a either:
 
 Injection exploits use data to subvert the intended operation of the system. Injection exploits leverage vulnerabilities resulting from insufficient validation of inputs.
 
+### 8. What is a [security token](https://en.wikipedia.org/wiki/Security_token)? 
+
+A security token is a peripheral device used to gain access to a restricted resource in addition to, or in place of, a password.
+
+Tokens can 
+
 ## Application Programming Interfaces
 
 ### 1. What is [gRPC](https://grpc.io/about/)?
