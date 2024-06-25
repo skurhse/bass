@@ -140,7 +140,7 @@ The "CIA" triad epresents the three pillars of information security:
 - Integrity: guarding against improper information modification or destruction.
 - Availability: ensuring timely and reliable access to and use of information.
 
-### 2. What is the [Hashed Message Authentication Code](https://en.wikipedia.org/wiki/HMAC)?
+### 2. What is the [Hashed Message Authentication Code](https://datatracker.ietf.org/doc/html/rfc2104)?
 
 A hashed message authentication code or 'HMAC' is a MAC involving a cryptographic hash function and a secret cryptographic key.
 
@@ -205,6 +205,15 @@ PCI DSS is required by brands and created to better control cardholder data and 
 - Implement strong access-control measures.
 - Regularly monitor and test networks.
 - Maintain an information security policy.
+
+### 3. What are [System & Organization Controls](https://www.aicpa-cima.com/resources/landing/system-and-organization-controls-soc-suite-of-services)?
+
+System and Organization Controls or 'SOC' is a suite of service offerings certified public accounts may provide in connection with system-level controls of a service organization.
+
+### 4. List the  SOC Trust Service Criteria.
+
+
+SOC reports focus on controls grouped into five categories called Trust Service Criteria.
 
 ## Linux
 
