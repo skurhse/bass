@@ -212,8 +212,52 @@ System and Organization Controls or 'SOC' is a suite of service offerings certif
 
 ### 4. List the  SOC Trust Service Criteria.
 
-
-SOC reports focus on controls grouped into five categories called Trust Service Criteria.
+- Security
+  - Protection against unauthorized access and disclosure
+  - Protection against damage compromising:
+    - Availability
+    - Confidentiality
+    - Integrity
+    - Privacy
+  - Measures:
+    - Firewalls
+    - Intrusion detection
+    - Multi-factor authentication
+- Availability
+  - Ensuring operational use of information and systems
+  - Measures:
+    - Performance monitoring
+    - Disaster recovery
+    - Incident handling
+- Confidentiality
+  - Protection of sensitive information
+  - Availability on a legitimate need-to-know basis
+  - Measures:
+    - Encryption
+    - Access controls
+    - Firewalls
+- Processing Integrity
+  - Ensuring system processing is:
+    - Complete
+    - Valid
+    - Accurate
+    - Timely
+    - Authorized
+  - Measures:
+    - Quality assurance
+    - Process monitoring
+    - Adherence to principle
+- Privacy
+  - Handling of personal information:
+    - Collection
+    - Use
+    - Retention
+    - Disclosure
+    - Disposal
+  - Measures:
+    - Access control
+    - Multi-factor authentication
+    - Encryption
 
 ## Linux
 
