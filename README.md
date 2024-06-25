@@ -197,6 +197,15 @@ The Payment Card Industry Data Security Standard or 'PCI DSS' is an information 
 
 PCI DSS is required by brands and created to better control cardholder data and reduce credit card fraud.
 
+### 2. List the six [PCI DSS control objectives](https://docs-prv.pcisecuritystandards.org/PCI%20DSS/Supporting%20Document/PCI_DSS-QRG-v4_0.pdf).
+
+- Build and maintain a secure network and systems.
+- Protect cardholder data.
+- Maintain a vulnerability management program.
+- Implement strong access-control measures.
+- Regularly monitor and test networks.
+- Maintain an information security policy.
+
 ## Linux
 
 ### 1. What is [Linux](https://en.wikipedia.org/wiki/Linux)?
