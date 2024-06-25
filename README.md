@@ -93,8 +93,6 @@ Injection exploits use data to subvert the intended operation of the system. Inj
 
 A security token is a peripheral device used to gain access to a restricted resource in addition to, or in place of, a password.
 
-Tokens can 
-
 ## Application Programming Interfaces
 
 ### 1. What is [gRPC](https://grpc.io/about/)?
@@ -141,7 +139,11 @@ The "CIA" triad epresents the three pillars of information security:
 - Integrity: guarding against improper information modification or destruction.
 - Availability: ensuring timely and reliable access to and use of information.
 
-###
+### 2. What is the [Hashed Message Authentication Code](https://en.wikipedia.org/wiki/HMAC)?
+
+A hashed message authentication code or 'HMAC' is a MAC involving a cryptographic hash function and a secret cryptographic key.
+
+HMAC can provide authentication using a shared secret instead of using digital signatures, by delegating the key exchange to the communicating parties, who are responsible for establishing and using a trusted channel.
 
 ## Kubernetes
 
