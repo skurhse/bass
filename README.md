@@ -191,7 +191,7 @@ Kubernetes is an open-source container orchestration platform that automates the
 
 ## Governance & Compliance
 
-### 1. What is [the Payment Card Industry Data Security Standard](https://en.wikipedia.org/wiki/Payment_Card_Industry_Data_Security_Standard)?
+### 1. What is [the Payment Card Industry Data Security Standard](https://docs-prv.pcisecuritystandards.org/PCI%20DSS/Standard/PCI-DSS-v4_0_1.pdf)?
 
 The Payment Card Industry Data Security Standard or 'PCI DSS' is an information security standard used to handle credit cards from major card brands.
 
