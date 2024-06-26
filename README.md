@@ -11,7 +11,7 @@
 - [Agile Software Development](#agile-software-development)
 - [Application Programming Interfaces](#application-programming-interfaces)
 - [Application Security](#application-security)
-- [Governance and Compliance](#governance-and-compliance)
+- [Governance, Risk and Compliance](#governance-risk-and-compliance)
 - [Kubernetes](#kubernetes)
 - [Information Security](#information-security)
 - [Network Engineering](#network-engineering)
@@ -189,7 +189,7 @@ Kubernetes is an open-source container orchestration platform that automates the
 - [workload protection](https://kubernetes.io/docs/concepts/security/#workload-protection) - enforce network policies and pod security standards.
 - [auditing](https://kubernetes.io/docs/concepts/security/#auditing) - security logging for users and applications.
 
-## Governance & Compliance
+## Governance, Risk and Compliance
 
 ### 1. What is [the Payment Card Industry Data Security Standard](https://docs-prv.pcisecuritystandards.org/PCI%20DSS/Standard/PCI-DSS-v4_0_1.pdf)?
 
