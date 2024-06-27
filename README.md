@@ -210,54 +210,21 @@ PCI DSS is required by brands and created to better control cardholder data and 
 
 System and Organization Controls or 'SOC' is a suite of service offerings certified public accounts may provide in connection with system-level controls of a service organization.
 
-### 4. List the  SOC Trust Service Criteria.
+### 3. What is General Data Protection Regulation?
 
-- Security
-  - Protection against unauthorized access and disclosure
-  - Protection against damage compromising:
-    - Availability
-    - Confidentiality
-    - Integrity
-    - Privacy
-  - Measures:
-    - Firewalls
-    - Intrusion detection
-    - Multi-factor authentication
-- Availability
-  - Ensuring operational use of information and systems
-  - Measures:
-    - Performance monitoring
-    - Disaster recovery
-    - Incident handling
-- Confidentiality
-  - Protection of sensitive information
-  - Availability on a legitimate need-to-know basis
-  - Measures:
-    - Encryption
-    - Access controls
-    - Firewalls
-- Processing Integrity
-  - Ensuring system processing is:
-    - Complete
-    - Valid
-    - Accurate
-    - Timely
-    - Authorized
-  - Measures:
-    - Quality assurance
-    - Process monitoring
-    - Adherence to principle
-- Privacy
-  - Handling of personal information:
-    - Collection
-    - Use
-    - Retention
-    - Disclosure
-    - Disposal
-  - Measures:
-    - Access control
-    - Multi-factor authentication
-    - Encryption
+General Data Protection Regulation or 'GDPR' is a European Union regulation on information privacy in the European Union and the European Economic Area.
+
+The GDPR's goals are to enhance individuals' control and rights over their personal information and to simplify the regulations for international business.
+
+### 4. What are the [Federal Information Processing Standards](https://www.nist.gov/standardsgov/compliance-faqs-federal-information-processing-standards-fips)?
+
+The Federal Information Processing Standards of the United States or 'FIPS' are a set of publicly announced standards that the National Institute of Standards and Technology developed for use in computer situs of non-military United States government agencies and contractors.
+
+FIPS standards establish requirements for computer security and are intended for cases in which industry standards are non pre-existent.
+
+### 5. What is a [Chief Information Security Officer](https://en.wikipedia.org/wiki/Chief_information_security_officer)
+
+A chief information security officer or 'CISO' is an executive within an organization responsible for establishing the enterprise program to ensure information assets and technologies are adequately protected.
 
 ## Linux
 
