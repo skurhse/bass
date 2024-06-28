@@ -357,6 +357,12 @@ WHOIS was originally used to provide information about registered domain names, 
 
 The WHOIS protocol has not been internationalised and has no provisions for strong security.
 
+### 10. What is a [subnetting](https://en.wikipedia.org/wiki/Subnet)?
+
+A subnetwork, or subnet, is a logical subdivision of an IP network.
+
+Computers that belong to the same subnet are addressed with an identical group of its most-significant bits of their IP addresses.
+
 ## Network Security
 
 ### 1. What is [TLS 1.3](https://datatracker.ietf.org/doc/rfc8446/)?
