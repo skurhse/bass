@@ -191,7 +191,7 @@ Kubernetes is an open-source container orchestration platform that automates the
 
 ## Governance, Risk and Compliance
 
-### 1. What is [the Payment Card Industry Data Security Standard](https://docs-prv.pcisecuritystandards.org/PCI%20DSS/Standard/PCI-DSS-v4_0_1.pdf)?
+### 1. What is the [Payment Card Industry Data Security Standard](https://docs-prv.pcisecuritystandards.org/PCI%20DSS/Standard/PCI-DSS-v4_0_1.pdf)?
 
 The Payment Card Industry Data Security Standard or 'PCI DSS' is an information security standard used to handle credit cards from major card brands.
 
@@ -222,7 +222,13 @@ The Federal Information Processing Standards of the United States or 'FIPS' are 
 
 FIPS standards establish requirements for computer security and are intended for cases in which industry standards are non pre-existent.
 
-### 5. What is a [Chief Information Security Officer](https://en.wikipedia.org/wiki/Chief_information_security_officer)
+### 5. What is the [Family Educational Rights and Privacy Act](https://studentprivacy.ed.gov/faq/what-ferpa)?
+
+The Family Educational Rights and Privacy Act or 'FERPA' is a federal law that affords parents the right to have access, amend, and control disclosure of their children’s education records.
+
+When a student turns 18 years old or enters a postsecondary institution, the rights under FERPA transfer from the parents to the student.
+
+### 6. What is a [Chief Information Security Officer](https://en.wikipedia.org/wiki/Chief_information_security_officer)
 
 A chief information security officer or 'CISO' is an executive within an organization responsible for establishing the enterprise program to ensure information assets and technologies are adequately protected.
 
