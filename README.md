@@ -124,13 +124,19 @@ The Hypertext Transfer Protocol (HTTP) is a stateless application-level request/
 
 HTTP is also designed for use as an intermediation protocol, wherein proxies and gateways can translate non-HTTP information systems into a generic interface.
 
-### 5. What is [REST](https://ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm)?
+### 6. What is [REST](https://ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm)?
 
 Representation State Transfer or 'REST' is an architectural style for distributed hypermedia systems.
 
 Under REST, no session state on the server component is allowed. Each request from client to server must contain all of the information necessary to understand the request, and stored context must be kept entirely on the client.
 
 REST response data must be labeled as cacheable or non-cacheable. RESTful architecture may be layered such that each component cannot "see" beyond the immediate layer with which they are interacting.
+
+### 7. What are [Multipurpose Internet Mail Extensions](https://www.ietf.org/rfc/rfc2045.txt)?
+
+'MIME' is standard that extends the format of email messages to support text in character sets other than ASCII, as well as multi-media attachments, wherein message bodies can contain multiple parts.
+
+While MIME was designed mainly for SMTP, MIME headers are also utilized in other communication protocols like HTTP.
 
 ## Information Security
 
