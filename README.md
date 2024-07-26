@@ -302,6 +302,20 @@ Bash or 'Bourne Again SHell' is the is the GNU Project's shell: a computer progr
 
 Bash conforms to the IEEE POSIX P1003.2/ISO 9945.2 Shell and Tools standard and is `sh`-compatible.
 
+### 11. What is [systemd](https://systemd.io/)?
+
+`systemd` is a system and service manager that runs as PID 1 and starts the rest of the system.
+
+`systemd` supports SysV and LSB init scripts and works as a replacement for sysvinit.
+
+Other parts include a logging daemon, and utilities to control basic system configuration.
+
+### 12. What is the [Linux Standard Base](https://wiki.linuxfoundation.org/lsb/about)?
+
+The Linux Standard Base or 'LSB' is standard created by the Linux Foundation that describes the minimum set of APIs a Linux distribution must support.
+
+The LSB working group also provides tools to test support.
+
 ## Microsoft .NET
 
 ### 1. What is [.NET](https://dotnet.microsoft.com/en-us/learn/dotnet/what-is-dotnet)?
@@ -426,8 +440,6 @@ Recovery Time Objective or 'RTO' is the targeted duration of time within which a
 
 A Recovery Point Objective or 'RPO' is the maximum acceptable interval during which transactional data is lost from an IT service.
 
-### 2. 
-
 ## Software as a Service
 
 ### 1. What is [SaaS](https://en.wikipedia.org/wiki/Software_as_a_service)?
@@ -473,7 +485,8 @@ Windows Server is used to build infrastructure for connected applications, netwo
 
 The Windows Registry is a central hierarchical database used to store configurations for users, applications, and hardware devices.
 
-Windows Registry contains the following predefined keys:
+### 3. List Windows Registry [predefined keys](https://learn.microsoft.com/en-us/windows/win32/sysinfo/predefined-keys).
+
 - HKEY_CURRENT_USER
 - HKEY_USERS
 - HKEY_LOCAL_MACHINE
