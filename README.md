@@ -188,8 +188,11 @@ Kubernetes is an open-source container orchestration platform that automates the
 - [Job controller](https://kubernetes.io/docs/concepts/architecture/controller/#control-via-api-server)
   - Tells the API server to create or remove Job Pods.
   - Updates Job objects to 'Finished'.
-- [EndpointSlice controller]()
--
+- [EndpointSlice controller](https://kubernetes.io/docs/concepts/services-networking/endpoint-slices/#management)
+  - Populates endpoint slices to link services and pods.
+- [ServiceAccount controller](https://kubernetes.io/docs/reference/access-authn-authz/service-accounts-admin/#serviceaccount-controller)
+  - Manages the ServiceAccounts inside namespaces.
+  - Ensures a ServiceAccount named "default" exists in every active namespace.
 
 
 ### 4. List k8s [node components](https://kubernetes.io/docs/concepts/overview/components/#node-components).
