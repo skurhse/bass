@@ -1,4 +1,4 @@
-f# 🐟 bass
+# 🐟 bass
 
 `bass` is a collection of hypertext [DevOps](https://en.wikipedia.org/wiki/DevOps) flashcards made to reinforce comprehension.
 
