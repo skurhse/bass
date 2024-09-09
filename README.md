@@ -1,4 +1,4 @@
-# 🐟 bass
+f# 🐟 bass
 
 `bass` is a collection of hypertext [DevOps](https://en.wikipedia.org/wiki/DevOps) flashcards made to reinforce comprehension.
 
@@ -180,6 +180,18 @@ Kubernetes is an open-source container orchestration platform that automates the
 - [kube-controller-manager](https://kubernetes.io/docs/concepts/overview/components/#kube-controller-manager) - runs controller processes.
 - [cloud-controller-manager](https://kubernetes.io/docs/concepts/overview/components/#cloud-controller-manager) - runs controllers that are specific to cloud providers.
 
+### 3. List k8s [controllers](https://kubernetes.io/docs/concepts/architecture/controller/).
+
+- [Node controller](https://kubernetes.io/docs/concepts/architecture/nodes/#node-controller)
+  - Assigns CIDR block to nodes on registration.
+  - Checks cloud provider API for node availability.
+- [Job controller](https://kubernetes.io/docs/concepts/architecture/controller/#control-via-api-server)
+  - Tells the API server to create or remove Job Pods.
+  - Updates Job objects to 'Finished'.
+- [EndpointSlice controller]()
+-
+
+
 ### 4. List k8s [node components](https://kubernetes.io/docs/concepts/overview/components/#node-components).
 
 - [kubelet](https://kubernetes.io/docs/concepts/overview/components/#kubelet) - manages pod specifications and health.
@@ -195,6 +207,9 @@ Kubernetes is an open-source container orchestration platform that automates the
 - [secrets](https://kubernetes.io/docs/concepts/security/#secrets) - confidentiality protection for configuration values 
 - [workload protection](https://kubernetes.io/docs/concepts/security/#workload-protection) - enforce network policies and pod security standards.
 - [auditing](https://kubernetes.io/docs/concepts/security/#auditing) - security logging for users and applications.
+
+### 6. List k8s [objects](https://kubernetes.io/docs/concepts/overview/working-with-objects/)
+- lorum ipsum
 
 ## Governance, Risk and Compliance
 
