@@ -259,7 +259,30 @@ Kubernetes networking addresses the following concerns:
   - Allows one to specify rules for traffic flow within a cluster, between pods and the outside world.
   - The cluster must use a network plugin that supports NetworkPolicy enforcement.
 
-### 11. List k8s [security mechanisms](https://kubernetes.io/docs/concepts/security/#security-mechanisms)
+### 11. Lists k8s [configuration](https://kubernetes.io/docs/concepts/configuration/overview/) resources.
+
+- [ConfigMaps](https://kubernetes.io/docs/concepts/configuration/configmap/)
+  - Used to store non-confidential data in key-value pairs.
+  - Pods can consume ConfigMaps as environment variables, command-line arguments, or as configuration files in a volume. 
+- [Secrets](https://kubernetes.io/docs/concepts/configuration/secret/)
+  - Used to store sensitive data such as passwords, tokens, or keys.
+  - Secrets are similar to ConfigMaps but are specifically intended to hold confidential data.
+- [Liveness Probe](https://kubernetes.io/docs/concepts/configuration/liveness-readiness-startup-probes/#liveness-probe)
+  - Used to determine when to restart a container.
+    Liveness probes can be used to catch deadlocks; when an application is running, but unable to make progress.
+- [Readiness Probe](https://kubernetes.io/docs/concepts/configuration/liveness-readiness-startup-probes/#readiness-probe)
+  - Used to determine when a container is ready to start accepting traffic.
+  - Useful for applications with setup tasks, such as establishing network connections, loading files, and warming caches.
+- [Startup Probe](https://kubernetes.io/docs/concepts/configuration/liveness-readiness-startup-probes/#startup-probe)
+  - Verifies whether the application within a container is started. 
+  - When a startup probe is configured, it disables liveness and readiness checks until it succeeds.
+  - Startup probe are only executed at startup.
+- [Requests and Limits](https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/#requests-and-limits)
+  - An optional specification to define how much of each resource a container needs.
+  - Requests are used by the kube-scheduler to decide which node to place a pod on.
+  - Requests and limits are used by the kubelet to enforce and reserve resource usage for running containers.
+
+### 12. List k8s [security mechanisms](https://kubernetes.io/docs/concepts/security/#security-mechanisms)
 
 - [control plane protection](https://kubernetes.io/docs/concepts/security/#control-plane-protection) - control access to the Kubernetes API.
   - [transport security](https://kubernetes.io/docs/concepts/security/controlling-access/#transport-security) - protected with TLS.
