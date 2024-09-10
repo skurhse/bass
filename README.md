@@ -221,7 +221,7 @@ A workload is an application running on Kubernetes, where workload resources are
 
 Workload resources configure controllers to ensure that pods match the state you specified.
 
-### 7. List built-in workload resources.
+### 8. List built-in workload resources.
 
 - [ReplicaSet](https://kubernetes.io/docs/concepts/workloads/controllers/replicaset/) - maintains a stable set of replica Pods.
 - [Deployment](https://kubernetes.io/docs/concepts/workloads/controllers/deployment/) - provides declarative updates for Pods and ReplicaSets.
@@ -231,7 +231,35 @@ Workload resources configure controllers to ensure that pods match the state you
 - [Job](https://kubernetes.io/docs/concepts/workloads/controllers/job/) - runs pods to completion and then stops.
 - [CronJob](https://kubernetes.io/docs/concepts/workloads/controllers/cron-jobs/) - creates jobs on a repeating schedule.
 
-### 7. List k8s [security mechanisms](https://kubernetes.io/docs/concepts/security/#security-mechanisms)
+### 9. What is the [k8s network model](https://kubernetes.io/docs/concepts/services-networking/#the-kubernetes-network-model)?
+
+In the k8s network model, every Pod in a cluster gets its own unique cluster-wide IP address and Pods can be treated much like VMs or physical hosts from the perspectives of port allocation, naming, service discovery, load balancing, application configuration, and migration.
+
+Kubernetes networking addresses the following concerns:
+
+- Containers within a Pod use networking to communicate via loopback.
+- Cluster networking provides communication between different Pods.
+- The Service API lets you expose an application running in Pods to be reachable from inside or outside your cluster.
+
+### 10. List built-in network resources.
+
+- [Service](https://kubernetes.io/docs/concepts/services-networking/service/)
+  - Exposes an application behind a single outward-facing endpoint.
+- [Ingress](https://kubernetes.io/docs/concepts/services-networking/ingress/)
+  - Manages external access to the services in a cluster, typically HTTP.
+  - May provide load balancing, SSL termination and name-based virtual hosting.
+- [Ingress Controllers](https://kubernetes.io/docs/concepts/services-networking/ingress-controllers/)
+  - Provides the software implementation for ingress resources (AWS, GCE, nginx, etc.)
+- [Gateway API](https://kubernetes.io/docs/concepts/services-networking/gateway/)
+  - A family of API kinds that provide dynamic infrastructure provisioning and advanced traffic routing.
+- [Endpoint Slices](https://kubernetes.io/docs/concepts/services-networking/endpoint-slices/)
+  - Provides a way to track network endpoints within a Kubernetes cluster.
+  - The control plane automatically creates EndpointSlices for any service that has a selector specified.
+- [Network Policies](https://kubernetes.io/docs/concepts/services-networking/network-policies/)
+  - Allows one to specify rules for traffic flow within a cluster, between pods and the outside world.
+  - The cluster must use a network plugin that supports NetworkPolicy enforcement.
+
+### 11. List k8s [security mechanisms](https://kubernetes.io/docs/concepts/security/#security-mechanisms)
 
 - [control plane protection](https://kubernetes.io/docs/concepts/security/#control-plane-protection) - control access to the Kubernetes API.
   - [transport security](https://kubernetes.io/docs/concepts/security/controlling-access/#transport-security) - protected with TLS.
