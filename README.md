@@ -157,7 +157,7 @@ HMAC can provide authentication using a shared secret instead of using digital s
 
 ### 1. What is [Kubernetes](https://kubernetes.io/docs/concepts/overview/)?
 
-Kubernetes is an open-source container orchestration platform that automates the deployment and management of workloads and services.
+*Kubernetes* is an open-source container orchestration platform that automates the deployment and management of workloads and services.
 
 ### 2. List the [Kubernetes feature set](https://kubernetes.io/docs/concepts/overview/#why-you-need-kubernetes-and-what-can-it-do).
 
@@ -180,7 +180,7 @@ Kubernetes is an open-source container orchestration platform that automates the
 - [kube-controller-manager](https://kubernetes.io/docs/concepts/overview/components/#kube-controller-manager) - runs controller processes.
 - [cloud-controller-manager](https://kubernetes.io/docs/concepts/overview/components/#cloud-controller-manager) - runs controllers that are specific to cloud providers.
 
-### 3. List k8s [controllers](https://kubernetes.io/docs/concepts/architecture/controller/).
+### 3. List some k8s [controllers](https://kubernetes.io/docs/concepts/architecture/controller/).
 
 - [Node controller](https://kubernetes.io/docs/concepts/architecture/nodes/#node-controller)
   - Assigns CIDR block to nodes on registration.
@@ -194,14 +194,44 @@ Kubernetes is an open-source container orchestration platform that automates the
   - Manages the ServiceAccounts inside namespaces.
   - Ensures a ServiceAccount named "default" exists in every active namespace.
 
-
 ### 4. List k8s [node components](https://kubernetes.io/docs/concepts/overview/components/#node-components).
 
 - [kubelet](https://kubernetes.io/docs/concepts/overview/components/#kubelet) - manages pod specifications and health.
 - [kube-proxy](https://kubernetes.io/docs/concepts/overview/components/#kube-proxy) - maintains network rules on nodes.
 - [container runtime](https://kubernetes.io/docs/concepts/overview/components/#container-runtime) - manages the execution and lifecycle of containers.
 
-### 5. List k8s [security mechanisms](https://kubernetes.io/docs/concepts/security/#security-mechanisms)
+### 5. What are k8s [objects](https://kubernetes.io/docs/concepts/overview/working-with-objects/#kubernetes-objects)?
+  
+Kubernetes objects are persistent entities in the Kubernetes system, used to represent the state of the server.
+
+Objects describe:
+- What containerized applications are running, and on which nodes.
+- The resources available to those applications.
+- The policies around how those applications behave.
+
+### 6. What is a [pod](https://kubernetes.io/docs/concepts/workloads/pods/)?
+
+A Pod is a group of one or more containers, with shared storage and network resources, and a specification for how to run the containers.
+
+Pod can contain init containers that run during Pod startup. You can also inject ephemeral containers for debugging a running Pod.
+
+### 7. What is a [workload](https://kubernetes.io/docs/concepts/workloads/)?
+
+A workload is an application running on Kubernetes, where workload resources are abstractions that manage a set of pods. 
+
+Workload resources configure controllers to ensure that pods match the state you specified.
+
+### 7. List built-in workload resources.
+
+- [ReplicaSet](https://kubernetes.io/docs/concepts/workloads/controllers/replicaset/) - maintains a stable set of replica Pods.
+- [Deployment](https://kubernetes.io/docs/concepts/workloads/controllers/deployment/) - provides declarative updates for Pods and ReplicaSets.
+- [StatefulSet](https://kubernetes.io/docs/concepts/workloads/controllers/statefulset/) - runs a group of Pods and maintains a sticky identity for each. 
+- [DaemonSet](https://kubernetes.io/docs/concepts/workloads/controllers/daemonset/) - defines pods that provide node-local facilities.
+- [Deployment](https://kubernetes.io/docs/concepts/workloads/controllers/deployment/) - provides declarative updates for Pods and ReplicaSets.
+- [Job](https://kubernetes.io/docs/concepts/workloads/controllers/job/) - runs pods to completion and then stops.
+- [CronJob](https://kubernetes.io/docs/concepts/workloads/controllers/cron-jobs/) - creates jobs on a repeating schedule.
+
+### 7. List k8s [security mechanisms](https://kubernetes.io/docs/concepts/security/#security-mechanisms)
 
 - [control plane protection](https://kubernetes.io/docs/concepts/security/#control-plane-protection) - control access to the Kubernetes API.
   - [transport security](https://kubernetes.io/docs/concepts/security/controlling-access/#transport-security) - protected with TLS.
@@ -210,9 +240,6 @@ Kubernetes is an open-source container orchestration platform that automates the
 - [secrets](https://kubernetes.io/docs/concepts/security/#secrets) - confidentiality protection for configuration values 
 - [workload protection](https://kubernetes.io/docs/concepts/security/#workload-protection) - enforce network policies and pod security standards.
 - [auditing](https://kubernetes.io/docs/concepts/security/#auditing) - security logging for users and applications.
-
-### 6. List k8s [objects](https://kubernetes.io/docs/concepts/overview/working-with-objects/)
-- lorum ipsum
 
 ## Governance, Risk and Compliance
 
