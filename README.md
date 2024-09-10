@@ -282,7 +282,22 @@ Kubernetes networking addresses the following concerns:
   - Requests are used by the kube-scheduler to decide which node to place a pod on.
   - Requests and limits are used by the kubelet to enforce and reserve resource usage for running containers.
 
-### 12. List k8s [security mechanisms](https://kubernetes.io/docs/concepts/security/#security-mechanisms)
+### 12. What is Kubernetes [scheduling, preemption and eviction](https://kubernetes.io/docs/concepts/scheduling-eviction/)?
+
+- 'Scheduling' refers to making sure that Pods are matched to Nodes so that the kubelet can run them.
+- 'Preemption' is the process of terminating Pods with lower Priority so that Pods with higher Priority can schedule on Nodes.
+- 'Eviction' is the process of proactively terminating one or more Pods on resource-starved Nodes.
+
+### 13. What are [node affinity, taints and tolerations](https://kubernetes.io/docs/concepts/scheduling-eviction/taint-and-toleration/)?
+
+- [Node affinity](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node/#affinity-and-anti-affinity)
+  - a property of Pods that attracts them to a set of nodes
+- [Taints and Tolerations](https://kubernetes.io/docs/concepts/scheduling-eviction/taint-and-toleration/)
+  - Taints are labels used to allow a node to repel a set of pods.
+  - Tolerations allow the scheduler to schedule pods with matching taints.
+  - Taints and tolerations work together to ensure that pods are not scheduled onto inappropriate nodes
+
+### 14. List k8s [security mechanisms](https://kubernetes.io/docs/concepts/security/#security-mechanisms).
 
 - [control plane protection](https://kubernetes.io/docs/concepts/security/#control-plane-protection) - control access to the Kubernetes API.
   - [transport security](https://kubernetes.io/docs/concepts/security/controlling-access/#transport-security) - protected with TLS.
