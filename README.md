@@ -546,7 +546,7 @@ Encapsulation prevents external code from being concerned with the internal work
 
 ### 1. What is [os-level virtualization](https://en.wikipedia.org/wiki/OS-level_virtualization)?
 
-'OS-level virtualization' is a virtualization paradigm in which the kernel allows the existence of multiple isolated user space instances, called containers.
+'OS-level virtualization' or 'containerization' is a virtualization paradigm in which the kernel allows the existence of multiple isolated user space instances called containers.
 
 OS-level virtualization usually imposes less overhead than machine virtualization because programs use the operating system's normal system call interface.
 
@@ -606,6 +606,14 @@ A Dockerfile is a text document that contains all the commands to assemble an im
 | USER          | Set user and group ID.                              |
 | VOLUME        | Create volume mounts.                               |
 | WORKDIR       | Change working directory.                           |
+
+## 7. What are Docker [multi-stage builds](https://docs.docker.com/build/building/multi-stage/)?
+
+With multi-stage builds, multiple `FROM` statements are used in a Dockerfile.
+
+Each `FROM` instruction can use a different base, and each of them begins a new stage of the build.
+
+Artifacts can be selectively copied from one stage to another, reducing the size of the final image.
 
 ## Site Reliability Engineering
 
