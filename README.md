@@ -613,13 +613,21 @@ With multi-stage builds, multiple `FROM` statements are used in a Dockerfile.
 
 Each `FROM` instruction can use a different base, and each of them begins a new stage of the build.
 
+## 8. What are Docker [tags](https://docs.docker.com/reference/glossary/#tag)?
+
+A 'tag' is a label applied to a Docker image in a repository.
+
+Tags are [formatted](https://docs.docker.com/reference/cli/docker/image/tag/#description) with the following format:
+
+`[HOST[:PORT_NUMBER]/]PATH` where `PATH` is composed of `[NAMESPACE/]REPOSITORY`.
+
 Artifacts can be selectively copied from one stage to another, reducing the size of the final image.
 
 ## Site Reliability Engineering
 
 ### 1. What is a [Recovery Time Objective](https://en.wikipedia.org/wiki/IT_disaster_recovery#Recovery_Time_Objective)?
 
-Recovery Time Objective or 'RTO' is the targeted duration of time within which a business process must be restored after a disruption
+Recovery Time Objective or 'RTO' is the targeted duration of time within which a business process must be restored after a disruption.
 
 ### 2. What is a [Recovery Point Objective](https://en.wikipedia.org/wiki/IT_disaster_recovery#Recovery_Point_Objective)
 
