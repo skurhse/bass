@@ -17,6 +17,7 @@
 - [Network Engineering](#network-engineering)
 - [Network Security](#network-security)
 - [Object-oriented Programming](#object-oriented-programming)
+- [OS-level virtualization](#os-level-virtualization)
 - [Site Reliability Engineering](#site-reliability-engineering)
 - [Software-as-a-service](#software-as-a-service)
 - [Windows Server](#windows-server)
@@ -540,6 +541,71 @@ Inheritance is an OOP code reuse and extensibility pattern, either class-based o
 Data abstraction is a design pattern in which data are visible only to semantically related functions.
 
 Encapsulation prevents external code from being concerned with the internal workings of an object.
+
+## OS-level virtualization
+
+### 1. What is [os-level virtualization](https://en.wikipedia.org/wiki/OS-level_virtualization)?
+
+'OS-level virtualization' is a virtualization paradigm in which the kernel allows the existence of multiple isolated user space instances, called containers.
+
+OS-level virtualization usually imposes less overhead than machine virtualization because programs use the operating system's normal system call interface.
+
+### 2. What is the [Open Container Initiative](https://opencontainers.org/)?
+
+The 'Open Container Initiative' is an open governance structure for the express purpose of creating open industry standards around container formats and runtimes.
+
+The OCI contains three specifications:
+- the Runtime Specification (runtime-spec)
+- the Image Specification (image-spec)
+- the Distribution Specification (distribution-spec)
+
+### 3. What is [containerd](https://containerd.io/)?
+
+'containerd' is an industry-standard container runtime with an emphasis on simplicity, robustness, and portability.
+
+'containerd' is available as a daemon for Linux and Windows, which can manage the complete container lifecycle:
+- image transfer and storage
+- container execution and supervision
+- low-level storage 
+- network attachments, etc.
+
+## 4. What is [Docker](https://docs.docker.com/get-started/docker-overview/)?
+
+'Docker' is a freemium PaaS product suite used to deliver software packages as containers.
+
+'Docker Engine' is an open source technology for building and containerizing applications, with the following components:
+- A server with a long-running daemon process—`dockerd`
+- APIs which specify interfaces that programs can use to instruct the Docker daemon.
+- A command line interface (CLI) client—`docker`
+
+## 5. What is a [Dockerfile](https://docs.docker.com/reference/dockerfile/)?
+
+Docker builds images automatically by reading the instructions from a 'Dockerfile'.
+
+A Dockerfile is a text document that contains all the commands to assemble an image.
+
+## 6. List Dockerfile [instructions](https://docs.docker.com/reference/dockerfile/#overview).
+
+| Instruction   | Description                                          |
+|---------------|------------------------------------------------------|
+| ADD           | Add local or remote files and directories.           |
+| ARG           | Use build-time variables.                            |
+| CMD           | Specify default commands.                           |
+| COPY          | Copy files and directories.                         |
+| ENTRYPOINT    | Specify default executable.                         |
+| ENV           | Set environment variables.                          |
+| EXPOSE        | Describe which ports your application is listening on. |
+| FROM          | Create a new build stage from a base image.          |
+| HEALTHCHECK   | Check a container's health on startup.              |
+| LABEL         | Add metadata to an image.                           |
+| MAINTAINER    | Specify the author of an image.                     |
+| ONBUILD       | Specify instructions for when the image is used in a build. |
+| RUN           | Execute build commands.                             |
+| SHELL         | Set the default shell of an image.                  |
+| STOPSIGNAL    | Specify the system call signal for exiting a container. |
+| USER          | Set user and group ID.                              |
+| VOLUME        | Create volume mounts.                               |
+| WORKDIR       | Change working directory.                           |
 
 ## Site Reliability Engineering
 
