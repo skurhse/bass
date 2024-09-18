@@ -14,6 +14,7 @@
 - [Governance, Risk and Compliance](#governance-risk-and-compliance)
 - [Kubernetes](#kubernetes)
 - [Information Security](#information-security)
+- [Infrastructure-as-code](#infrastructure-as-code)
 - [Network Engineering](#network-engineering)
 - [Network Security](#network-security)
 - [Object-oriented Programming](#object-oriented-programming)
@@ -153,6 +154,14 @@ The "CIA" triad epresents the three pillars of information security:
 A hashed message authentication code or 'HMAC' is a MAC involving a cryptographic hash function and a secret cryptographic key.
 
 HMAC can provide authentication using a shared secret instead of using digital signatures, by delegating the key exchange to the communicating parties, who are responsible for establishing and using a trusted channel.
+
+## Infrastructure-as-code
+
+### 1. What is [infrastructure-as-code](https://en.wikipedia.org/wiki/Infrastructure_as_code)?
+
+Infrastructure-as-code or 'IaC' is the process of managing and provisioning computer data center resources through machine-readable definition files.
+
+The code in the definition files may use either scripts or declarative definitions, but IaC more often employs declarative approaches.
 
 ## Kubernetes
 
