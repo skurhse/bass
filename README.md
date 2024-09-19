@@ -4,7 +4,8 @@
 
 - Navigate bass using the Table of Contents or the GitHub [outline button](https://github.blog/changelog/2021-04-13-table-of-contents-support-in-markdown-files/) on the upper right (☰).
 - Card categories are listed in alphabetical order; cards within categories are listed in logical order.
-- Card categories contain one or more 'What is?'-style questions.
+- Card categories contain one or more 'What is?'-style questions, and zero or more 'List'-style questions.
+- Open-source links and Wiki links are prioritized.
 
 ## Table of Contents
 
