@@ -17,6 +17,7 @@
 - [Infrastructure-as-code](#infrastructure-as-code)
 - [Network Engineering](#network-engineering)
 - [Network Security](#network-security)
+- [OAuth[(#oauth)
 - [Object-oriented Programming](#object-oriented-programming)
 - [OS-level virtualization](#os-level-virtualization)
 - [Site Reliability Engineering](#site-reliability-engineering)
@@ -54,96 +55,6 @@ That is, while there is value in the items on the right, we value the items on t
 - At regular intervals, the team reflects on how to become more effective, then tunes and adjusts its behavior accordingly.
 
 ## Application Security
-
-### 1. What is the [OAuth 2.0 Authorization Framework](https://datatracker.ietf.org/doc/html/rfc6749)?
-
-OAuth 2.0 is is an open standard for authorization and access delegation providing flows for web apps, desktop apps, mobile phones, and IoT devices.
-
-### Describe the OAuth Abstract Protocol Flow](https://datatracker.ietf.org/doc/html/rfc6749#section-1.2).
-
-```
-     +--------+                               +---------------+
-     |        |--(A)- Authorization Request ->|   Resource    |
-     |        |                               |     Owner     |
-     |        |<-(B)-- Authorization Grant ---|               |
-     |        |                               +---------------+
-     |        |
-     |        |                               +---------------+
-     |        |--(C)-- Authorization Grant -->| Authorization |
-     | Client |                               |     Server    |
-     |        |<-(D)----- Access Token -------|               |
-     |        |                               +---------------+
-     |        |
-     |        |                               +---------------+
-     |        |--(E)----- Access Token ------>|    Resource   |
-     |        |                               |     Server    |
-     |        |<-(F)--- Protected Resource ---|               |
-     +--------+                               +---------------+
-```
-
-A. The client requests authorization from the resource owner. The authorization request can be made directly to the resource owner or indirectly via the authorization server.
-
-B. The client receives an authorization grant, which is a credential representing the resource owner's authorization, expressed using one of four grant types or using an extension grant type. The authorization grant type depends on the method used by the client to request authorization and the types supported by the authorization server.
-
-C. The client requests an access token by authenticating with the authorization server and presenting the authorization grant.
-
-D. The authorization server authenticates the client and validates the authorization grant, and if valid, issues an access token.
-
-E. The client requests the protected resource from the resource server and authenticates by presenting the access token.
-
-F. The resource server validates the access token, and if valid, serves the request.
-
-### 2. 
-
-```
-     +----------+
-     | Resource |
-     |   Owner  |
-     |          |
-     +----------+
-          ^
-          |
-         (B)
-     +----|-----+          Client Identifier      +---------------+
-     |         -+----(A)-- & Redirection URI ---->|               |
-     |  User-   |                                 | Authorization |
-     |  Agent  -+----(B)-- User authenticates --->|     Server    |
-     |          |                                 |               |
-     |         -+----(C)-- Authorization Code ---<|               |
-     +-|----|---+                                 +---------------+
-       |    |                                         ^      v
-      (A)  (C)                                        |      |
-       |    |                                         |      |
-       ^    v                                         |      |
-     +---------+                                      |      |
-     |         |>---(D)-- Authorization Code ---------'      |
-     |  Client |          & Redirection URI                  |
-     |         |                                             |
-     |         |<---(E)----- Access Token -------------------'
-     +---------+       (w/ Optional Refresh Token)
-```
-
-### 3. What is OAuth scope?
-
-Scope is a mechanism in OAuth 2.0 to limit an application's access to a user's account. An application can request one or more scopes and the access token issued to the application will be limited to the scopes granted.
-
-### 4. How should one implement [OAuth 2.0 for Browser-Based Applications?](https://datatracker.ietf.org/doc/html/draft-ietf-oauth-browser-based-apps)
-
-- Browser-based applications MUST implement the Proof Key for Code Exchange extension when obtaining an access token.
-- Browser-based applications MUST prevent CSRF attacks against their redirect URI.
-- Clients MUST register redirect URIs with the authorization server.
-
-### 5. What is [Proof Key for Code Exchange](https://datatracker.ietf.org/doc/html/rfc7636)?
-
-Proof Key for Code Exchange (abbreviated PKCE, pronounced “pixie”) is an extension to the authorization code flow to prevent CSRF and authorization code injection attacks.
-
-The technique involves the client first creating a secret on each authorization request, and then using that secret again when exchanging the authorization code for an access token. This way if the code is intercepted, it will not be useful since the token request relies on the initial secret.
-
-### 6. What is [OpenID Connect](https://www.openid.net/developers/how-connect-works/)?
-
-OpenID Connect is an interoperable authentication protocol based on the OAuth 2.0 framework.
-
-The specification suite is extensible to support a range of optional features such as encryption of identity data, discovery of OpenID Providers, and session logout.
 
 ### 7. What is [JSON Web Token](https://datatracker.ietf.org/doc/html/rfc7519)?
 
@@ -623,6 +534,98 @@ X.509 is an International Telecommunication Union (ITU) framework for public-key
 
 X.509 includes the specification of data objects, revocation notices and critical components of a public-key infrastructure.
 
+## OAuth
+
+### 1. What is the [OAuth 2.0 Authorization Framework](https://datatracker.ietf.org/doc/html/rfc6749)?
+
+OAuth 2.0 is is an open standard for authorization and access delegation providing flows for web apps, desktop apps, mobile phones, and IoT devices.
+
+### Describe the OAuth [Abstract Protocol Flow](https://datatracker.ietf.org/doc/html/rfc6749#section-1.2).
+
+```
+     +--------+                               +---------------+
+     |        |--(A)- Authorization Request ->|   Resource    |
+     |        |                               |     Owner     |
+     |        |<-(B)-- Authorization Grant ---|               |
+     |        |                               +---------------+
+     |        |
+     |        |                               +---------------+
+     |        |--(C)-- Authorization Grant -->| Authorization |
+     | Client |                               |     Server    |
+     |        |<-(D)----- Access Token -------|               |
+     |        |                               +---------------+
+     |        |
+     |        |                               +---------------+
+     |        |--(E)----- Access Token ------>|    Resource   |
+     |        |                               |     Server    |
+     |        |<-(F)--- Protected Resource ---|               |
+     +--------+                               +---------------+
+```
+
+A. The client requests authorization from the resource owner. The authorization request can be made directly to the resource owner or indirectly via the authorization server.
+
+B. The client receives an authorization grant, which is a credential representing the resource owner's authorization, expressed using one of four grant types or using an extension grant type. The authorization grant type depends on the method used by the client to request authorization and the types supported by the authorization server.
+
+C. The client requests an access token by authenticating with the authorization server and presenting the authorization grant.
+
+D. The authorization server authenticates the client and validates the authorization grant, and if valid, issues an access token.
+
+E. The client requests the protected resource from the resource server and authenticates by presenting the access token.
+
+F. The resource server validates the access token, and if valid, serves the request.
+
+### 2. 
+
+```
+     +----------+
+     | Resource |
+     |   Owner  |
+     |          |
+     +----------+
+          ^
+          |
+         (B)
+     +----|-----+          Client Identifier      +---------------+
+     |         -+----(A)-- & Redirection URI ---->|               |
+     |  User-   |                                 | Authorization |
+     |  Agent  -+----(B)-- User authenticates --->|     Server    |
+     |          |                                 |               |
+     |         -+----(C)-- Authorization Code ---<|               |
+     +-|----|---+                                 +---------------+
+       |    |                                         ^      v
+      (A)  (C)                                        |      |
+       |    |                                         |      |
+       ^    v                                         |      |
+     +---------+                                      |      |
+     |         |>---(D)-- Authorization Code ---------'      |
+     |  Client |          & Redirection URI                  |
+     |         |                                             |
+     |         |<---(E)----- Access Token -------------------'
+     +---------+       (w/ Optional Refresh Token)
+```
+
+### 3. What is OAuth scope?
+
+Scope is a mechanism in OAuth 2.0 to limit an application's access to a user's account. An application can request one or more scopes and the access token issued to the application will be limited to the scopes granted.
+
+### 4. How should one implement [OAuth 2.0 for Browser-Based Applications?](https://datatracker.ietf.org/doc/html/draft-ietf-oauth-browser-based-apps)
+
+- Browser-based applications MUST implement the Proof Key for Code Exchange extension when obtaining an access token.
+- Browser-based applications MUST prevent CSRF attacks against their redirect URI.
+- Clients MUST register redirect URIs with the authorization server.
+
+### 5. What is [Proof Key for Code Exchange](https://datatracker.ietf.org/doc/html/rfc7636)?
+
+Proof Key for Code Exchange (abbreviated PKCE, pronounced “pixie”) is an extension to the authorization code flow to prevent CSRF and authorization code injection attacks.
+
+The technique involves the client first creating a secret on each authorization request, and then using that secret again when exchanging the authorization code for an access token. This way if the code is intercepted, it will not be useful since the token request relies on the initial secret.
+
+### 6. What is [OpenID Connect](https://www.openid.net/developers/how-connect-works/)?
+
+OpenID Connect is an interoperable authentication protocol based on the OAuth 2.0 framework.
+
+The specification suite is extensible to support a range of optional features such as encryption of identity data, discovery of OpenID Providers, and session logout.
+
 ## Object-oriented Programming
 
 ### 1. What is [Object-oriented programming](https://en.wikipedia.org/wiki/Object-oriented_programming)?
@@ -781,5 +784,4 @@ The Windows Registry is a central hierarchical database used to store configurat
 - HKEY_USERS
 - HKEY_LOCAL_MACHINE
 - HKEY_CLASSES_ROOT
-- HKEY_CURRENT_CONFIG	
-
+- HKEY_CURRENT_CONFIG
