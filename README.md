@@ -17,7 +17,7 @@
 - [Infrastructure-as-code](#infrastructure-as-code)
 - [Network Engineering](#network-engineering)
 - [Network Security](#network-security)
-- [OAuth[(#oauth)
+- [OAuth](#oauth)
 - [Object-oriented Programming](#object-oriented-programming)
 - [OS-level virtualization](#os-level-virtualization)
 - [Site Reliability Engineering](#site-reliability-engineering)
