@@ -171,7 +171,7 @@ Instead, snapshot images are created and deployed to a virtualization platform a
 
 ### 3. What is [Terraform](https://github.com/hashicorp/terraform)?
 
-HashiCorp Terraform is a [source-available](https://en.wikipedia.org/wiki/Business_Source_License) IaC software to deliver infrastructure using the declarative configuration languages HCL or JSON.
+HashiCorp Terraform is a [source-available](https://en.wikipedia.org/wiki/Business_Source_License) IaC software to deliver infrastructure using the declarative configuration languages [HCL](https://github.com/hashicorp/hcl) or JSON.
 
 ### 4. What is [Pulumi](https://github.com/pulumi/pulumi)?
 
