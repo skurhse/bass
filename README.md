@@ -93,29 +93,59 @@ E. The client requests the protected resource from the resource server and authe
 
 F. The resource server validates the access token, and if valid, serves the request.
 
-### 2. What is OAuth scope?
+### 2. 
+
+```
+     +----------+
+     | Resource |
+     |   Owner  |
+     |          |
+     +----------+
+          ^
+          |
+         (B)
+     +----|-----+          Client Identifier      +---------------+
+     |         -+----(A)-- & Redirection URI ---->|               |
+     |  User-   |                                 | Authorization |
+     |  Agent  -+----(B)-- User authenticates --->|     Server    |
+     |          |                                 |               |
+     |         -+----(C)-- Authorization Code ---<|               |
+     +-|----|---+                                 +---------------+
+       |    |                                         ^      v
+      (A)  (C)                                        |      |
+       |    |                                         |      |
+       ^    v                                         |      |
+     +---------+                                      |      |
+     |         |>---(D)-- Authorization Code ---------'      |
+     |  Client |          & Redirection URI                  |
+     |         |                                             |
+     |         |<---(E)----- Access Token -------------------'
+     +---------+       (w/ Optional Refresh Token)
+```
+
+### 3. What is OAuth scope?
 
 Scope is a mechanism in OAuth 2.0 to limit an application's access to a user's account. An application can request one or more scopes and the access token issued to the application will be limited to the scopes granted.
 
-### 3. How should one implement [OAuth 2.0 for Browser-Based Applications?](https://datatracker.ietf.org/doc/html/draft-ietf-oauth-browser-based-apps)
+### 4. How should one implement [OAuth 2.0 for Browser-Based Applications?](https://datatracker.ietf.org/doc/html/draft-ietf-oauth-browser-based-apps)
 
 - Browser-based applications MUST implement the Proof Key for Code Exchange extension when obtaining an access token.
 - Browser-based applications MUST prevent CSRF attacks against their redirect URI.
 - Clients MUST register redirect URIs with the authorization server.
 
-### 4. What is [Proof Key for Code Exchange](https://datatracker.ietf.org/doc/html/rfc7636)?
+### 5. What is [Proof Key for Code Exchange](https://datatracker.ietf.org/doc/html/rfc7636)?
 
 Proof Key for Code Exchange (abbreviated PKCE, pronounced “pixie”) is an extension to the authorization code flow to prevent CSRF and authorization code injection attacks.
 
 The technique involves the client first creating a secret on each authorization request, and then using that secret again when exchanging the authorization code for an access token. This way if the code is intercepted, it will not be useful since the token request relies on the initial secret.
 
-### 5. What is [OpenID Connect](https://www.openid.net/developers/how-connect-works/)?
+### 6. What is [OpenID Connect](https://www.openid.net/developers/how-connect-works/)?
 
 OpenID Connect is an interoperable authentication protocol based on the OAuth 2.0 framework.
 
 The specification suite is extensible to support a range of optional features such as encryption of identity data, discovery of OpenID Providers, and session logout.
 
-### 6. What is [JSON Web Token](https://datatracker.ietf.org/doc/html/rfc7519)?
+### 7. What is [JSON Web Token](https://datatracker.ietf.org/doc/html/rfc7519)?
 
 JSON Web Token or 'JWT' is a compact and URL-safe standard for representing claims to be transferred between two parties.
 
