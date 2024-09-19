@@ -171,21 +171,21 @@ Instead, snapshot images are created and deployed to a virtualization platform a
 
 ### 3. What is [Terraform](https://github.com/hashicorp/terraform)?
 
-HashiCorp Terraform is a [source-available](https://en.wikipedia.org/wiki/Business_Source_License) IaC software to deliver infrastructure using the declarative configuration languages [HCL](https://github.com/hashicorp/hcl) or JSON.
+Terraform by HashiCorp is a [source-available](https://en.wikipedia.org/wiki/Business_Source_License) IaC software used to deliver infrastructure with  the declarative configuration languages [HCL](https://github.com/hashicorp/hcl) or JSON.
 
-### 4. What is [Pulumi](https://github.com/pulumi/pulumi)?
+Terraform manages external resources with programs called providers.
 
-Deliver managed-state infrastructure using programming language SDKs (TypeScript, Python, Go, C#).
-
-### 5. What is [Ansible]()?
-
-Ansible - manages machine fleet through configurable host inventories. Requires python on machine targets.
-
-### 2. What is [Continuous configuration automation]()?
+### 4. What is [Continuous configuration automation]()?
 
 Continuous configuration automation or 'CCA' is the process of automating the deployment, configuration and orchestration of software.
 
 'CCA' is an extension of infrastructure-as-code framework methodology.
+
+### 5. What is [Ansible](https://github.com/ansible/ansible)?
+
+Ansible by Red Hat is an open-source IaC software that manages fleets through configurable host inventories.
+
+Ansible requires network connectivity and for Python to be installed on machine targets.
 
 ## Kubernetes
 
