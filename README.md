@@ -5,7 +5,7 @@
 - Navigate bass using the Table of Contents or the GitHub [outline button](https://github.blog/changelog/2021-04-13-table-of-contents-support-in-markdown-files/) on the upper right (☰).
 - Card categories are listed in alphabetical order; cards within categories are listed in logical order.
 - Card categories contain one or more 'What is?'-style questions, and zero or more 'List'-style questions.
-- Some categories contain illustraed diagrams for 'Describe' style architectural questions.
+- Some categories contain ascii-illustraed diagrams for 'Describe' style architectural questions.
 - Open-source links and Wiki links are prioritized.
 
 ## Table of Contents
@@ -61,9 +61,27 @@ That is, while there is value in the items on the right, we value the items on t
 
 OAuth 2.0 is is an open standard for authorization and access delegation providing flows for web apps, desktop apps, mobile phones, and IoT devices.
 
-### Describe the OAuth abstract workflow.
+### Describe the OAuth workflow.
 
-![image](https://github.com/user-attachments/assets/c9184787-5bd3-48fe-8121-89bdfd6161e1)
+```
+     +--------+                               +---------------+
+     |        |--(A)- Authorization Request ->|   Resource    |
+     |        |                               |     Owner     |
+     |        |<-(B)-- Authorization Grant ---|               |
+     |        |                               +---------------+
+     |        |
+     |        |                               +---------------+
+     |        |--(C)-- Authorization Grant -->| Authorization |
+     | Client |                               |     Server    |
+     |        |<-(D)----- Access Token -------|               |
+     |        |                               +---------------+
+     |        |
+     |        |                               +---------------+
+     |        |--(E)----- Access Token ------>|    Resource   |
+     |        |                               |     Server    |
+     |        |<-(F)--- Protected Resource ---|               |
+     +--------+                               +---------------+
+```
 
 ### 2. What is OAuth scope?
 
