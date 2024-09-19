@@ -159,9 +159,33 @@ HMAC can provide authentication using a shared secret instead of using digital s
 
 ### 1. What is [infrastructure-as-code](https://en.wikipedia.org/wiki/Infrastructure_as_code)?
 
-Infrastructure-as-code or 'IaC' is the process of managing and provisioning computer data center resources through machine-readable definition files.
+Infrastructure-as-code or 'IaC' is the process of managing and provisioning data-center resources through machine-readable definition files.
 
-The code in the definition files may use either scripts or declarative definitions, but IaC more often employs declarative approaches.
+The code may use either scripts or declarative definitions, but IaC more often employs declarative approaches.
+
+### 2. What is [Immutable infrastructure](https://www.hashicorp.com/resources/what-is-mutable-vs-immutable-infrastructure)?
+
+"Immutable infrastructure" is an IaC paradigm wherein machine state is not upgraded or migrated in-place.
+
+Instead, snapshot images are created and deployed to a virtualization platform and rerouted with a network switchover.
+
+### 3. What is [Terraform](https://github.com/hashicorp/terraform)?
+
+HashiCorp Terraform is a [source-available](https://en.wikipedia.org/wiki/Business_Source_License) IaC software to deliver infrastructure using the declarative configuration languages HCL or JSON.
+
+### 4. What is [Pulumi](https://github.com/pulumi/pulumi)?
+
+Deliver managed-state infrastructure using programming language SDKs (TypeScript, Python, Go, C#).
+
+### 5. What is [Ansible]()?
+
+Ansible - manages machine fleet through configurable host inventories. Requires python on machine targets.
+
+### 2. What is [Continuous configuration automation]()?
+
+Continuous configuration automation or 'CCA' is the process of automating the deployment, configuration and orchestration of software.
+
+'CCA' is an extension of infrastructure-as-code framework methodology.
 
 ## Kubernetes
 
