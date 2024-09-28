@@ -2,8 +2,8 @@
 
 `bass` is a collection of [hypertext](https://en.wikipedia.org/wiki/Hypertext) [DevOps](https://en.wikipedia.org/wiki/DevOps) flashcards, based on the following concepts:
 
-- [Cloud computing](https://en.wikipedia.org/wiki/Cloud_computing)
-- [Computer networks](https://en.wikipedia.org/wiki/Computer_network)
+- [Cloud computing](https://en.wikipedia.org/wiki/Cloud_computing) - a [geographically redundant](https://en.wikipedia.org/wiki/Redundancy_(engineering)#Geographic_redundancy), [pay-as-you-go](https://en.wikipedia.org/wiki/Cloud_computing#Value_proposition) model of storage and compute.
+- [Computer networks](https://en.wikipedia.org/wiki/Computer_network) - resource-sharing through network nodes
 - [Computer security](https://en.wikipedia.org/wiki/Computer_security)
 
 ### Usage
