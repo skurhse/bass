@@ -86,34 +86,40 @@ An application programming interface or 'API' is a connection between computer p
 
 A document or standard that describes how to build such a connection or interface is called an API specification.
 
-### 1. What is [gRPC](https://grpc.io/about/)?
+### 2. What is an [Application Binary Interface](https://en.wikipedia.org/wiki/Application_binary_interface)?
+
+An Application binary interface or 'ABI' is an interface between two *binary* program modules. Often, one module is a library or OS facility, and the other is a program run by a user.
+
+ 
+
+### 3. What is [gRPC](https://grpc.io/about/)?
 gRPC is an open source Remote Procedure Call (RPC) framework originally created by Google.
 
-### 2. List the [gRPC feature set](https://grpc.io/about/#core-features-that-make-it-awesome).
+### 4. List the [gRPC feature set](https://grpc.io/about/#core-features-that-make-it-awesome).
 
 - Idiomatic client libraries
 - simple service definition framework
 - Bi-directional streaming with http/2 based transport
 - Pluggable auth, tracing, load balancing and health checking
 
-### 3. What is [gRPC-Web](https://grpc.io/docs/platforms/web/)?
+### 5. What is [gRPC-Web](https://grpc.io/docs/platforms/web/)?
 A JavaScript implementation of gRPC for browser clients. 
 
 gRPC-Web clients connect to gRPC services via a special proxy; by default, gRPC-web uses Envoy.
 
-### 4. What is [GraphQL](https://graphql.org/learn/)?
+### 6. What is [GraphQL](https://graphql.org/learn/)?
 
 GraphQL is a query language for your API, and a server-side runtime for executing queries using a type system.
 
 GraphQL is typically served over HTTP via a single endpoint which expresses the full set of capabilities of the service.
 
-### 5. What is [HTTP](https://datatracker.ietf.org/doc/html/rfc9112)?
+### 7. What is [HTTP](https://datatracker.ietf.org/doc/html/rfc9112)?
 
 The Hypertext Transfer Protocol (HTTP) is a stateless application-level request/response protocol for hypertext information systems.
 
 HTTP is also designed for use as an intermediation protocol, wherein proxies and gateways can translate non-HTTP information systems into a generic interface.
 
-### 6. What is [REST](https://ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm)?
+### 8. What is [REST](https://ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm)?
 
 Representation State Transfer or 'REST' is an architectural style for distributed hypermedia systems.
 
@@ -121,7 +127,7 @@ Under REST, no session state on the server component is allowed. Each request fr
 
 REST response data must be labeled as cacheable or non-cacheable. RESTful architecture may be layered such that each component cannot "see" beyond the immediate layer with which they are interacting.
 
-### 7. What are [Multipurpose Internet Mail Extensions](https://www.ietf.org/rfc/rfc2045.txt)?
+### 9. What are [Multipurpose Internet Mail Extensions](https://www.ietf.org/rfc/rfc2045.txt)?
 
 'MIME' is standard that extends the format of email messages to support text in character sets other than ASCII, as well as multi-media attachments, wherein message bodies can contain multiple parts.
 
