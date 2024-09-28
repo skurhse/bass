@@ -1,6 +1,6 @@
 # 🐟 bass
 
-`bass` is a collection of hypertext [DevOps](https://en.wikipedia.org/wiki/DevOps) flashcards, designed for quick comprehension.
+`bass` is a collection of hypertext [DevOps](https://en.wikipedia.org/wiki/DevOps) flashcards, made for quick comprehension.
 
 ### Usage
 - Navigate bass using the Table of Contents or the GitHub [outline button](https://github.blog/changelog/2021-04-13-table-of-contents-support-in-markdown-files/) on the upper right (☰).
