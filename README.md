@@ -1,6 +1,6 @@
 # 🐟 bass
 
-`bass` is a collection of [hypertext](https://en.wikipedia.org/wiki/Hypertext) [DevOps](https://en.wikipedia.org/wiki/DevOps) flashcards, with an emphasis on Cloud, Network and Security Engineering concepts.
+`bass` is a collection of [hypertext](https://en.wikipedia.org/wiki/Hypertext) [DevOps](https://en.wikipedia.org/wiki/DevOps) flashcards, with an emphasis on [Cloud computing](https://en.wikipedia.org/wiki/Cloud_computing), [Computer Networking](https://en.wikipedia.org/wiki/Computer_network) and [Computer security](https://en.wikipedia.org/wiki/Computer_security) concepts.
 
 ### Usage
 - Navigate `bass` using the [Table of Contents](#table-of-contents) or the GitHub [outline button](https://github.blog/changelog/2021-04-13-table-of-contents-support-in-markdown-files/) on the upper right (☰).
