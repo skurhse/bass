@@ -1,6 +1,6 @@
 # 🐟 bass
 
-`bass` is a collection of [hypertext](https://en.wikipedia.org/wiki/Hypertext) [DevOps](https://en.wikipedia.org/wiki/DevOps) flashcards, made for quick comprehension.
+`bass` is a collection of [hypertext](https://en.wikipedia.org/wiki/Hypertext) [DevOps](https://en.wikipedia.org/wiki/DevOps) flashcards, designed for interview prep.
 
 ### Usage
 - Navigate `bass` using the [Table of Contents](#table-of-contents) or the GitHub [outline button](https://github.blog/changelog/2021-04-13-table-of-contents-support-in-markdown-files/) on the upper right (☰).
@@ -74,6 +74,12 @@ Injection exploits use data to subvert the intended operation of the system. Inj
 A security token is a peripheral device used to gain access to a restricted resource in addition to, or in place of, a password.
 
 ## Application Programming Interfaces
+
+### 1. What is an [Application Programming Interface](https://en.wikipedia.org/wiki/API)?
+
+An application programming interface or 'API' is a connection between computer programs.
+
+A document or standard that describes how to build such a connection or interface is called an API specification.
 
 ### 1. What is [gRPC](https://grpc.io/about/)?
 gRPC is an open source Remote Procedure Call (RPC) framework originally created by Google.
