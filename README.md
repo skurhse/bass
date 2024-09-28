@@ -1,6 +1,6 @@
 # 🐟 bass
 
-`bass` is a collection of [hypertext](https://en.wikipedia.org/wiki/Hypertext) [DevOps](https://en.wikipedia.org/wiki/DevOps) flashcards, with an emphasis on the following concepts:
+`bass` is a collection of [hypertext](https://en.wikipedia.org/wiki/Hypertext) [DevOps](https://en.wikipedia.org/wiki/DevOps) flashcards, based on the following concepts:
 
 - [Cloud computing](https://en.wikipedia.org/wiki/Cloud_computing)
 - [Computer networks](https://en.wikipedia.org/wiki/Computer_network)
