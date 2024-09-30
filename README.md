@@ -6,7 +6,7 @@
 - [Computer networks](https://en.wikipedia.org/wiki/Computer_network) - computer resource sharing using digital [interconnections](https://en.wikipedia.org/wiki/Interconnection) with common [communication protocols](https://en.wikipedia.org/wiki/Communication_protocol).
 - [Computer security](https://en.wikipedia.org/wiki/Computer_security) - protection of computer systems from [threats](https://en.wikipedia.org/wiki/Threat_(computer_security)) enabled by [vulnerabilities](https://en.wikipedia.org/wiki/Vulnerability_(computer_security)).
 - [Infrastructure-as-code](https://en.wikipedia.org/wiki/Infrastructure_as_code) -  manage data center resources through [machine-readable](https://en.wikipedia.org/wiki/Machine-readable_document) definition files.
-- [Virtualization](https://en.wikipedia.org/wiki/Virtualization) - technologies that allows subdivision of physical computing resources into virtual computing resources.
+- [Virtualization](https://en.wikipedia.org/wiki/Virtualization) - technologies that allows subdivision of physical computing resources into series of [virtual machines](https://en.wikipedia.org/wiki/Virtual_machine) and [operating systems](https://en.wikipedia.org/wiki/Operating_system).
 
 ### Usage
 - Navigate `bass` using the [Table of Contents](#table-of-contents) or the GitHub [outline button](https://github.blog/changelog/2021-04-13-table-of-contents-support-in-markdown-files/) on the upper right (☰).
@@ -15,7 +15,6 @@
 
 ## Table of Contents
 
-- [Agile Software Development](#agile-software-development)
 - [Application Programming Interfaces](#application-programming-interfaces)
 - [Application Security](#application-security)
 - [Governance, Risk and Compliance](#governance-risk-and-compliance)
@@ -30,36 +29,6 @@
 - [Site Reliability Engineering](#site-reliability-engineering)
 - [Software-as-a-service](#software-as-a-service)
 - [Windows Server](#windows-server)
-
-## Agile Software Development
-
-### 1. Recite the [Agile Manifesto](https://en.wikipedia.org/wiki/Agile_software_development).
-
-We are uncovering better ways of developing software by doing it and helping others do it.
-
-Through this work we have come to value:
-
-- Individuals and interactions over processes and tools.
-- Working software over comprehensive documentation.
-- Customer collaboration over contract negotiation.
-- Responding to change over following a plan.
-
-That is, while there is value in the items on the right, we value the items on the left more.
-
-### 2. List the [twelve principles of Agile Software](https://agilemanifesto.org/principles.html).
-
-- Our highest priority is to satisfy the customer through early and continuous delivery of valuable software.
-- Welcome changing requirements, even late in development. Agile processes harness change for the customer's competitive advantage.
-- Deliver working software frequently, from a couple of weeks to a couple of months, with a preference to the shorter timescale.
-- Business people and developers must work together daily throughout the project.
-- Build projects around motivated individuals. Give them the environment and support they need, and trust them to get the job done.
-- The most efficient and effective method of conveying information to and within a development team is face-to-face conversation.
-- Working software is the primary measure of progress.
-- Agile processes promote sustainable development. The sponsors, developers, and users should be able to maintain a constant pace indefinitely.
-- Continuous attention to technical excellence and good design enhances agility.
-- Simplicity--the art of maximizing the amount of work not done--is essential.
-- The best architectures, requirements, and designs emerge from self-organizing teams.
-- At regular intervals, the team reflects on how to become more effective, then tunes and adjusts its behavior accordingly.
 
 ## Application Security
 
