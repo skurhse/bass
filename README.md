@@ -14,7 +14,7 @@
 ### Usage
 - Navigate `bass` using the [Table of Contents](#table-of-contents) or the GitHub [outline button](https://github.blog/changelog/2021-04-13-table-of-contents-support-in-markdown-files/) on the upper right (☰).
 - Card categories are listed in alphabetical order; cards within categories are curated into narrative order.
-- Open-source links, [Wikipedia](https://en.wikipedia.org/wiki/Wikipedia), and [IETF](https://www.ietf.org/about/introduction/#about) links are prioritized.
+- Open-source links, [Wikipedia](https://en.wikipedia.org/wiki/Wikipedia), and [IETF](https://www.ietf.org/about/introduction/#about) [RFC](https://www.ietf.org/process/rfcs/) hyperlinks are prioritized over proprietary resources.
 
 ## Table of Contents
 
