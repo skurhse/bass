@@ -1,12 +1,15 @@
 # 🐟 bass
 
-`bass` is a collection of [hypertext](https://en.wikipedia.org/wiki/Hypertext) [DevOps](https://en.wikipedia.org/wiki/DevOps) flashcards, organized into five [software engineering](https://en.wikipedia.org/wiki/Software_engineering) concepts:
+`bass` is a collection of [hypertext](https://en.wikipedia.org/wiki/Hypertext) [DevOps](https://en.wikipedia.org/wiki/DevOps) flashcards, organized into four [software engineering](https://en.wikipedia.org/wiki/Software_engineering) concepts:
 
 - [Cloud computing](https://en.wikipedia.org/wiki/Cloud_computing) - a [geographically redundant](https://en.wikipedia.org/wiki/Redundancy_(engineering)#Geographic_redundancy), [pay-as-you-go](https://en.wikipedia.org/wiki/Cloud_computing#Value_proposition) model for storage and compute services.
 - [Computer networks](https://en.wikipedia.org/wiki/Computer_network) - resource-sharing using digital [interconnections](https://en.wikipedia.org/wiki/Interconnection) with common [communication protocols](https://en.wikipedia.org/wiki/Communication_protocol).
 - [Computer security](https://en.wikipedia.org/wiki/Computer_security) - protection of systems from [threats](https://en.wikipedia.org/wiki/Threat_(computer_security)) enabled by [vulnerabilities](https://en.wikipedia.org/wiki/Vulnerability_(computer_security)).
-- [Infrastructure-as-code](https://en.wikipedia.org/wiki/Infrastructure_as_code) -  manage resources through [machine-readable](https://en.wikipedia.org/wiki/Machine-readable_document) definition files in [declarative](https://en.wikipedia.org/wiki/Declarative_programming) format.
 - [Virtualization](https://en.wikipedia.org/wiki/Virtualization) - technologies that subdivide physical resources into series of [virtual machines](https://en.wikipedia.org/wiki/Virtual_machine) and [operating systems](https://en.wikipedia.org/wiki/Operating_system).
+
+<!---
+- [Infrastructure-as-code](https://en.wikipedia.org/wiki/Infrastructure_as_code) -  manage resources through [machine-readable](https://en.wikipedia.org/wiki/Machine-readable_document) definition files in [declarative](https://en.wikipedia.org/wiki/Declarative_programming) format.
+--->
 
 ### Usage
 - Navigate `bass` using the [Table of Contents](#table-of-contents) or the GitHub [outline button](https://github.blog/changelog/2021-04-13-table-of-contents-support-in-markdown-files/) on the upper right (☰).
@@ -15,20 +18,23 @@
 
 ## Table of Contents
 
-- [Application Programming Interfaces](#application-programming-interfaces)
-- [Application Security](#application-security)
-- [Governance, Risk and Compliance](#governance-risk-and-compliance)
-- [Kubernetes](#kubernetes)
-- [Information Security](#information-security)
-- [Infrastructure-as-code](#infrastructure-as-code)
-- [Network Engineering](#network-engineering)
-- [Network Security](#network-security)
-- [OAuth](#oauth)
-- [Object-oriented Programming](#object-oriented-programming)
-- [OS-level virtualization](#os-level-virtualization)
-- [Site Reliability Engineering](#site-reliability-engineering)
-- [Software-as-a-service](#software-as-a-service)
-- [Windows Server](#windows-server)
+- Cloud Computing
+  - [Application Programming Interfaces](#application-programming-interfaces)
+  - [Application Security](#application-security)
+  - [Governance, Risk and Compliance](#governance-risk-and-compliance)
+  - [Infrastructure-as-code](#infrastructure-as-code)
+  - [Kubernetes](#kubernetes)
+  - [Site Reliability Engineering](#site-reliability-engineering)
+  - [Software-as-a-service](#software-as-a-service)
+  - [Windows Server](#windows-server)
+- Computer Networks
+  - [Network Engineering](#network-engineering)
+  - [Network Security](#network-security)
+- Computer Security
+  - [Information Security](#information-security)
+  - [OAuth](#oauth)
+- Virtualization
+  - [OS-level virtualization](#os-level-virtualization)
 
 ## Application Security
 
