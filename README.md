@@ -5,7 +5,7 @@
 - [Cloud computing](https://en.wikipedia.org/wiki/Cloud_computing): a [geo-redundant](https://en.wikipedia.org/wiki/Redundancy_(engineering)#Geographic_redundancy), [pay-as-you-go](https://en.wikipedia.org/wiki/Cloud_computing#Value_proposition) model for storage and compute services.
 - [Computer networks](https://en.wikipedia.org/wiki/Computer_network): resource-sharing using digital [interconnections](https://en.wikipedia.org/wiki/Interconnection) with common [communication protocols](https://en.wikipedia.org/wiki/Communication_protocol).
 - [Computer security](https://en.wikipedia.org/wiki/Computer_security): protection of systems from [threats](https://en.wikipedia.org/wiki/Threat_(computer_security)) enabled by [vulnerabilities](https://en.wikipedia.org/wiki/Vulnerability_(computer_security)).
-- [Virtualization](https://en.wikipedia.org/wiki/Virtualization): technologies that subdivide physical resources into series of [virtual machines](https://en.wikipedia.org/wiki/Virtual_machine) and [operating systems](https://en.wikipedia.org/wiki/Operating_system).
+- [Virtualization](https://en.wikipedia.org/wiki/Virtualization): technologies that subdivide physical resources into [virtual machines](https://en.wikipedia.org/wiki/Virtual_machine) and [operating systems](https://en.wikipedia.org/wiki/Operating_system).
 
 <!---
 - [Infrastructure-as-code](https://en.wikipedia.org/wiki/Infrastructure_as_code) -  manage resources through [machine-readable](https://en.wikipedia.org/wiki/Machine-readable_document) definition files in [declarative](https://en.wikipedia.org/wiki/Declarative_programming) format.
