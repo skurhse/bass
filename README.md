@@ -23,7 +23,7 @@
   - [Kubernetes](#kubernetes)
   - [Microsoft Azure](#microsoft-azure)
 - [Computer Networks](#computer-networks)
-  - [Network Engineering](#network-engineering)
+  - [Internet Protocol Suite](#internet-protocol-suite)
   - [Network Security](#network-security)
 - [Computer Security](#computer-security)
   - [Information Security](#information-security)
@@ -261,7 +261,19 @@ Cosmos offers fiveve different partial compatibility APIs, exposing protocol end
 
 ## Computer Networks
 
-### Network Engineering
+### Internet Protocol Suite
+
+#### 1. What is the [Internet Protocol Suite](https://en.wikipedia.org/wiki/Internet_protocol_suite)?
+
+The Internet Protocol Suite or 'TCP/IP' is a framework for organizing the set of communication protocols used in the Internet according to functional criteria.
+
+The foundational protocols in the suite are the Transmission Control Protocol (TCP), the User Datagram Protocol (UDP), and the Internet Protocol (IP).
+
+The suite is organized into four abstraction layers:
+- [Link layer](https://en.wikipedia.org/wiki/Link_layer): protocols confined to the link to which a host is physically connected.
+- [Internet layer](https://en.wikipedia.org/wiki/Internet_layer): internetworking protocols that connect networks through gateways.
+- [Transport layer](https://en.wikipedia.org/wiki/Transport_layer): end-to-end communication services for applications.
+- [Application layer](https://en.wikipedia.org/wiki/Application_layer): protocols used by hosts' process-to-process communications.
 
 #### 1. What is the [Internet Protocol](https://datatracker.ietf.org/doc/html/rfc791)?
 
@@ -274,6 +286,7 @@ IP is responsible for addressing host interfaces, encapsulating data into datagr
 IP version 6 is the successor to IP version 4.
 
 IPv6 implements the following change set 
+
 
 #### 3. What is TCP?
 
