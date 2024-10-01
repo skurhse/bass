@@ -354,9 +354,86 @@ X.509 includes the specification of data objects, revocation notices and critica
 
 ## Linux
 
-### GNU Utilities
+### linux Distributions
 
-Lorum ipsum.
+#### 1. What is [Linux](https://en.wikipedia.org/wiki/Linux)?
+
+Linux is a family of open-source Unix-like operating systems based on the Linux kernel.
+
+#### 2. List commercial enterprise distributions of Linux.
+
+- [Amazon Linux 2](https://aws.amazon.com/amazon-linux-2)
+- [Red Hat Enterprise Linux](https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux)
+- [SUSE Linux Enterprise](https://www.suse.com/products/server)
+
+#### 3. List non-commercial enterprise distributions of Linux.
+- [Alpine Linux](https://www.alpinelinux.org)
+- [Debian](https://www.debian.org)
+- [Rocky Linux](https://rockylinux.org/)
+- [Ubuntu](https://ubuntu.com/)
+
+#### 4. What is [POSIX.1-2017](https://pubs.opengroup.org/onlinepubs/9699919799/)?
+The *Portable Operating System Interface* specifications are a standard created by the [IEEE Computer Society](https://www.computer.org/about) for maintaining compatibility between operating systems.
+
+POSIX.1-2017 defines a standard operating system interface and environment, including a command interpreter (or “shell”), and common utility programs to support applications portability at the source code level.
+
+#### 5. What is [LDAP](https://datatracker.ietf.org/doc/html/rfc4511)?
+
+The Lightweight Directory Access Protocol or 'LDAP' is an directory services protocol for use over an Internet Protocol network.
+
+Under LDAP, a directory user accesses the Directory through a Directory User Agent (DUA). The agent interacts with one or more Directory System Agents (DSA).
+
+When an LDAP session is created, the authentication state of the session is set to anonymous. The BIND operation establishes the authentication state for a session.
+
+#### 6. What is [gcc](https://gcc.gnu.org/)?
+
+ The GNU Compiler Collection or 'GCC' is a collection of compilers from the GNU Project.
+
+GCC includes front ends for C, C++, Objective-C, Fortran, Ada, Go, D and Modula-2 as well as libraries for these languages like `libstdc++`.
+
+#### 7. What is [top](https://en.wikipedia.org/wiki/Top_(software))?
+
+`top` is process monitor program that displays sorted information about CPU and memory utilization.
+
+The Linux version of `top` is part of the `procps-ng` tools group.
+
+#### 8. What is [lsof](https://en.wikipedia.org/wiki/Lsof)?
+
+lsof is a command meaning "list open files", which reports a list of all open files and the processes that opened them.
+
+Open files in the system include disk files, named pipes, network sockets and devices.
+
+#### 9. What is [sysstat](https://en.wikipedia.org/wiki/Sysstat)?
+
+`sysstat` or "system statistics" is a collection of Linux tools used to monitor system performance and usage activity.
+
+The systat program `sar` is used to report on various system loads, including CPU activity, memory/paging, interrupts, device load, network and swap space utilization.
+
+`sadc` is the system activity data collector and backend.
+
+#### 10. What is [Bash](https://www.gnu.org/software/bash/)?
+
+Bash or 'Bourne Again SHell' is the is the GNU Project's shell: a computer program that exposes OS services to users and programs.
+
+Bash conforms to the IEEE POSIX P1003.2/ISO 9945.2 Shell and Tools standard and is `sh`-compatible.
+
+#### 11. What is [systemd](https://systemd.io/)?
+
+`systemd` is a system and service manager that runs as PID 1 and starts the rest of the system.
+
+`systemd` supports SysV and LSB init scripts and works as a replacement for sysvinit.
+
+Other parts include a logging daemon, and utilities to control basic system configuration.
+
+#### 12. What is the [Linux Standard Base](https://wiki.linuxfoundation.org/lsb/about)?
+
+The Linux Standard Base or 'LSB' is standard created by the Linux Foundation that describes the minimum set of APIs a Linux distribution must support.
+
+The LSB working group also provides tools to test support.
+
+### Utilities
+
+Lorum Ipsum.
 
 ### Application Security
 
@@ -444,85 +521,6 @@ The "CIA" triad epresents the three pillars of information security:
 A hashed message authentication code or 'HMAC' is a MAC involving a cryptographic hash function and a secret cryptographic key.
 
 HMAC can provide authentication using a shared secret instead of using digital signatures, by delegating the key exchange to the communicating parties, who are responsible for establishing and using a trusted channel.
-
-
-## Linux
-
-### 1. What is [Linux](https://en.wikipedia.org/wiki/Linux)?
-
-Linux is a family of open-source Unix-like operating systems based on the Linux kernel.
-
-### 2. List commercial enterprise distributions of Linux.
-
-- [Amazon Linux 2](https://aws.amazon.com/amazon-linux-2)
-- [Red Hat Enterprise Linux](https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux)
-- [SUSE Linux Enterprise](https://www.suse.com/products/server)
-
-### 3. List non-commercial enterprise distributions of Linux.
-- [Alpine Linux](https://www.alpinelinux.org)
-- [Debian](https://www.debian.org)
-- [Rocky Linux](https://rockylinux.org/)
-- [Ubuntu](https://ubuntu.com/)
-
-### 4. What is [POSIX.1-2017](https://pubs.opengroup.org/onlinepubs/9699919799/)?
-The *Portable Operating System Interface* specifications are a standard created by the [IEEE Computer Society](https://www.computer.org/about) for maintaining compatibility between operating systems.
-
-POSIX.1-2017 defines a standard operating system interface and environment, including a command interpreter (or “shell”), and common utility programs to support applications portability at the source code level.
-
-### 5. What is [LDAP](https://datatracker.ietf.org/doc/html/rfc4511)?
-
-The Lightweight Directory Access Protocol or 'LDAP' is an directory services protocol for use over an Internet Protocol network.
-
-Under LDAP, a directory user accesses the Directory through a Directory User Agent (DUA). The agent interacts with one or more Directory System Agents (DSA).
-
-When an LDAP session is created, the authentication state of the session is set to anonymous. The BIND operation establishes the authentication state for a session.
-
-### 6. What is [gcc](https://gcc.gnu.org/)?
-
- The GNU Compiler Collection or 'GCC' is a collection of compilers from the GNU Project.
-
-GCC includes front ends for C, C++, Objective-C, Fortran, Ada, Go, D and Modula-2 as well as libraries for these languages like `libstdc++`.
-
-### 7. What is [top](https://en.wikipedia.org/wiki/Top_(software))?
-
-`top` is process monitor program that displays sorted information about CPU and memory utilization.
-
-The Linux version of `top` is part of the `procps-ng` tools group.
-
-### 8. What is [lsof](https://en.wikipedia.org/wiki/Lsof)?
-
-lsof is a command meaning "list open files", which reports a list of all open files and the processes that opened them.
-
-Open files in the system include disk files, named pipes, network sockets and devices.
-
-### 9. What is [sysstat](https://en.wikipedia.org/wiki/Sysstat)?
-
-`sysstat` or "system statistics" is a collection of Linux tools used to monitor system performance and usage activity.
-
-The systat program `sar` is used to report on various system loads, including CPU activity, memory/paging, interrupts, device load, network and swap space utilization.
-
-`sadc` is the system activity data collector and backend.
-
-### 10. What is [Bash](https://www.gnu.org/software/bash/)?
-
-Bash or 'Bourne Again SHell' is the is the GNU Project's shell: a computer program that exposes OS services to users and programs.
-
-Bash conforms to the IEEE POSIX P1003.2/ISO 9945.2 Shell and Tools standard and is `sh`-compatible.
-
-### 11. What is [systemd](https://systemd.io/)?
-
-`systemd` is a system and service manager that runs as PID 1 and starts the rest of the system.
-
-`systemd` supports SysV and LSB init scripts and works as a replacement for sysvinit.
-
-Other parts include a logging daemon, and utilities to control basic system configuration.
-
-### 12. What is the [Linux Standard Base](https://wiki.linuxfoundation.org/lsb/about)?
-
-The Linux Standard Base or 'LSB' is standard created by the Linux Foundation that describes the minimum set of APIs a Linux distribution must support.
-
-The LSB working group also provides tools to test support.
-
 ## Microsoft .NET
 
 ### 1. What is [.NET](https://dotnet.microsoft.com/en-us/learn/dotnet/what-is-dotnet)?
