@@ -17,6 +17,7 @@
 ## Table of Contents
 
 - [Cloud Computing](#cloud-computing)
+  - [Major Providers](#major-providers)
   - [Infrastructure-as-code](#infrastructure-as-code)
   - [Kubernetes](#kubernetes)
   - [Site Reliability Engineering](#site-reliability-engineering)
