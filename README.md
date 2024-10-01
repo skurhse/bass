@@ -8,10 +8,6 @@
 - [Virtualization](https://en.wikipedia.org/wiki/Virtualization): technologies that subdivide physical resources into [virtual machines](https://en.wikipedia.org/wiki/Virtual_machine) and [operating systems](https://en.wikipedia.org/wiki/Operating_system).
 - [Web Development](https://en.wikipedia.org/wiki/Web_development): the work involved in developing a [website](https://en.wikipedia.org/wiki/Website) for the [Internet](https://en.wikipedia.org/wiki/Internet).
 
-<!---
-- [Infrastructure-as-code](https://en.wikipedia.org/wiki/Infrastructure_as_code) -  manage resources through [machine-readable](https://en.wikipedia.org/wiki/Machine-readable_document) definition files in [declarative](https://en.wikipedia.org/wiki/Declarative_programming) format.
---->
-
 ### Usage
 - Navigate `bass` using the [Table of Contents](#table-of-contents) or the GitHub [outline button](https://github.blog/changelog/2021-04-13-table-of-contents-support-in-markdown-files/) on the upper right (☰).
 - Card categories are listed in alphabetical order; cards within categories are curated into narrative order.
@@ -37,97 +33,51 @@
   - [Application Security](#application-security)
   - [Software-as-a-service](#software-as-a-service)
   - [Windows Server](#windows-server)
-  - 
+
 ## Cloud Computing
 
-### Application Security
+### Governance, Risk and Compliance
 
-#### 7. What is [JSON Web Token](https://datatracker.ietf.org/doc/html/rfc7519)?
+#### 1. What is the [Payment Card Industry Data Security Standard](https://docs-prv.pcisecuritystandards.org/PCI%20DSS/Standard/PCI-DSS-v4_0_1.pdf)?
 
-JSON Web Token or 'JWT' is a compact and URL-safe standard for representing claims to be transferred between two parties.
+The Payment Card Industry Data Security Standard or 'PCI DSS' is an information security standard used to handle credit cards from major card brands.
 
-The claims in a JWT are encoded as a either:
-- as a JSON object that is used as the payload of a JSON Web Signature
-- as the plaintext of a JSON Web Encryption (JWE) structure
+PCI DSS is required by brands and created to better control cardholder data and reduce credit card fraud.
 
-### 7. What is an [injection exploit](https://en.wikipedia.org/wiki/Category:Injection_exploits)?
+#### 2. List the six [PCI DSS control objectives](https://docs-prv.pcisecuritystandards.org/PCI%20DSS/Supporting%20Document/PCI_DSS-QRG-v4_0.pdf).
 
-Injection exploits use data to subvert the intended operation of the system. Injection exploits leverage vulnerabilities resulting from insufficient validation of inputs.
+- Build and maintain a secure network and systems.
+- Protect cardholder data.
+- Maintain a vulnerability management program.
+- Implement strong access-control measures.
+- Regularly monitor and test networks.
+- Maintain an information security policy.
 
-### 8. What is a [security token](https://en.wikipedia.org/wiki/Security_token)? 
+#### 3. What are [System & Organization Controls](https://www.aicpa-cima.com/resources/landing/system-and-organization-controls-soc-suite-of-services)?
 
-A security token is a peripheral device used to gain access to a restricted resource in addition to, or in place of, a password.
+System and Organization Controls or 'SOC' is a suite of service offerings certified public accounts may provide in connection with system-level controls of a service organization.
 
-## Application Programming Interfaces
+#### 4. What is General Data Protection Regulation?
 
-### 1. What is an [Application Programming Interface](https://en.wikipedia.org/wiki/API)?
+General Data Protection Regulation or 'GDPR' is a European Union regulation on information privacy in the European Union and the European Economic Area.
 
-An application programming interface or 'API' is a connection between computer programs.
+The GDPR's goals are to enhance individuals' control and rights over their personal information and to simplify the regulations for international business.
 
-A document or standard that describes how to build such a connection or interface is called an API specification.
+#### 5. What are the [Federal Information Processing Standards](https://www.nist.gov/standardsgov/compliance-faqs-federal-information-processing-standards-fips)?
 
-### 2. What is an [Application Binary Interface](https://en.wikipedia.org/wiki/Application_binary_interface)?
+The Federal Information Processing Standards of the United States or 'FIPS' are a set of publicly announced standards that the National Institute of Standards and Technology developed for use in computer situs of non-military United States government agencies and contractors.
 
-An Application binary interface or 'ABI' is an interface between two *binary* program modules. Often, one module is a library or OS facility, and the other is a program run by a user.
+FIPS standards establish requirements for computer security and are intended for cases in which industry standards are non pre-existent.
 
- 
+#### 6. What is the [Family Educational Rights and Privacy Act](https://studentprivacy.ed.gov/faq/what-ferpa)?
 
-### 3. What is [gRPC](https://grpc.io/about/)?
-gRPC is an open source Remote Procedure Call (RPC) framework originally created by Google.
+The Family Educational Rights and Privacy Act or 'FERPA' is a federal law that affords parents the right to have access, amend, and control disclosure of their children’s education records.
 
-### 4. List the [gRPC feature set](https://grpc.io/about/#core-features-that-make-it-awesome).
+When a student turns 18 years old or enters a postsecondary institution, the rights under FERPA transfer from the parents to the student.
 
-- Idiomatic client libraries
-- simple service definition framework
-- Bi-directional streaming with http/2 based transport
-- Pluggable auth, tracing, load balancing and health checking
+#### 7. What is a [Chief Information Security Officer](https://en.wikipedia.org/wiki/Chief_information_security_officer)
 
-### 5. What is [gRPC-Web](https://grpc.io/docs/platforms/web/)?
-A JavaScript implementation of gRPC for browser clients. 
-
-gRPC-Web clients connect to gRPC services via a special proxy; by default, gRPC-web uses Envoy.
-
-### 6. What is [GraphQL](https://graphql.org/learn/)?
-
-GraphQL is a query language for your API, and a server-side runtime for executing queries using a type system.
-
-GraphQL is typically served over HTTP via a single endpoint which expresses the full set of capabilities of the service.
-
-### 7. What is [HTTP](https://datatracker.ietf.org/doc/html/rfc9112)?
-
-The Hypertext Transfer Protocol (HTTP) is a stateless application-level request/response protocol for hypertext information systems.
-
-HTTP is also designed for use as an intermediation protocol, wherein proxies and gateways can translate non-HTTP information systems into a generic interface.
-
-### 8. What is [REST](https://ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm)?
-
-Representation State Transfer or 'REST' is an architectural style for distributed hypermedia systems.
-
-Under REST, no session state on the server component is allowed. Each request from client to server must contain all of the information necessary to understand the request, and stored context must be kept entirely on the client.
-
-REST response data must be labeled as cacheable or non-cacheable. RESTful architecture may be layered such that each component cannot "see" beyond the immediate layer with which they are interacting.
-
-### 9. What are [Multipurpose Internet Mail Extensions](https://www.ietf.org/rfc/rfc2045.txt)?
-
-'MIME' is standard that extends the format of email messages to support text in character sets other than ASCII, as well as multi-media attachments, wherein message bodies can contain multiple parts.
-
-While MIME was designed mainly for SMTP, MIME headers are also utilized in other communication protocols like HTTP.
-
-## Information Security
-
-### 1. What is the [CIA triad](https://www.nccoe.nist.gov/publication/1800-26/VolA/index.html)?
-
-The "CIA" triad epresents the three pillars of information security:
-- Confidentiality: preserving authorized restrictions on information access and disclosure.
-- Integrity: guarding against improper information modification or destruction.
-- Availability: ensuring timely and reliable access to and use of information.
-
-### 2. What is the [Hashed Message Authentication Code](https://datatracker.ietf.org/doc/html/rfc2104)?
-
-A hashed message authentication code or 'HMAC' is a MAC involving a cryptographic hash function and a secret cryptographic key.
-
-HMAC can provide authentication using a shared secret instead of using digital signatures, by delegating the key exchange to the communicating parties, who are responsible for establishing and using a trusted channel.
-
+A chief information security officer or 'CISO' is an executive within an organization responsible for establishing the enterprise program to ensure information assets and technologies are adequately protected.
 ## Infrastructure-as-code
 
 ### 1. What is [infrastructure-as-code](https://en.wikipedia.org/wiki/Infrastructure_as_code)?
@@ -314,48 +264,93 @@ Kubernetes networking addresses the following concerns:
 - [workload protection](https://kubernetes.io/docs/concepts/security/#workload-protection) - enforce network policies and pod security standards.
 - [auditing](https://kubernetes.io/docs/concepts/security/#auditing) - security logging for users and applications.
 
-## Governance, Risk and Compliance
+### Application Security
 
-### 1. What is the [Payment Card Industry Data Security Standard](https://docs-prv.pcisecuritystandards.org/PCI%20DSS/Standard/PCI-DSS-v4_0_1.pdf)?
+#### 7. What is [JSON Web Token](https://datatracker.ietf.org/doc/html/rfc7519)?
 
-The Payment Card Industry Data Security Standard or 'PCI DSS' is an information security standard used to handle credit cards from major card brands.
+JSON Web Token or 'JWT' is a compact and URL-safe standard for representing claims to be transferred between two parties.
 
-PCI DSS is required by brands and created to better control cardholder data and reduce credit card fraud.
+The claims in a JWT are encoded as a either:
+- as a JSON object that is used as the payload of a JSON Web Signature
+- as the plaintext of a JSON Web Encryption (JWE) structure
 
-### 2. List the six [PCI DSS control objectives](https://docs-prv.pcisecuritystandards.org/PCI%20DSS/Supporting%20Document/PCI_DSS-QRG-v4_0.pdf).
+### 7. What is an [injection exploit](https://en.wikipedia.org/wiki/Category:Injection_exploits)?
 
-- Build and maintain a secure network and systems.
-- Protect cardholder data.
-- Maintain a vulnerability management program.
-- Implement strong access-control measures.
-- Regularly monitor and test networks.
-- Maintain an information security policy.
+Injection exploits use data to subvert the intended operation of the system. Injection exploits leverage vulnerabilities resulting from insufficient validation of inputs.
 
-### 3. What are [System & Organization Controls](https://www.aicpa-cima.com/resources/landing/system-and-organization-controls-soc-suite-of-services)?
+### 8. What is a [security token](https://en.wikipedia.org/wiki/Security_token)? 
 
-System and Organization Controls or 'SOC' is a suite of service offerings certified public accounts may provide in connection with system-level controls of a service organization.
+A security token is a peripheral device used to gain access to a restricted resource in addition to, or in place of, a password.
 
-### 3. What is General Data Protection Regulation?
+## Application Programming Interfaces
 
-General Data Protection Regulation or 'GDPR' is a European Union regulation on information privacy in the European Union and the European Economic Area.
+### 1. What is an [Application Programming Interface](https://en.wikipedia.org/wiki/API)?
 
-The GDPR's goals are to enhance individuals' control and rights over their personal information and to simplify the regulations for international business.
+An application programming interface or 'API' is a connection between computer programs.
 
-### 4. What are the [Federal Information Processing Standards](https://www.nist.gov/standardsgov/compliance-faqs-federal-information-processing-standards-fips)?
+A document or standard that describes how to build such a connection or interface is called an API specification.
 
-The Federal Information Processing Standards of the United States or 'FIPS' are a set of publicly announced standards that the National Institute of Standards and Technology developed for use in computer situs of non-military United States government agencies and contractors.
+### 2. What is an [Application Binary Interface](https://en.wikipedia.org/wiki/Application_binary_interface)?
 
-FIPS standards establish requirements for computer security and are intended for cases in which industry standards are non pre-existent.
+An Application binary interface or 'ABI' is an interface between two *binary* program modules. Often, one module is a library or OS facility, and the other is a program run by a user.
 
-### 5. What is the [Family Educational Rights and Privacy Act](https://studentprivacy.ed.gov/faq/what-ferpa)?
+### 3. What is [gRPC](https://grpc.io/about/)?
 
-The Family Educational Rights and Privacy Act or 'FERPA' is a federal law that affords parents the right to have access, amend, and control disclosure of their children’s education records.
+gRPC is an open source Remote Procedure Call (RPC) framework originally created by Google.
 
-When a student turns 18 years old or enters a postsecondary institution, the rights under FERPA transfer from the parents to the student.
+### 4. List the [gRPC feature set](https://grpc.io/about/#core-features-that-make-it-awesome).
 
-### 6. What is a [Chief Information Security Officer](https://en.wikipedia.org/wiki/Chief_information_security_officer)
+- Idiomatic client libraries
+- simple service definition framework
+- Bi-directional streaming with http/2 based transport
+- Pluggable auth, tracing, load balancing and health checking
 
-A chief information security officer or 'CISO' is an executive within an organization responsible for establishing the enterprise program to ensure information assets and technologies are adequately protected.
+### 5. What is [gRPC-Web](https://grpc.io/docs/platforms/web/)?
+A JavaScript implementation of gRPC for browser clients. 
+
+gRPC-Web clients connect to gRPC services via a special proxy; by default, gRPC-web uses Envoy.
+
+### 6. What is [GraphQL](https://graphql.org/learn/)?
+
+GraphQL is a query language for your API, and a server-side runtime for executing queries using a type system.
+
+GraphQL is typically served over HTTP via a single endpoint which expresses the full set of capabilities of the service.
+
+### 7. What is [HTTP](https://datatracker.ietf.org/doc/html/rfc9112)?
+
+The Hypertext Transfer Protocol (HTTP) is a stateless application-level request/response protocol for hypertext information systems.
+
+HTTP is also designed for use as an intermediation protocol, wherein proxies and gateways can translate non-HTTP information systems into a generic interface.
+
+### 8. What is [REST](https://ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm)?
+
+Representation State Transfer or 'REST' is an architectural style for distributed hypermedia systems.
+
+Under REST, no session state on the server component is allowed. Each request from client to server must contain all of the information necessary to understand the request, and stored context must be kept entirely on the client.
+
+REST response data must be labeled as cacheable or non-cacheable. RESTful architecture may be layered such that each component cannot "see" beyond the immediate layer with which they are interacting.
+
+### 9. What are [Multipurpose Internet Mail Extensions](https://www.ietf.org/rfc/rfc2045.txt)?
+
+'MIME' is standard that extends the format of email messages to support text in character sets other than ASCII, as well as multi-media attachments, wherein message bodies can contain multiple parts.
+
+While MIME was designed mainly for SMTP, MIME headers are also utilized in other communication protocols like HTTP.
+
+## Information Security
+
+### 1. What is the [CIA triad](https://www.nccoe.nist.gov/publication/1800-26/VolA/index.html)?
+
+The "CIA" triad epresents the three pillars of information security:
+- Confidentiality: preserving authorized restrictions on information access and disclosure.
+- Integrity: guarding against improper information modification or destruction.
+- Availability: ensuring timely and reliable access to and use of information.
+
+### 2. What is the [Hashed Message Authentication Code](https://datatracker.ietf.org/doc/html/rfc2104)?
+
+A hashed message authentication code or 'HMAC' is a MAC involving a cryptographic hash function and a secret cryptographic key.
+
+HMAC can provide authentication using a shared secret instead of using digital signatures, by delegating the key exchange to the communicating parties, who are responsible for establishing and using a trusted channel.
+
 
 ## Linux
 
