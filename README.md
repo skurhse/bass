@@ -277,6 +277,86 @@ Recovery Time Objective or 'RTO' is the targeted duration of time within which a
 
 A Recovery Point Objective or 'RPO' is the maximum acceptable interval during which transactional data is lost from an IT service.
 
+## Computer Networks
+
+### Network Engineering
+
+#### 1. What is the IETF?
+
+Lorum ipsum.
+
+#### 2. What is the [Internet Protocol](https://datatracker.ietf.org/doc/html/rfc791)?
+
+The Internet Protocol or 'IP' is a protocol designed for use in interconnected systems of packet-switched computer communication networks.
+
+IP is responsible for addressing host interfaces, encapsulating data into datagrams and routing datagrams from a source to a destination.
+
+#### 3. What is [IPv6](https://datatracker.ietf.org/doc/html/rfc8200)?
+
+IP version 6 is the successor to IP version 4.
+
+IPv6 implements the following change set 
+
+#### 4. What is TCP?
+
+Lorum ipsum.
+
+#### 5. What is UDP?
+
+Lorum ipsum.
+
+#### 6. What is ICMP?
+
+Lorum ipsum.
+
+#### 7. What is traceroute?
+
+Lorum ipsum.
+
+#### 8. What is [DNS](https://datatracker.ietf.org/doc/html/rfc1034)?
+
+The Domain Name System or 'DNS' is a hierarchical and distributed name service that provides a naming system for resources on Internet Protocol networks.
+
+DNS delegates the responsibility of assigning domain names to Internet resources by designating authoritative name servers.
+
+#### 9. What is [WHOIS](https://datatracker.ietf.org/doc/html/rfc3912)?
+
+WHOIS, pronounced "who is", is a TCP-based transaction-oriented query/response protocol used to provide information services to Internet users.
+
+WHOIS was originally used to provide information about registered domain names, current deployments cover a much broader range of information services.
+
+The WHOIS protocol has not been internationalised and has no provisions for strong security.
+
+#### 10. What is a [subnetting](https://en.wikipedia.org/wiki/Subnet)?
+
+A subnetwork, or subnet, is a logical subdivision of an IP network.
+
+Computers that belong to the same subnet are addressed with an identical group of its most-significant bits of their IP addresses.
+
+### Network Security
+
+#### 1. What is [TLS 1.3](https://datatracker.ietf.org/doc/rfc8446/)?
+
+Transport Layer Security (TLS) is a cryptographic protocol that allows client/server applications to communicate over the Internet in a way that is designed to prevent eavesdropping, tampering, and message forgery.
+
+Once the client and server have agreed to use TLS, they negotiate a stateful connection by using a handshaking procedure. The protocols use a handshake with an asymmetric cipher to establish cipher settings and a session-specific shared key with which further communication is encrypted using a symmetric cipher.
+
+#### 2. What is [Public-key infrastructure](https://en.wikipedia.org/wiki/Public_key_infrastructure)?
+
+PKI or 'Public-key infrastructure' is a set of roles, policies and procedures needed to manage public key certificates: electronic documents used to prove the validity of a public key.
+
+#### 3. What is a Certificate Authority?
+
+A CA or 'Certificate authority' is a root certificate issuer, usually a company that charges customers a fee to issue certificates for them.
+
+A CA acts as a trusted third party—trusted both by the subject (owner) of the certificate and by the party relying upon the certificate.
+
+#### 4. What is [X.509](https://www.itu.int/rec/T-REC-X.509)? 
+
+X.509 is an International Telecommunication Union (ITU) framework for public-key certificates.
+
+X.509 includes the specification of data objects, revocation notices and critical components of a public-key infrastructure.
+
 ### Application Security
 
 #### 7. What is [JSON Web Token](https://datatracker.ietf.org/doc/html/rfc7519)?
@@ -461,84 +541,6 @@ The NuGet Gallery is the central package repository used by all package authors 
 `System.IDisposable` is a system interface used to release unmanaged resources like window handles, or open files and streams.
 
 A IDisposable object is disposed of using either a `Dispose` method in a try/finally block, or `using` statement.
-
-## Network Engineering
-
-### 1. What is the IETF?
-
-Lorum ipsum.
-
-### 2. What is the [Internet Protocol](https://datatracker.ietf.org/doc/html/rfc791)?
-
-The Internet Protocol or 'IP' is a protocol designed for use in interconnected systems of packet-switched computer communication networks.
-
-IP is responsible for addressing host interfaces, encapsulating data into datagrams and routing datagrams from a source to a destination.
-
-### 3. What is [IPv6](https://datatracker.ietf.org/doc/html/rfc8200)?
-
-IP version 6 is the successor to IP version 4.
-
-IPv6 implements the following change set 
-
-### 4. What is TCP?
-
-Lorum ipsum.
-
-### 5. What is UDP?
-
-Lorum ipsum.
-
-### 6. What is ICMP?
-
-Lorum ipsum.
-
-### 7. What is traceroute?
-
-Lorum ipsum.
-
-### 8. What is [DNS](https://datatracker.ietf.org/doc/html/rfc1034)?
-
-The Domain Name System or 'DNS' is a hierarchical and distributed name service that provides a naming system for resources on Internet Protocol networks.
-
-DNS delegates the responsibility of assigning domain names to Internet resources by designating authoritative name servers.
-
-### 9. What is [WHOIS](https://datatracker.ietf.org/doc/html/rfc3912)?
-
-WHOIS, pronounced "who is", is a TCP-based transaction-oriented query/response protocol used to provide information services to Internet users.
-
-WHOIS was originally used to provide information about registered domain names, current deployments cover a much broader range of information services.
-
-The WHOIS protocol has not been internationalised and has no provisions for strong security.
-
-### 10. What is a [subnetting](https://en.wikipedia.org/wiki/Subnet)?
-
-A subnetwork, or subnet, is a logical subdivision of an IP network.
-
-Computers that belong to the same subnet are addressed with an identical group of its most-significant bits of their IP addresses.
-
-## Network Security
-
-### 1. What is [TLS 1.3](https://datatracker.ietf.org/doc/rfc8446/)?
-
-Transport Layer Security (TLS) is a cryptographic protocol that allows client/server applications to communicate over the Internet in a way that is designed to prevent eavesdropping, tampering, and message forgery.
-
-Once the client and server have agreed to use TLS, they negotiate a stateful connection by using a handshaking procedure. The protocols use a handshake with an asymmetric cipher to establish cipher settings and a session-specific shared key with which further communication is encrypted using a symmetric cipher.
-
-### 2. What is [Public-key infrastructure](https://en.wikipedia.org/wiki/Public_key_infrastructure)?
-
-PKI or 'Public-key infrastructure' is a set of roles, policies and procedures needed to manage public key certificates: electronic documents used to prove the validity of a public key.
-
-### 3. What is a Certificate Authority?
-
-A CA or 'Certificate authority' is a root certificate issuer, usually a company that charges customers a fee to issue certificates for them.
-
-A CA acts as a trusted third party—trusted both by the subject (owner) of the certificate and by the party relying upon the certificate.
-
-### 4. What is [X.509](https://www.itu.int/rec/T-REC-X.509)? 
-
-X.509 is an International Telecommunication Union (ITU) framework for public-key certificates.
-
-X.509 includes the specification of data objects, revocation notices and critical components of a public-key infrastructure.
 
 ## OAuth
 
