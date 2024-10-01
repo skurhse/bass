@@ -12,15 +12,16 @@
 ### Usage
 - Navigate `bass` using the [Table of Contents](#table-of-contents) or the GitHub [outline button](https://github.blog/changelog/2021-04-13-table-of-contents-support-in-markdown-files/) on the upper right (☰).
 - Card categories are listed in alphabetical order; cards within categories are curated into narrative order.
-- [Open source](https://en.wikipedia.org/wiki/Open_source), [Wikipedia](https://en.wikipedia.org/wiki/Wikipedia), and [IETF](https://www.ietf.org/about/introduction/#about) [RFC](https://www.ietf.org/process/rfcs/) hyperlinks are prioritized over proprietary resources.
+- [Open source](https://en.wikipedia.org/wiki/Open_source), [Wikipedia](https://en.wikipedia.org/wiki/Wikipedia), and [IETF](https://www.ietf.org/about/introduction/#about) [RFC](https://www.ietf.org/process/rfcs/) hyperlinks are prioritized over proprietary resources, except in cases of original source material.
 
 ## Table of Contents
 
 - [Cloud Computing](#cloud-computing)
-  - [Major Providers](#major-providers)
+  - [AWS](#aws)
+  - [Azure](#azure)
   - [Infrastructure-as-code](#infrastructure-as-code)
   - [Kubernetes](#kubernetes)
-  - [Site Reliability Engineering](#site-reliability-engineering)
+  - [Microsoft Azure](#microsoft-azure)
 - [Computer Networks](#computer-networks)
   - [Network Engineering](#network-engineering)
   - [Network Security](#network-security)
@@ -37,6 +38,27 @@
   - [Application Security](#application-security)
 
 ## Cloud Computing
+
+### Amazon Web Services
+
+### What is [Amazon Web Services](https://en.wikipedia.org/wiki/Amazon_Web_Services)?
+
+Amazon Web Services, Inc. or 'AWS' is a subsidiary of Amazon that provides on-demand cloud computing platforms and APIs.
+
+As of 2022, AWS comprises over 200 individual products and services generating US$80 billion in revenue.
+
+### What is [Amazon Elastic Compute Cloud](https://en.wikipedia.org/wiki/Amazon_Elastic_Compute_Cloud)?
+
+Elastic Compute Cloud or 'EC2' is AWS's autoscaling machine virtualization platform.
+
+Under EC2, virtual machine instances are configurable using virtual appliances called "Amazon Machine Images".
+
+### What is [Amazon S3](https://en.wikipedia.org/wiki/Amazon_S3)?
+
+Amazon Simple Storage Service or 'S3' is an AWS service that provides object storage through a web service interface.
+
+S3 objects are organized into buckets, wherein each object is identified by a unique, user-assigned key.
+
 ### Infrastructure-as-code
 
 #### 1. What is [infrastructure-as-code](https://en.wikipedia.org/wiki/Infrastructure_as_code)?
