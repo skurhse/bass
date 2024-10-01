@@ -1,6 +1,6 @@
 # 🐟 bass
 
-`bass` is a collection of [hypertext](https://en.wikipedia.org/wiki/Hypertext) [DevOps](https://en.wikipedia.org/wiki/DevOps) flashcards, organized around the following engineering concepts:
+`bass` is a collection of [hypertext](https://en.wikipedia.org/wiki/Hypertext) [DevOps](https://en.wikipedia.org/wiki/DevOps) flashcards, organized around six engineering concepts:
 
 - [Cloud computing](https://en.wikipedia.org/wiki/Cloud_computing): a [geo-redundant](https://en.wikipedia.org/wiki/Redundancy_(engineering)#Geographic_redundancy), [pay-as-you-go](https://en.wikipedia.org/wiki/Cloud_computing#Value_proposition) model for storage and compute services.
 - [Computer networks](https://en.wikipedia.org/wiki/Computer_network): resource-sharing using digital [interconnections](https://en.wikipedia.org/wiki/Interconnection) with common [communication protocols](https://en.wikipedia.org/wiki/Communication_protocol).
