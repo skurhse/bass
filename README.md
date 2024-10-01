@@ -293,7 +293,23 @@ IPv6 implements the following change sets:
 - Flow Labeling Capability
 - Authentication and Privacy Capabilities
 
-#### 3. What is [Transmission Control Protocol](https://en.wikipedia.org/wiki/Transmission_Control_Protocol)?
+### 3. What is [subnetting](https://en.wikipedia.org/wiki/Subnet#Subnetting)?
+
+Subnetting is the process of subdividing an IP network by designating some high-order bits from the host part as part of the network prefix and adjusting the subnet mask appropriately.
+
+The following example shows the separation of the network prefix and the host identifier from an address (192.0.2.130) and its associated /24 subnet mask (255.255.255.0). The operation is visualized in a table using binary address formats.
+
+Binary form	Dot-decimal notation
+```
+IP address	11000000.00000000.00000010.10000010	192.0.2.130
+Subnet mask	11111111.11111111.11111111.00000000	255.255.255.0
+Network prefix	11000000.00000000.00000010.00000000	192.0.2.0
+Host identifier	00000000.00000000.00000000.10000010	0.0.0.130
+```
+
+The result of the bitwise AND operation of IP address and the subnet mask is the network prefix 192.0.2.0. The host part, which is 130, is derived by the bitwise AND operation of the address and the ones' complement of the subnet mask.
+
+#### 4. What is [Transmission Control Protocol](https://en.wikipedia.org/wiki/Transmission_Control_Protocol)?
 
 The Transmission Control Protocol or 'TCP' is one of the Internet protocol suite's main transport-layer protocols that originated with the original network implementation.
 
