@@ -17,7 +17,6 @@
 ## Table of Contents
 
 - [Cloud Computing](#cloud-computing)
-  - [Governance, Risk and Compliance](#governance-risk-and-compliance)
   - [Infrastructure-as-code](#infrastructure-as-code)
   - [Kubernetes](#kubernetes)
   - [Site Reliability Engineering](#site-reliability-engineering)
@@ -37,50 +36,6 @@
   - [Application Security](#application-security)
 
 ## Cloud Computing
-
-### Governance, Risk and Compliance
-
-#### 1. What is the [Payment Card Industry Data Security Standard](https://docs-prv.pcisecuritystandards.org/PCI%20DSS/Standard/PCI-DSS-v4_0_1.pdf)?
-
-The Payment Card Industry Data Security Standard or 'PCI DSS' is an information security standard used to handle credit cards from major card brands.
-
-PCI DSS is required by brands and created to better control cardholder data and reduce credit card fraud.
-
-#### 2. List the six [PCI DSS control objectives](https://docs-prv.pcisecuritystandards.org/PCI%20DSS/Supporting%20Document/PCI_DSS-QRG-v4_0.pdf).
-
-- Build and maintain a secure network and systems.
-- Protect cardholder data.
-- Maintain a vulnerability management program.
-- Implement strong access-control measures.
-- Regularly monitor and test networks.
-- Maintain an information security policy.
-
-#### 3. What are [System & Organization Controls](https://www.aicpa-cima.com/resources/landing/system-and-organization-controls-soc-suite-of-services)?
-
-System and Organization Controls or 'SOC' is a suite of service offerings certified public accounts may provide in connection with system-level controls of a service organization.
-
-#### 4. What is General Data Protection Regulation?
-
-General Data Protection Regulation or 'GDPR' is a European Union regulation on information privacy in the European Union and the European Economic Area.
-
-The GDPR's goals are to enhance individuals' control and rights over their personal information and to simplify the regulations for international business.
-
-#### 5. What are the [Federal Information Processing Standards](https://www.nist.gov/standardsgov/compliance-faqs-federal-information-processing-standards-fips)?
-
-The Federal Information Processing Standards of the United States or 'FIPS' are a set of publicly announced standards that the National Institute of Standards and Technology developed for use in computer situs of non-military United States government agencies and contractors.
-
-FIPS standards establish requirements for computer security and are intended for cases in which industry standards are non pre-existent.
-
-#### 6. What is the [Family Educational Rights and Privacy Act](https://studentprivacy.ed.gov/faq/what-ferpa)?
-
-The Family Educational Rights and Privacy Act or 'FERPA' is a federal law that affords parents the right to have access, amend, and control disclosure of their children’s education records.
-
-When a student turns 18 years old or enters a postsecondary institution, the rights under FERPA transfer from the parents to the student.
-
-#### 7. What is a [Chief Information Security Officer](https://en.wikipedia.org/wiki/Chief_information_security_officer)
-
-A chief information security officer or 'CISO' is an executive within an organization responsible for establishing the enterprise program to ensure information assets and technologies are adequately protected.
-
 ### Infrastructure-as-code
 
 #### 1. What is [infrastructure-as-code](https://en.wikipedia.org/wiki/Infrastructure_as_code)?
