@@ -28,14 +28,12 @@
   - [Information Security](#information-security)
   - [OAuth](#oauth)
 - [Linux](#linux)
-  - [lorum ipsum](#lorum-ipsum) 
+  - [GNU Utilities](#gnu-utilities) 
 - [Virtualization](#virtualization)
   - [OS-level virtualization](#os-level-virtualization)
 - [Web Development](#web-development)
   - [Application Programming Interfaces](#application-programming-interfaces)
   - [Application Security](#application-security)
-  - [Software-as-a-service](#software-as-a-service)
-  - [Windows Server](#windows-server)
 
 ## Cloud Computing
 
@@ -353,6 +351,12 @@ A CA acts as a trusted third party—trusted both by the subject (owner) of the 
 X.509 is an International Telecommunication Union (ITU) framework for public-key certificates.
 
 X.509 includes the specification of data objects, revocation notices and critical components of a public-key infrastructure.
+
+## Linux
+
+### GNU Utilities
+
+Lorum ipsum.
 
 ### Application Security
 
@@ -727,56 +731,3 @@ Tags are [formatted](https://docs.docker.com/reference/cli/docker/image/tag/#des
 `[HOST[:PORT_NUMBER]/]PATH` where `PATH` is composed of `[NAMESPACE/]REPOSITORY`.
 
 Artifacts can be selectively copied from one stage to another, reducing the size of the final image.
-
-## Software as a Service
-
-### 1. What is [SaaS](https://en.wikipedia.org/wiki/Software_as_a_service)?
-
-Software-as-a-service (/sæs/) is a form of cloud computing in which the provider manages all the physical and software resources used by the application.
-
-SaaS differs from other software delivery models in that it separates the possession and ownership of software from its use.
-
-### 2. What is the ['Twelve Factor App'](https://12factor.net/)?
-
-The twelve-factor app is a methodology for building software-as-a-service apps that:
-
-- Use declarative formats for setup automation.
-- Have a clean contract with the underlying operating system.
-- Are suitable for deployment on modern cloud platforms.
-- Minimize divergence between development and production.
-- Can scale up without significant changes.
-
-### 3. List the twelve factors of a twelve factor application.
-
-1. [Codebase](https://12factor.net/codebase): One codebase tracked in revision control, many deploys.
-2. [Dependencies](https://12factor.net/dependencies): Explicitly declare and isolate dependencies.
-3. [Config](https://12factor.net/config): Store config in the environment.
-4. [Backing services](https://12factor.net/backing-services): Treat backing services as attached resources.
-5. [Build, release, run](https://12factor.net/build-release-run): Strictly separate build and run stages.
-6. [Processes](https://12factor.net/processes): Execute the app as one or more stateless processes.
-7. [Port binding](https://12factor.net/port-binding): Export services via port binding.
-8. [Concurrency](https://12factor.net/concurrency): Scale out via the process model.
-9. [Disposability](https://12factor.net/disposability): Maximize robustness with fast startup and graceful shutdown.
-10. [Dev/prod parity](https://12factor.net/dev-prod-parity): Keep development, staging, and production as similar as possible.
-11. [Logs](https://12factor.net/logs): Treat logs as event streams.
-12. [Admin processes](https://12factor.net/admin-processes): Run admin/management tasks as one-off processes.
-
-## Windows Server
-
-### 1. What is [Windows Server](https://learn.microsoft.com/en-us/windows-server/get-started/get-started-with-windows-server)?
-
-Windows Server is a group of server operating systems developed by Microsoft with the latest long-term service channel release being Windows Server 2022.
-
-Windows Server is used to build infrastructure for connected applications, networks, and web services. It bridges on-premises environments with Azure.
-
-### 2. What is the [Windows Registry](https://learn.microsoft.com/en-us/troubleshoot/windows-server/performance/windows-registry-advanced-users#description-of-the-registry)?
-
-The Windows Registry is a central hierarchical database used to store configurations for users, applications, and hardware devices.
-
-### 3. List Windows Registry [predefined keys](https://learn.microsoft.com/en-us/windows/win32/sysinfo/predefined-keys).
-
-- HKEY_CURRENT_USER
-- HKEY_USERS
-- HKEY_LOCAL_MACHINE
-- HKEY_CLASSES_ROOT
-- HKEY_CURRENT_CONFIG
