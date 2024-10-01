@@ -27,6 +27,8 @@
 - [Computer Security](#computer-security)
   - [Information Security](#information-security)
   - [OAuth](#oauth)
+- [Linux](#linux)
+  - [lorum ipsum](#lorum-ipsum) 
 - [Virtualization](#virtualization)
   - [OS-level virtualization](#os-level-virtualization)
 - [Web Development](#web-development)
@@ -264,6 +266,16 @@ Kubernetes networking addresses the following concerns:
 - [secrets](https://kubernetes.io/docs/concepts/security/#secrets) - confidentiality protection for configuration values 
 - [workload protection](https://kubernetes.io/docs/concepts/security/#workload-protection) - enforce network policies and pod security standards.
 - [auditing](https://kubernetes.io/docs/concepts/security/#auditing) - security logging for users and applications.
+
+### Site Reliability Engineering
+
+#### 1. What is a [Recovery Time Objective](https://en.wikipedia.org/wiki/IT_disaster_recovery#Recovery_Time_Objective)?
+
+Recovery Time Objective or 'RTO' is the targeted duration of time within which a business process must be restored after a disruption.
+
+#### 2. What is a [Recovery Point Objective](https://en.wikipedia.org/wiki/IT_disaster_recovery#Recovery_Point_Objective)
+
+A Recovery Point Objective or 'RPO' is the maximum acceptable interval during which transactional data is lost from an IT service.
 
 ### Application Security
 
@@ -716,16 +728,6 @@ Tags are [formatted](https://docs.docker.com/reference/cli/docker/image/tag/#des
 `[HOST[:PORT_NUMBER]/]PATH` where `PATH` is composed of `[NAMESPACE/]REPOSITORY`.
 
 Artifacts can be selectively copied from one stage to another, reducing the size of the final image.
-
-## Site Reliability Engineering
-
-### 1. What is a [Recovery Time Objective](https://en.wikipedia.org/wiki/IT_disaster_recovery#Recovery_Time_Objective)?
-
-Recovery Time Objective or 'RTO' is the targeted duration of time within which a business process must be restored after a disruption.
-
-### 2. What is a [Recovery Point Objective](https://en.wikipedia.org/wiki/IT_disaster_recovery#Recovery_Point_Objective)
-
-A Recovery Point Objective or 'RPO' is the maximum acceptable interval during which transactional data is lost from an IT service.
 
 ## Software as a Service
 
