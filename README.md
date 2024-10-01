@@ -285,12 +285,34 @@ IP is responsible for addressing host interfaces, encapsulating data into datagr
 
 IP version 6 is the successor to IP version 4.
 
-IPv6 implements the following change set 
+IPv6 implements the following change sets:
 
+- Expanded Addressing Capabilities
+- Header Format Simplification
+- Improved Support for Extensions and Options
+- Flow Labeling Capability
+- Authentication and Privacy Capabilities
 
-#### 3. What is TCP?
+#### 3. What is [Transmission Control Protocol](https://en.wikipedia.org/wiki/Transmission_Control_Protocol)?
 
-Lorum ipsum.
+The Transmission Control Protocol or 'TCP' is one of the Internet protocol suite's main transport-layer protocols that originated with the original network implementation.
+
+TCP provides reliable, ordered, and error-checked delivery of a stream of octets (bytes) between applications running on hosts communicating via an IP network.
+
+TCP is connection-oriented, wherein the sender and receiver firstly establish a connection through a three-way handshake procedure.
+
+#### 4. Describe the [TCP handshake](https://datatracker.ietf.org/doc/rfc793/).
+
+For a connection to be established or initialized, the two TCPs must synchronize on each other's initial sequence numbers.  This is done in an exchange of connection establishing segments carrying a control bit called "SYN" (for synchronize) and the initial sequence numbers.
+
+The synchronization requires each side to send it's own initial sequence number and to receive a confirmation of it in acknowledgment from the other side.  Each side must also receive the other side's initial sequence number and send a confirming acknowledgment.
+
+```
+    1) A --> B  SYN my sequence number is X
+    2) A <-- B  ACK your sequence number is X
+    3) A <-- B  SYN my sequence number is Y
+    4) A --> B  ACK your sequence number is Y
+```
 
 #### 4. What is UDP?
 
