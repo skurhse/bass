@@ -43,15 +43,19 @@
 
 ### What is [Amazon Web Services](https://en.wikipedia.org/wiki/Amazon_Web_Services)?
 
-Amazon Web Services, Inc. or 'AWS' is a subsidiary of Amazon that provides on-demand cloud computing platforms and APIs.
+*Amazon Web Services, Inc.* or 'AWS' is a subsidiary of Amazon that provides cloud computing platforms and APIs.
 
-As of 2022, AWS comprises over 200 individual products and services generating US$80 billion in revenue.
+AWS comprises over 200 individual products and services.
 
 ### What is [Amazon Elastic Compute Cloud](https://en.wikipedia.org/wiki/Amazon_Elastic_Compute_Cloud)?
 
-Elastic Compute Cloud or 'EC2' is AWS's autoscaling machine virtualization platform.
+The *Elastic Compute Cloud* or 'EC2' is AWS's autoscaling machine virtualization platform.
 
-Under EC2, virtual machine instances are configurable using virtual appliances called "Amazon Machine Images".
+In EC2, virtual machine instances are configurable using virtual appliances called "Amazon Machine Images" that includes:
+
+- root volume template
+- launch permissions
+- block device mappings
 
 ### What is [Amazon S3](https://en.wikipedia.org/wiki/Amazon_S3)?
 
