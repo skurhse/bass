@@ -6,6 +6,7 @@
 - [Computer networks](https://en.wikipedia.org/wiki/Computer_network): resource-sharing using digital [interconnections](https://en.wikipedia.org/wiki/Interconnection) with common [communication protocols](https://en.wikipedia.org/wiki/Communication_protocol).
 - [Computer security](https://en.wikipedia.org/wiki/Computer_security): protection of systems from [threats](https://en.wikipedia.org/wiki/Threat_(computer_security)) enabled by [vulnerabilities](https://en.wikipedia.org/wiki/Vulnerability_(computer_security)).
 - [Virtualization](https://en.wikipedia.org/wiki/Virtualization): technologies that subdivide physical resources into [virtual machines](https://en.wikipedia.org/wiki/Virtual_machine) and [operating systems](https://en.wikipedia.org/wiki/Operating_system).
+- [Web Development](https://en.wikipedia.org/wiki/Web_development): the work involved in developing a [website](https://en.wikipedia.org/wiki/Website) for the [Internet](https://en.wikipedia.org/wiki/Internet).
 
 <!---
 - [Infrastructure-as-code](https://en.wikipedia.org/wiki/Infrastructure_as_code) -  manage resources through [machine-readable](https://en.wikipedia.org/wiki/Machine-readable_document) definition files in [declarative](https://en.wikipedia.org/wiki/Declarative_programming) format.
@@ -36,9 +37,11 @@
 - [Virtualization](#virtualization)
   - [OS-level virtualization](#os-level-virtualization)
 
-## Application Security
+## Cloud Computing
 
-### 7. What is [JSON Web Token](https://datatracker.ietf.org/doc/html/rfc7519)?
+### Application Security
+
+#### 7. What is [JSON Web Token](https://datatracker.ietf.org/doc/html/rfc7519)?
 
 JSON Web Token or 'JWT' is a compact and URL-safe standard for representing claims to be transferred between two parties.
 
