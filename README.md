@@ -17,9 +17,9 @@
 ## Table of Contents
 
 - [Cloud Computing](#cloud-computing)
-  - [AWS](#aws)
-  - [Azure](#azure)
+  - [Amazon Web Services](#amazon-web-services)
   - [Infrastructure-as-code](#infrastructure-as-code)
+  - [Google Cloud Platform](#google-cloud-platform)
   - [Kubernetes](#kubernetes)
   - [Microsoft Azure](#microsoft-azure)
 - [Computer Networks](#computer-networks)
@@ -79,7 +79,7 @@ Terraform by HashiCorp is a [source-available](https://en.wikipedia.org/wiki/Bus
 
 Terraform manages external resources with programs called providers.
 
-#### 4. What is [Continuous configuration automation]()?
+#### 4. What is [Continuous configuration automation](https://en.wikipedia.org/wiki/Continuous_configuration_automation)?
 
 Continuous configuration automation or 'CCA' is the process of automating the deployment, configuration and orchestration of software.
 
@@ -245,15 +245,19 @@ Kubernetes networking addresses the following concerns:
 - [workload protection](https://kubernetes.io/docs/concepts/security/#workload-protection) - enforce network policies and pod security standards.
 - [auditing](https://kubernetes.io/docs/concepts/security/#auditing) - security logging for users and applications.
 
-### Site Reliability Engineering
+### Microsoft Azure
 
-#### 1. What is a [Recovery Time Objective](https://en.wikipedia.org/wiki/IT_disaster_recovery#Recovery_Time_Objective)?
+#### 1. What is [Microsoft Azure](https://en.wikipedia.org/wiki/Microsoft_Azure)?
 
-Recovery Time Objective or 'RTO' is the targeted duration of time within which a business process must be restored after a disruption.
+Microsoft Azure is the cloud computing platform developed by Microsoft Corporation.
 
-#### 2. What is a [Recovery Point Objective](https://en.wikipedia.org/wiki/IT_disaster_recovery#Recovery_Point_Objective)
+Azure has over 600 services supporting both Microsoft-specific and third-party software systems.
 
-A Recovery Point Objective or 'RPO' is the maximum acceptable interval during which transactional data is lost from an IT service.
+### 2. What is [Azure Cosmos DB](https://en.wikipedia.org/wiki/Cosmos_DB)?
+
+Azure Cosmos DB or 'Cosmos DB' is a globally distributed, multi-model database service designed for low-latency and high availability.
+
+Cosmos offers fiveve different partial compatibility APIs, exposing protocol endpoints for MongoDB, Gremlin, Cassandra, Azure Table Storage, and etcd.
 
 ## Computer Networks
 
