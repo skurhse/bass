@@ -81,45 +81,46 @@ When a student turns 18 years old or enters a postsecondary institution, the rig
 #### 7. What is a [Chief Information Security Officer](https://en.wikipedia.org/wiki/Chief_information_security_officer)
 
 A chief information security officer or 'CISO' is an executive within an organization responsible for establishing the enterprise program to ensure information assets and technologies are adequately protected.
-## Infrastructure-as-code
 
-### 1. What is [infrastructure-as-code](https://en.wikipedia.org/wiki/Infrastructure_as_code)?
+### Infrastructure-as-code
+
+#### 1. What is [infrastructure-as-code](https://en.wikipedia.org/wiki/Infrastructure_as_code)?
 
 Infrastructure-as-code or 'IaC' is the process of managing and provisioning data-center resources through machine-readable definition files.
 
 The code may use either scripts or declarative definitions, but IaC more often employs declarative approaches.
 
-### 2. What is [Immutable infrastructure](https://www.hashicorp.com/resources/what-is-mutable-vs-immutable-infrastructure)?
+#### 2. What is [Immutable infrastructure](https://www.hashicorp.com/resources/what-is-mutable-vs-immutable-infrastructure)?
 
 "Immutable infrastructure" is an IaC paradigm wherein machine state is not upgraded or migrated in-place.
 
 Instead, snapshot images are created and deployed to a virtualization platform and rerouted with a network switchover.
 
-### 3. What is [Terraform](https://github.com/hashicorp/terraform)?
+#### 3. What is [Terraform](https://github.com/hashicorp/terraform)?
 
 Terraform by HashiCorp is a [source-available](https://en.wikipedia.org/wiki/Business_Source_License) IaC software used to deliver infrastructure with  the declarative configuration languages [HCL](https://github.com/hashicorp/hcl) or JSON.
 
 Terraform manages external resources with programs called providers.
 
-### 4. What is [Continuous configuration automation]()?
+#### 4. What is [Continuous configuration automation]()?
 
 Continuous configuration automation or 'CCA' is the process of automating the deployment, configuration and orchestration of software.
 
 'CCA' is an extension of infrastructure-as-code framework methodology.
 
-### 5. What is [Ansible](https://github.com/ansible/ansible)?
+#### 5. What is [Ansible](https://github.com/ansible/ansible)?
 
 Ansible by Red Hat is an open-source IaC software that manages fleets through configurable host inventories.
 
 Ansible requires network connectivity and for Python to be installed on machine targets.
 
-## Kubernetes
+### Kubernetes
 
-### 1. What is [Kubernetes](https://kubernetes.io/docs/concepts/overview/)?
+#### 1. What is [Kubernetes](https://kubernetes.io/docs/concepts/overview/)?
 
 *Kubernetes* is an open-source container orchestration platform that automates the deployment and management of workloads and services.
 
-### 2. List the [Kubernetes feature set](https://kubernetes.io/docs/concepts/overview/#why-you-need-kubernetes-and-what-can-it-do).
+#### 2. List the [Kubernetes feature set](https://kubernetes.io/docs/concepts/overview/#why-you-need-kubernetes-and-what-can-it-do).
 
 - Service discovery and load balancing
 - Storage orchestration
@@ -132,7 +133,7 @@ Ansible requires network connectivity and for Python to be installed on machine 
 - IPv4/IPv6 dual-stack
 - Designed for extensibility
 
-### 3. List k8s [control plane components](https://kubernetes.io/docs/concepts/overview/components/#control-plane-components)
+#### 3. List k8s [control plane components](https://kubernetes.io/docs/concepts/overview/components/#control-plane-components)
 
 - [kube-apiserver](https://kubernetes.io/docs/concepts/overview/components/#kube-apiserver) - the front end that exposes the k8s api.
 - [etcd](https://kubernetes.io/docs/concepts/overview/components/#etcd) - the backing store for all cluster data.
@@ -140,7 +141,7 @@ Ansible requires network connectivity and for Python to be installed on machine 
 - [kube-controller-manager](https://kubernetes.io/docs/concepts/overview/components/#kube-controller-manager) - runs controller processes.
 - [cloud-controller-manager](https://kubernetes.io/docs/concepts/overview/components/#cloud-controller-manager) - runs controllers that are specific to cloud providers.
 
-### 3. List some k8s [controllers](https://kubernetes.io/docs/concepts/architecture/controller/).
+#### 4. List some k8s [controllers](https://kubernetes.io/docs/concepts/architecture/controller/).
 
 - [Node controller](https://kubernetes.io/docs/concepts/architecture/nodes/#node-controller)
   - Assigns CIDR block to nodes on registration.
@@ -154,13 +155,13 @@ Ansible requires network connectivity and for Python to be installed on machine 
   - Manages the ServiceAccounts inside namespaces.
   - Ensures a ServiceAccount named "default" exists in every active namespace.
 
-### 4. List k8s [node components](https://kubernetes.io/docs/concepts/overview/components/#node-components).
+#### 5. List k8s [node components](https://kubernetes.io/docs/concepts/overview/components/#node-components).
 
 - [kubelet](https://kubernetes.io/docs/concepts/overview/components/#kubelet) - manages pod specifications and health.
 - [kube-proxy](https://kubernetes.io/docs/concepts/overview/components/#kube-proxy) - maintains network rules on nodes.
 - [container runtime](https://kubernetes.io/docs/concepts/overview/components/#container-runtime) - manages the execution and lifecycle of containers.
 
-### 5. What are k8s [objects](https://kubernetes.io/docs/concepts/overview/working-with-objects/#kubernetes-objects)?
+#### 6. What are k8s [objects](https://kubernetes.io/docs/concepts/overview/working-with-objects/#kubernetes-objects)?
   
 Kubernetes objects are persistent entities in the Kubernetes system, used to represent the state of the server.
 
@@ -169,19 +170,19 @@ Objects describe:
 - The resources available to those applications.
 - The policies around how those applications behave.
 
-### 6. What is a [pod](https://kubernetes.io/docs/concepts/workloads/pods/)?
+#### 7. What is a [pod](https://kubernetes.io/docs/concepts/workloads/pods/)?
 
 A Pod is a group of one or more containers, with shared storage and network resources, and a specification for how to run the containers.
 
 Pod can contain init containers that run during Pod startup. You can also inject ephemeral containers for debugging a running Pod.
 
-### 7. What is a [workload](https://kubernetes.io/docs/concepts/workloads/)?
+#### 8. What is a [workload](https://kubernetes.io/docs/concepts/workloads/)?
 
 A workload is an application running on Kubernetes, where workload resources are abstractions that manage a set of pods. 
 
 Workload resources configure controllers to ensure that pods match the state you specified.
 
-### 8. List built-in workload resources.
+#### 9. List built-in workload resources.
 
 - [ReplicaSet](https://kubernetes.io/docs/concepts/workloads/controllers/replicaset/) - maintains a stable set of replica Pods.
 - [Deployment](https://kubernetes.io/docs/concepts/workloads/controllers/deployment/) - provides declarative updates for Pods and ReplicaSets.
@@ -191,7 +192,7 @@ Workload resources configure controllers to ensure that pods match the state you
 - [Job](https://kubernetes.io/docs/concepts/workloads/controllers/job/) - runs pods to completion and then stops.
 - [CronJob](https://kubernetes.io/docs/concepts/workloads/controllers/cron-jobs/) - creates jobs on a repeating schedule.
 
-### 9. What is the [k8s network model](https://kubernetes.io/docs/concepts/services-networking/#the-kubernetes-network-model)?
+#### 10. What is the [k8s network model](https://kubernetes.io/docs/concepts/services-networking/#the-kubernetes-network-model)?
 
 In the k8s network model, every Pod in a cluster gets its own unique cluster-wide IP address and Pods can be treated much like VMs or physical hosts from the perspectives of port allocation, naming, service discovery, load balancing, application configuration, and migration.
 
@@ -201,7 +202,7 @@ Kubernetes networking addresses the following concerns:
 - Cluster networking provides communication between different Pods.
 - The Service API lets you expose an application running in Pods to be reachable from inside or outside your cluster.
 
-### 10. List built-in network resources.
+#### 11. List built-in network resources.
 
 - [Service](https://kubernetes.io/docs/concepts/services-networking/service/)
   - Exposes an application behind a single outward-facing endpoint.
@@ -219,7 +220,7 @@ Kubernetes networking addresses the following concerns:
   - Allows one to specify rules for traffic flow within a cluster, between pods and the outside world.
   - The cluster must use a network plugin that supports NetworkPolicy enforcement.
 
-### 11. Lists k8s [configuration](https://kubernetes.io/docs/concepts/configuration/overview/) resources.
+#### 12. Lists k8s [configuration](https://kubernetes.io/docs/concepts/configuration/overview/) resources.
 
 - [ConfigMaps](https://kubernetes.io/docs/concepts/configuration/configmap/)
   - Used to store non-confidential data in key-value pairs.
@@ -242,13 +243,13 @@ Kubernetes networking addresses the following concerns:
   - Requests are used by the kube-scheduler to decide which node to place a pod on.
   - Requests and limits are used by the kubelet to enforce and reserve resource usage for running containers.
 
-### 12. What is Kubernetes [scheduling, preemption and eviction](https://kubernetes.io/docs/concepts/scheduling-eviction/)?
+#### 13. What is Kubernetes [scheduling, preemption and eviction](https://kubernetes.io/docs/concepts/scheduling-eviction/)?
 
 - 'Scheduling' refers to making sure that Pods are matched to Nodes so that the kubelet can run them.
 - 'Preemption' is the process of terminating Pods with lower Priority so that Pods with higher Priority can schedule on Nodes.
 - 'Eviction' is the process of proactively terminating one or more Pods on resource-starved Nodes.
 
-### 13. What are [node affinity, taints and tolerations](https://kubernetes.io/docs/concepts/scheduling-eviction/taint-and-toleration/)?
+#### 14. What are [node affinity, taints and tolerations](https://kubernetes.io/docs/concepts/scheduling-eviction/taint-and-toleration/)?
 
 - [Node affinity](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node/#affinity-and-anti-affinity)
   - a property of Pods that attracts them to a set of nodes
@@ -257,7 +258,7 @@ Kubernetes networking addresses the following concerns:
   - Tolerations allow the scheduler to schedule pods with matching taints.
   - Taints and tolerations work together to ensure that pods are not scheduled onto inappropriate nodes
 
-### 14. List k8s [security mechanisms](https://kubernetes.io/docs/concepts/security/#security-mechanisms).
+#### 15. List k8s [security mechanisms](https://kubernetes.io/docs/concepts/security/#security-mechanisms).
 
 - [control plane protection](https://kubernetes.io/docs/concepts/security/#control-plane-protection) - control access to the Kubernetes API.
   - [transport security](https://kubernetes.io/docs/concepts/security/controlling-access/#transport-security) - protected with TLS.
@@ -281,45 +282,41 @@ A Recovery Point Objective or 'RPO' is the maximum acceptable interval during wh
 
 ### Network Engineering
 
-#### 1. What is the IETF?
-
-Lorum ipsum.
-
-#### 2. What is the [Internet Protocol](https://datatracker.ietf.org/doc/html/rfc791)?
+#### 1. What is the [Internet Protocol](https://datatracker.ietf.org/doc/html/rfc791)?
 
 The Internet Protocol or 'IP' is a protocol designed for use in interconnected systems of packet-switched computer communication networks.
 
 IP is responsible for addressing host interfaces, encapsulating data into datagrams and routing datagrams from a source to a destination.
 
-#### 3. What is [IPv6](https://datatracker.ietf.org/doc/html/rfc8200)?
+#### 2. What is [IPv6](https://datatracker.ietf.org/doc/html/rfc8200)?
 
 IP version 6 is the successor to IP version 4.
 
 IPv6 implements the following change set 
 
-#### 4. What is TCP?
+#### 3. What is TCP?
 
 Lorum ipsum.
 
-#### 5. What is UDP?
+#### 4. What is UDP?
 
 Lorum ipsum.
 
-#### 6. What is ICMP?
+#### 5. What is ICMP?
 
 Lorum ipsum.
 
-#### 7. What is traceroute?
+#### 6. What is traceroute?
 
 Lorum ipsum.
 
-#### 8. What is [DNS](https://datatracker.ietf.org/doc/html/rfc1034)?
+#### 7. What is [DNS](https://datatracker.ietf.org/doc/html/rfc1034)?
 
 The Domain Name System or 'DNS' is a hierarchical and distributed name service that provides a naming system for resources on Internet Protocol networks.
 
 DNS delegates the responsibility of assigning domain names to Internet resources by designating authoritative name servers.
 
-#### 9. What is [WHOIS](https://datatracker.ietf.org/doc/html/rfc3912)?
+#### 8. What is [WHOIS](https://datatracker.ietf.org/doc/html/rfc3912)?
 
 WHOIS, pronounced "who is", is a TCP-based transaction-oriented query/response protocol used to provide information services to Internet users.
 
@@ -327,7 +324,7 @@ WHOIS was originally used to provide information about registered domain names, 
 
 The WHOIS protocol has not been internationalised and has no provisions for strong security.
 
-#### 10. What is a [subnetting](https://en.wikipedia.org/wiki/Subnet)?
+#### 9. What is a [subnetting](https://en.wikipedia.org/wiki/Subnet)?
 
 A subnetwork, or subnet, is a logical subdivision of an IP network.
 
@@ -359,7 +356,7 @@ X.509 includes the specification of data objects, revocation notices and critica
 
 ### Application Security
 
-#### 7. What is [JSON Web Token](https://datatracker.ietf.org/doc/html/rfc7519)?
+#### 5. What is [JSON Web Token](https://datatracker.ietf.org/doc/html/rfc7519)?
 
 JSON Web Token or 'JWT' is a compact and URL-safe standard for representing claims to be transferred between two parties.
 
@@ -367,11 +364,11 @@ The claims in a JWT are encoded as a either:
 - as a JSON object that is used as the payload of a JSON Web Signature
 - as the plaintext of a JSON Web Encryption (JWE) structure
 
-### 7. What is an [injection exploit](https://en.wikipedia.org/wiki/Category:Injection_exploits)?
+#### 6. What is an [injection exploit](https://en.wikipedia.org/wiki/Category:Injection_exploits)?
 
 Injection exploits use data to subvert the intended operation of the system. Injection exploits leverage vulnerabilities resulting from insufficient validation of inputs.
 
-### 8. What is a [security token](https://en.wikipedia.org/wiki/Security_token)? 
+#### 7. What is a [security token](https://en.wikipedia.org/wiki/Security_token)? 
 
 A security token is a peripheral device used to gain access to a restricted resource in addition to, or in place of, a password.
 
