@@ -20,14 +20,10 @@
 ## Table of Contents
 
 - [Cloud Computing](#cloud-computing)
-  - [Application Programming Interfaces](#application-programming-interfaces)
-  - [Application Security](#application-security)
   - [Governance, Risk and Compliance](#governance-risk-and-compliance)
   - [Infrastructure-as-code](#infrastructure-as-code)
   - [Kubernetes](#kubernetes)
   - [Site Reliability Engineering](#site-reliability-engineering)
-  - [Software-as-a-service](#software-as-a-service)
-  - [Windows Server](#windows-server)
 - [Computer Networks](#computer-networks)
   - [Network Engineering](#network-engineering)
   - [Network Security](#network-security)
@@ -36,7 +32,12 @@
   - [OAuth](#oauth)
 - [Virtualization](#virtualization)
   - [OS-level virtualization](#os-level-virtualization)
-
+- [Web Development](#web-development)
+  - [Application Programming Interfaces](#application-programming-interfaces)
+  - [Application Security](#application-security)
+  - [Software-as-a-service](#software-as-a-service)
+  - [Windows Server](#windows-server)
+  - 
 ## Cloud Computing
 
 ### Application Security
