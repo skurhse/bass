@@ -166,7 +166,6 @@ Workload resources configure controllers to ensure that pods match the state you
 #### 9. List built-in workload resources.
 
 - [ReplicaSet](https://kubernetes.io/docs/concepts/workloads/controllers/replicaset/) - maintains a stable set of replica Pods.
-- [Deployment](https://kubernetes.io/docs/concepts/workloads/controllers/deployment/) - provides declarative updates for Pods and ReplicaSets.
 - [StatefulSet](https://kubernetes.io/docs/concepts/workloads/controllers/statefulset/) - runs a group of Pods and maintains a sticky identity for each. 
 - [DaemonSet](https://kubernetes.io/docs/concepts/workloads/controllers/daemonset/) - defines pods that provide node-local facilities.
 - [Deployment](https://kubernetes.io/docs/concepts/workloads/controllers/deployment/) - provides declarative updates for Pods and ReplicaSets.
